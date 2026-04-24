@@ -1,0 +1,3015 @@
+Archive member included because of file (symbol)
+
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+                              ./main.o (printf)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+                              D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o) (vfprintf)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(strlen.o)
+                              ./Middle/md5.o (strlen)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+                              ./Middle/md5.o (memcpy)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+                              D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o) (ftoa)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+                              D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o) (uitoa)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+                              D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o) (ultoa)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libctype.a(ctype_tab.o)
+                              D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o) (_Ctype)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(truncdfsf2.o)
+                              D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o) (__truncdfsf2)
+D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+                              D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o) (fputchar)
+
+@@@@@Discarded input sections
+
+ .text          0x00000000        0x0 ./BSP/bsp.o
+ .data          0x00000000        0x0 ./BSP/bsp.o
+ .bss           0x00000000        0x0 ./BSP/bsp.o
+ .comment       0x00000000       0x27 ./BSP/bsp.o
+ .text          0x00000000        0x0 ./BSP/bsp_flash.o
+ .data          0x00000000        0x0 ./BSP/bsp_flash.o
+ .bss           0x00000000        0x0 ./BSP/bsp_flash.o
+ .text$FLASH_WriteCODE_ONE
+                0x00000000       0x30 ./BSP/bsp_flash.o
+ .text$FLASH_HALFPAGE_WRITECODE_fun
+                0x00000000       0x30 ./BSP/bsp_flash.o
+ .text$FLASH_PageWrite_fun
+                0x00000000       0xb0 ./BSP/bsp_flash.o
+ .text$FLASH_READCODE_fun
+                0x00000000       0x36 ./BSP/bsp_flash.o
+ .text$FLASH_WriteCFG_ONE
+                0x00000000       0x2c ./BSP/bsp_flash.o
+ .text$FLASH_HALFPAGE_WRITECFG_fun
+                0x00000000       0x30 ./BSP/bsp_flash.o
+ .text$FLASH_PageWrite_CFG_fun
+                0x00000000       0xb0 ./BSP/bsp_flash.o
+ .text$FLASH_WriteByte
+                0x00000000       0x30 ./BSP/bsp_flash.o
+ .text$FLASH_WriteHalfWord
+                0x00000000       0x30 ./BSP/bsp_flash.o
+ .text$FLASH_WriteWord
+                0x00000000       0x2c ./BSP/bsp_flash.o
+ .text$FLASH_WriteNByte
+                0x00000000       0x22 ./BSP/bsp_flash.o
+ .text$FLASH_ReadByte
+                0x00000000       0x12 ./BSP/bsp_flash.o
+ .text$FLASH_ReadHalWord
+                0x00000000       0x12 ./BSP/bsp_flash.o
+ .text$FLASH_ReadWord
+                0x00000000       0x12 ./BSP/bsp_flash.o
+ .text$FlashReadNByte
+                0x00000000       0x16 ./BSP/bsp_flash.o
+ .bss$comm$flash_write
+                0x00000000       0x14 ./BSP/bsp_flash.o
+ .bss$static$Flash_Buff1.2717
+                0x00000000      0x200 ./BSP/bsp_flash.o
+ .bss$static$Flash_Buff2.2718
+                0x00000000      0x200 ./BSP/bsp_flash.o
+ .bss$static$Flash_Buff1.2749
+                0x00000000      0x200 ./BSP/bsp_flash.o
+ .bss$static$Flash_Buff2.2750
+                0x00000000      0x200 ./BSP/bsp_flash.o
+ .comment       0x00000000       0x27 ./BSP/bsp_flash.o
+ .text          0x00000000        0x0 ./BSP/bsp_usart.o
+ .data          0x00000000        0x0 ./BSP/bsp_usart.o
+ .bss           0x00000000        0x0 ./BSP/bsp_usart.o
+ .comment       0x00000000       0x27 ./BSP/bsp_usart.o
+ .text          0x00000000        0x0 ./Driver/iap.o
+ .data          0x00000000        0x0 ./Driver/iap.o
+ .bss           0x00000000        0x0 ./Driver/iap.o
+ .comment       0x00000000       0x27 ./Driver/iap.o
+ .text          0x00000000        0x0 ./Middle/boot.o
+ .data          0x00000000        0x0 ./Middle/boot.o
+ .bss           0x00000000        0x0 ./Middle/boot.o
+ .comment       0x00000000       0x27 ./Middle/boot.o
+ .text          0x00000000        0x0 ./Middle/delay.o
+ .data          0x00000000        0x0 ./Middle/delay.o
+ .bss           0x00000000        0x0 ./Middle/delay.o
+ .comment       0x00000000       0x27 ./Middle/delay.o
+ .text          0x00000000        0x0 ./Middle/md5.o
+ .data          0x00000000        0x0 ./Middle/md5.o
+ .bss           0x00000000        0x0 ./Middle/md5.o
+ .text$rotateLeft
+                0x00000000        0x8 ./Middle/md5.o
+ .text$md5Init  0x00000000       0x30 ./Middle/md5.o
+ .text$md5Step  0x00000000       0xe8 ./Middle/md5.o
+ .text$md5Update
+                0x00000000       0x8c ./Middle/md5.o
+ .text$md5Finalize
+                0x00000000       0xcc ./Middle/md5.o
+ .text$md5String
+                0x00000000       0x54 ./Middle/md5.o
+ .bss$comm$ctx  0x00000000       0x68 ./Middle/md5.o
+ .data$static$PADDING
+                0x00000000       0x40 ./Middle/md5.o
+ .rdata$K       0x00000000      0x100 ./Middle/md5.o
+ .rdata$S       0x00000000       0x40 ./Middle/md5.o
+ .comment       0x00000000       0x27 ./Middle/md5.o
+ .text          0x00000000        0x0 ./Middle/ymodem.o
+ .data          0x00000000        0x0 ./Middle/ymodem.o
+ .bss           0x00000000        0x0 ./Middle/ymodem.o
+ .text$Receive_Byte
+                0x00000000       0x50 ./Middle/ymodem.o
+ .text$Send_Byte
+                0x00000000       0x1c ./Middle/ymodem.o
+ .text$Ymodem_Receive
+                0x00000000      0x1aa ./Middle/ymodem.o
+ .text$UpdateCRC16
+                0x00000000       0x30 ./Middle/ymodem.o
+ .text$Cal_CRC16
+                0x00000000       0x70 ./Middle/ymodem.o
+ .text$CalChecksum
+                0x00000000       0x18 ./Middle/ymodem.o
+ .bss$comm$test
+                0x00000000      0x400 ./Middle/ymodem.o
+ .data$init$FlashDestination
+                0x00000000        0x4 ./Middle/ymodem.o
+ .bss$comm$file_name
+                0x00000000      0x100 ./Middle/ymodem.o
+ .comment       0x00000000       0x27 ./Middle/ymodem.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_adc.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_adc.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Reset
+                0x00000000       0x5e ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Configuration
+                0x00000000       0x6c ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Struct_Init
+                0x00000000       0x22 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Delay_Configuration
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Delay_Struct_Init
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Cmd  0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Analog_Watchdog_Configuration
+                0x00000000       0x48 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Analog_Watchdog_Struct_Init
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Watchdog_Single_Channel_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Scan_Mode_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Bosssel_Comparator_Calibration
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Bosssel_Calibration
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Trim_Current_Intensity_Bias
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Analog_Clock_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Data_Align_Config
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Clock_Source_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Regular_Channel_DMA_Cmd
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_High_Priority_Channel_DMA_Cmd
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Double_Mode_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Reference_Voltage_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Analog_Watchdog_Channel_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Regular_Channel_Watchdog_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_External_Trig_Conv_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_External_Trig_Conv_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Regular_Channel_Config
+                0x00000000       0x6e ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Regular_Sequencer_Length_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Regular_Channel_TxCCRy_Trig_Enable
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Software_Start_Conv
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Continuous_Mode_Cmd
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Disc_Mode_Channel_Count_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Disc_Mode_Cmd
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Get_Conversion_Value
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_High_Priority_Watchdog_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_HPExternal_Trig_Conv_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_High_Priority_Channel_Config
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_High_Priority_Sequencer_Length_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Set_HPChannel_Conv_Value_Offset
+                0x00000000        0x4 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_HPExternal_Trig_Conv_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Software_HPStart_Conv
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_HPAuto_Conv_Cmd
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_HPDisc_Mode_Cmd
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Get_HPConversion_Data
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Set_INT_Enable
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Get_INT_Flag
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Clear_INT_Flag
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_adc.o
+ .text$ADC_Get_INT_Status
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_adc.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_adc.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_atim.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_atim.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Configuration
+                0x00000000       0x34 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Configuration
+                0x00000000       0x34 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Struct_Init
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Cmd
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Cmd
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Configuration
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Configuration
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Cmd
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Cmd
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_Counter
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_Counter
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_Period
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_Period
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_Prescaler
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_Prescaler
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Counter_Mode_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Counter_Mode_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Clock_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Clock_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Postscaler_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Postscaler_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_External_Pulse_Sync_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_External_Pulse_Sync_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Work_Mode_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Work_Mode_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Direction
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Direction
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Overflow_AD_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Overflow_AD_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Underflow_AD_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Underflow_AD_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_TriggerAD_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_TriggerAD_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_TriggerAD_Signal
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_TriggerAD_Signal
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Immediately_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Immediately_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Output_Ctl
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Output_Ctl
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_Updata_Counter
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_Updata_Counter
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Slave_Mode_Config
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Slave_Mode_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Master_Mode_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Master_Slave_Snyc_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Trigger_Select_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Timer_Unite_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Counter
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Counter
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Period
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Period
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Prescaler
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Prescaler
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_INT_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_INT_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Overflow_INT_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Overflow_INT_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Trigger_INT_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_DMA_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_DMA_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Trigger_DMA_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Updata_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Updata_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Overflow_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Overflow_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Trigger_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Generate_Trigger_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Updata_DMA_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Updata_DMA_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Trigger_DMA_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Clear_Updata_INT_Flag
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Clear_Updata_INT_Flag
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Clear_Overflow_INT_Flag
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_Z_Clear_Overflow_INT_Flag
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ATIM_X_Clear_Trigger_INT_Flag
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Compare_Configuration
+                0x00000000       0x22 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Capture_Configuration
+                0x00000000       0x2e ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Capture_Struct_Init
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Configuration
+                0x00000000       0xa8 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Struct_Init
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Capture_Mode_Config
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Compare_Mode_Config
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Mode_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Get_Capture_Result
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Get_Compare_Result
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Set_Compare_Result
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Generate_Trigger_Config
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Input_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Input_XOR_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Single_Pulse_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Single_Pulse_Shut_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Restart_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Dead_Time_Config
+                0x00000000       0x28 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Output_Control
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Output_Mode
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Work_State_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Get_Channel_Work_State
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_CHANNEL4_Shutdown_SEL
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Shutdown_Signal
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Pin_Ctl
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Zero_Clock_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Pin_Tristate_Enable
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_INT_Enable
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_X_Turn_off_DMA_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_DMA_Enable
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Get_Channel_Trigger_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_X_Get_Turn_off_DMA_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Get_Trigger_DMA_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Clear_Channel_INT_Flag
+                0x00000000       0x2a ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Move_Phase_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Zero_Detect_Sequential_Ctl
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Get_Channel_Zero_Detection_State
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Clear_Channel_Zero_Detection_State
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Zero_Detect_Enable
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Zero_Voltage_Config
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_atim.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_atim.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_bkp.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_bkp.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Reset
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Write_And_Read_Enable
+                0x00000000       0xe8 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Reset_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Pin_Effective_Level_Config
+                0x00000000       0x22 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Pin_Enable
+                0x00000000       0x22 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_TAMP_SYNC_Mode_Select
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_TAMP_SCK_Select
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_RTC_Clock_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_External_Clock_Bypass_Enable
+                0x00000000       0x1e ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Data_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Get_Data
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Pin_TAMP_INT_Enable
+                0x00000000       0x22 ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Get_Pin_TAMP_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_bkp.o
+ .text$BKP_Clear_Pin_TAMP_INT_Flag
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_bkp.o
+ .data$static$pmwrenbkp.1938
+                0x00000000        0x4 ./Peripherals/src/kf32f_basic_bkp.o
+ .data$static$bkpregclrbkp.1939
+                0x00000000        0x4 ./Peripherals/src/kf32f_basic_bkp.o
+ .data$static$bkpwrbkp.1940
+                0x00000000        0x4 ./Peripherals/src/kf32f_basic_bkp.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_bkp.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_btim.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_btim.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_btim.o
+ .text$TIM_Reset
+                0x00000000      0x252 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Configuration
+                0x00000000       0x48 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Struct_Init
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Cmd
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Set_Counter
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Set_Period
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Set_Prescaler
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Counter_Mode_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Clock_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_External_Pulse_Sync_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Work_Mode_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Generate_Trigger_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Single_Pulse_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Single_Pulse_Shut_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Updata_Immediately_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Master_Slave_Snyc_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Trigger_Select_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Slave_Mode_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Master_Mode_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Updata_Rising_Edge_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Updata_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Direction
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Counter
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Period
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Prescaler
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Trigger_DMA_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Updata_DMA_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Overflow_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Trigger_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Updata_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Trigger_DMA_INT_Status
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Updata_DMA_INT_Status
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Overflow_INT_Status
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Trigger_INT_Status
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Updata_INT_Status
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Trigger_DMA_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Updata_DMA_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Overflow_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Trigger_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Get_Updata_INT_Flag
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Clear_Overflow_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Clear_Trigger_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_btim.o
+ .text$BTIM_Clear_Updata_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_btim.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_btim.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_cfgl.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_cfgl.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL_Reset
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL_Configuration
+                0x00000000      0x130 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL_Struct_Init
+                0x00000000       0x9c ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL2_OUT_SYNCHRO_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL1_OUT_SYNCHRO_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL2_FALLINT_Enable
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL2_RISEINT_Enable
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL1_FALLINT_Enable
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL1_RISEINT_Enable
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL1_Get_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL2_Get_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL1_Clear_RISEINT_Flag
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL1_Clear_FALLINT_Flag
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL1_Clear_RISEFALLINT_Flag
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL2_Clear_RISEINT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL2_Clear_RISEFALLINT_Flag
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL2_Clear_FALLINT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL2_OUT_STATE
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text$CFGL1_OUT_STATE
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cfgl.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_cfgl.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_cmp.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_cmp.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_Reset
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_Configuration
+                0x00000000      0x198 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_Struct_Init
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP0_POSITIVE_INPUT_SELECT
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP0_NEGATIVE_INPUT_SELECT
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP1_POSITIVE_INPUT_SELECT
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP1_NEGATIVE_INPUT_SELECT
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP2_POSITIVE_INPUT_SELECT
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP2_NEGATIVE_INPUT_SELECT
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP3_POSITIVE_INPUT_SELECT
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP3_NEGATIVE_INPUT_SELECT
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP0_OUTPUT_POL_SELECT
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP1_OUTPUT_POL_SELECT
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP2_OUTPUT_POL_SELECT
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP3_OUTPUT_POL_SELECT
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_OUTPUT_SELECT
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP0_Cmd
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP1_Cmd
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP2_Cmd
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP3_Cmd
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP0_Read_Output_State
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP1_Read_Output_State
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP2_Read_Output_State
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP3_Read_Output_State
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP0_Get_Updata_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP1_Get_Updata_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP2_Get_Updata_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP3_Get_Updata_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_Trigger_Select_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP0_Clear_Trigger_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP1_Clear_Trigger_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP2_Clear_Trigger_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP3_Clear_Trigger_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP0_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP1_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP2_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP3_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_SluggishVoltage_Select
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_HALLMODE_Select
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_BEMF_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_cmp.o
+ .text$CMP_FLTINSEL_Select
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_cmp.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_cmp.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_crc.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_crc.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_Reset
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_Configuration
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_Struct_Init
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_INPUT_DATA
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_GET_RESULT
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_SET_INITVALUE
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_SET_PLN
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_SET_RXOR
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_SET_IDATA
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_GET_TEMP
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_crc.o
+ .text$CRC_SET_RSET
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_crc.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_crc.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_dac.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_dac.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Reset
+                0x00000000       0x5e ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Configuration
+                0x00000000       0x54 ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Struct_Init
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Cmd  0x00000000        0xc ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Software_Trigger_Cmd
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_DMA_Cmd
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Output_Buffer_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Output_Port_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Write_Output_Data
+                0x00000000        0x4 ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Read_Output_Data
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Calibration_Config
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_dac.o
+ .text$DAC_Calibration_Struct_Init
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_dac.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_dac.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_dma.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_dma.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Reset
+                0x00000000       0x5e ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Configuration
+                0x00000000       0x5c ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Struct_Init
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Transfer_Number_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Memory_To_Memory_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Channel_Priority_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Peripheral_Data_Width_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Memory_Data_Width_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Peripheral_addr_increase_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Memory_addr_increase_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Loop_Mode_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Transfer_Direction_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Transfer_Mode_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Oneshot_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Channel_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Peripheral_Start_Address_Config
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Memory_Start_Address_Config
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Get_Peripheral_Current_Address
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Get_Memory_Current_Address
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Get_Transfer_Number_Remain
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Get_INT_Flag
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Clear_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Set_INT_Enable
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Get_Error_Transfer_INT_Flag
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Get_Half_Transfer_INT_Flag
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Get_Finish_Transfer_INT_Flag
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Error_Transfer_INT_Enable
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Half_Transfer_INT_Enable
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_dma.o
+ .text$DMA_Finish_Transfer_INT_Enable
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_dma.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_dma.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_flash.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_flash.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$CHECK_RESTRICTION_RAM
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Get_NonVolatile_Memory_Unlock_Status_RAM
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Clear_NonVolatile_Memory_Unlock_Status_RAM
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Clear_NonVolatile_Memory_Unlock_Status
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Unlock_ISP_RAM
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Unlock_ISP
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Get_Flash_Unlock_Status_RAM
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Clear_Flash_Unlock_Status_RAM
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Clear_Flash_Unlock_Status
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Unlock_Code_RAM
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Unlock_Code
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Get_Config_Unlock_Status_RAM
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Clear_Config_Unlock_Status_RAM
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Clear_Config_Unlock_Status
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Unlock_User_Config_RAM
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Unlock_User_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Data_Write_Enable_RAM
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Zone_Config_RAM
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Zone_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Standby_Mode_Config_RAM
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Read_Mode_Config_RAM
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Calibration_Updata_Enable_RAM
+                0x00000000       0x28 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Information_Zone_Wipe_Unlock_Config_RAM
+                0x00000000       0x28 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Half_Page_Write_Size_Config_RAM
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Program_Cmd_Config_RAM
+                0x00000000       0x28 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Executive_Cmd_RAM
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Executive_Cmd
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_NonVolatile_Memory_ECC_Enable_RAM
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Linear_Prefetch_Enable_RAM
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Period_Number_Config_RAM
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Program_Addr_Config_RAM
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Get_Program_Status_RAM
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Get_Program_Status
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Get_Wipe_Status_RAM
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Get_Wipe_Status
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Get_Compute_Complete_Status_RAM
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Clear_Compute_Complete_Status_RAM
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Get_CFG_Error_Flag_RAM
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Clear_CFG_Error_Flag_RAM
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_CheckSum_Addr_Config_RAM
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Start_SIG_Compute_Enable_RAM
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Get_CheckSum_Result_RAM
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Wipe_Configuration_RAM
+                0x00000000       0xbc ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Wipe_Configuration
+                0x00000000       0xac ./Peripherals/src/kf32f_basic_flash.o
+ .indata$FLASH_Program_Configuration_RAM
+                0x00000000      0x138 ./Peripherals/src/kf32f_basic_flash.o
+ .text$FLASH_Program_Configuration
+                0x00000000      0x118 ./Peripherals/src/kf32f_basic_flash.o
+ .indata$Read_Flash_or_CFR_RAM
+                0x00000000       0x9c ./Peripherals/src/kf32f_basic_flash.o
+ .text$Read_Flash_or_CFR
+                0x00000000       0x9c ./Peripherals/src/kf32f_basic_flash.o
+ .text$Read_Soft_Device_ID1
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_flash.o
+ .text$Read_Soft_Device_ID2
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_flash.o
+ .text$Read_Soft_Device_ID3
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_flash.o
+ .text$Read_Soft_Device_ID4
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_flash.o
+ .bss$comm$read_data
+                0x00000000        0x4 ./Peripherals/src/kf32f_basic_flash.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_flash.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_gpio.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_gpio.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Reset
+                0x00000000      0x128 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Configuration
+                0x00000000       0x8e ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Struct_Init
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Pull_Up_Enable
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Toggle_Pull_Up_Config
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Pull_Down_Enable
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Toggle_Pull_Down_Config
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Open_Drain_Enable
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Toggle_Open_Drain_Config
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Speed_Config
+                0x00000000       0x2a ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Toggle_Speed_Config
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Read_Input_Data_Bit
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Read_Input_Data
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Read_Output_Data_Bit
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Read_Output_Data
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_gpio.o
+ .text$GPIO_Set_Output_Data_Bits
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_gpio.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_gpio.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_gptim.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_gptim.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Configuration
+                0x00000000       0x6a ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Struct_Init
+                0x00000000       0x1e ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Cmd
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Set_Counter
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Set_Period
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Set_Prescaler
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Counter_Mode_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Clock_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_External_Pulse_Sync_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Work_Mode_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_Immediately_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Master_Slave_Snyc_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Trigger_Select_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Slave_Mode_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Master_Mode_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_Rising_Edge_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Trigger_DMA_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_DMA_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Trigger_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Generate_Trigger_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Direction
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Counter
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Period
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Prescaler
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Overflow_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Clear_Overflow_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Clear_Updata_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Clear_Trigger_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Overflow_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Updata_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Trigger_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Updata_DMA_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Trigger_DMA_INT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Compare_Configuration
+                0x00000000       0x36 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Compare_Struct_Init
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Capture_Configuration
+                0x00000000       0x34 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Capture_Struct_Init
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_PWM_Configuration
+                0x00000000       0x62 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_PWM_Struct_Init
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Capture_Mode_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Compare_Mode_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_PWM_Mode_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Get_Capture_Result
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Set_Compare_Result
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Get_Compare_Result
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Compare_PWM_Signal_Clear
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Compare_Check_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Channel_Output_Control
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Single_Pulse_Shut_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Single_Pulse_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_PWM_Input_Measurement_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Input_XOR_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Channel_DMA_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Generate_Trigger_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_USART_Receive_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Get_Channel_Trigger_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Get_Trigger_DMA_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Channel_INT_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_gptim.o
+ .text$CCP_Clear_Channel_INT_Flag
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_gptim.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_gptim.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_i2c.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_i2c.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Reset
+                0x00000000       0x5e ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Configuration
+                0x00000000       0x34 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Struct_Init
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Cmd  0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Bufr_Address_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Generate_START
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Generate_STOP
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Ack_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Ack_DATA_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Call_Cmd
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clock_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_MATCH_ADDRESS_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SCL_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_NMENA_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SMBUS_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SMBT_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SMBus_ALERT_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SendData
+                0x00000000        0x4 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SendData8
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_ReceiveData
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_ARP_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_ADDR_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_MSK_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_BRGH_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_BRGL_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Start_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Stop_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Ack_Fail_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Arbitration_Lost_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SMBus_Alert_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SMBus_HostHead_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_SMBus_Device_Defaultaddress_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_ISIE_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Receive_DMA_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Transmit_DMA_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Bus_Error_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Start_Flag
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clear_Start_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Stop_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clear_Stop_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Address_Match_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_HighAddress_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Data_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Ack_Fail_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clear_Ack_Fail_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Arbitration_Lost_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clear_Arbitration_Lost_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Write_Read_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_SMBus_Alert_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clear_SMBus_Alert_Flag
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_SMBus_Host_Header_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clear_SMBus_Host_Header_Flag
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_SMBus_Device_Default_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clear_SMBus_Device_Default_Flag
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_INTERRUPT_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Clear_INTERRUPT_Flag
+                0x00000000       0x16 ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Receive_Buff_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Transmit_Buff_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Receive_DMA_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Transmit_DMA_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .text$I2C_Get_Bus_Error_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_i2c.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_i2c.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_int.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_int.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Get_Interrupt_Action
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Get_Priority_Pending_Action
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Priority_Base
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Get_Priority_Base
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Stack_Align_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Fault_Masking_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Get_Pre_Empty
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Get_Pending_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Priority_Group_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Get_Priority_Group
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_All_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Interrupt_Enable
+                0x00000000       0x60 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Set_Systick_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Set_PendSV_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Get_Interrupt_Flag
+                0x00000000       0x56 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Clear_Interrupt_Flag
+                0x00000000       0x62 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Interrupt_Priority_Config
+                0x00000000       0x96 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Set_Interrupt_Priority
+                0x00000000       0x28 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Stack_Delay_Enable
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_External_Configuration
+                0x00000000       0x6e ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_External_Struct_Init
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_External_Mask_Enable
+                0x00000000       0x1e ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_External_Rise_Enable
+                0x00000000       0x1e ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_External_Fall_Enable
+                0x00000000       0x1e ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_Get_External_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_External_Clear_Flag
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_int.o
+ .text$INT_External_Source_Enable
+                0x00000000       0x34 ./Peripherals/src/kf32f_basic_int.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_int.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_iwdt.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_iwdt.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_iwdt.o
+ .text$IWDT_Prescaler_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_iwdt.o
+ .text$IWDT_Overflow_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_iwdt.o
+ .text$IWDT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_iwdt.o
+ .text$IWDT_Feed_The_Dog
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_iwdt.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_iwdt.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_op.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_op.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_op.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_op.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_osc.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_osc.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_SCLK_Configuration
+                0x00000000       0xac ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_HFCK_Configuration
+                0x00000000       0xb2 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_LFCK_Configuration
+                0x00000000       0x3c ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_CK48M_Configuration
+                0x00000000       0x8c ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Struct_Init
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Backup_Write_Read_Enable
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_SCLK_Output_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_SCLK_Output_Select
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_SCLK_Output_Division_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Clock_Failure_Check_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_CK48M_Division_Config
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_CK48M_Source_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_CK48M_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_EXTHF_Start_Delay_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_EXTLF_Start_Delay_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_EXTHF_Software_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_EXTLF_Software_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Zero_Drift_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Positive_Drift_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Negative_Drift_Config
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Current_Gain_Config
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_High_Speed_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_External_Input_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Feedback_Resistance_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_Zero_Source_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_Vref2_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_Vref0p5_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_Vref1p2_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_Low_Power_20nA_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_Vref1p14_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_Low_Power_100nA_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_LDO_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_PLL_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_EXTHF_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_EXTLF_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_INTHF_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_LP4M_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_INTLF_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Get_Clock_Failure_INT_Flag
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Get_EXTHF_INT_Flag
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Get_EXTLF_INT_Flag
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Get_INTLF_INT_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_osc.o
+ .text$OSC_Get_LP4MIF_INT_Flag
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_osc.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_osc.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_pclk.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_pclk.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_pclk.o
+ .text$PCLK_CTL0_Peripheral_Clock_Enable
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_pclk.o
+ .text$PCLK_CTL3_Peripheral_Clock_Enable
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_pclk.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_pclk.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_pm.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_pm.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_IO_Latch_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Get_IO_Latch_Status
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Internal_Low_Frequency_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_External_Low_Frequency_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_External_Low_Frequency_Clock_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Main_Bandgap_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_LDO18_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Backup_Registers_Reset_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Independent_Watchdog_Reset_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_SRAMA_In_Standby_Work_Mode_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_LPRAM_In_Standby_Work_Mode_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Backup_POR_Delay_Time_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Main_POR_Delay_Time_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Peripheral_IO_Port_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_OCAL0LOCK_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_MEMSEL_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Flash_Power_Off_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_CCP0CLKLPEN_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Backup_Write_And_Read_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_VREF_Software_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_VREF_SELECT
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_LPR_Software_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Low_Power_Mode_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_BOR_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Low_Power_BOR_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Temperature_Sensor_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Temperature_Sensor_Buffer_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Reference_Voltage_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Internal_Test_Buffer_Clock_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Internal_Test_Buffer_Clock_Scaler_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_PLL0_Output_Buffer_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_PLL1_Output_Buffer_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_PLL2_Output_Buffer_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_PLL0LDO_Output_Buffer_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_PLL1LDO_Output_Buffer_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_PLL2LDO_Output_Buffer_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Battery_BOR_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Battery_BOR_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Peripheral_Voltage_Monitoring_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Voltage_Detection_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Voltage_Detection_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_External_Wakeup_Pin_Enable
+                0x00000000       0x22 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_External_Wakeup_Edge_Config
+                0x00000000       0x22 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Stop_Mode_Peripheral_INLF_Enable
+                0x00000000       0x1e ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Peripheral_Reset_Config
+                0x00000000       0x1e ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Vdd_Por_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Low_Power_Bandgap_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Power_Dissipation_Mode_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Power_Dissipation_Mode_Delay_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Internal_Test_Buffer_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Clear_Reset_And_Wakeup_Flag
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Get_IWDT_Reset_Flag
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Clear_External_Wakeup_Pin_Flag
+                0x00000000       0x24 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Get_Low_Power_Running_State
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Get_LPR_Status
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Get_Peripheral_Voltage_Detection_Status
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Zero_Drift_Current_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_BOR_Voltage_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Main_Regulator_Voltage_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Main_Regulator_HV_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Reference_Calibration_Config
+                0x00000000       0x68 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_INTLF_Bias_Current_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_EXTLF_Bias_Current_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_INTLF_Capacitance_Calibration_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_LP_Bias_Calibration_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_LPBG_Pump_Calibration_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_EXTLF_N_Bias_Current_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_EXTLF_PIN_Selection_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_EXTHF_PIN_Selection_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_LDO18_Module_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_Main_Regulator_Bandgap_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .text$PM_LPR_Module_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_pm.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_pm.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_rst.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_rst.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_rst.o
+ .text$RST_CTL0_Peripheral_Reset_Enable
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_rst.o
+ .text$RST_CTL3_Peripheral_Reset_Enable
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_rst.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_rst.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_rtc.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_rtc.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Reset
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Configuration
+                0x00000000      0x17c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Struct_Init
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Date_Struct_Init
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Struct_Init
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Time_Configuration
+                0x00000000       0x78 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Date_Configuration
+                0x00000000       0x70 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_Configuration
+                0x00000000      0x108 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_Struct_Init
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clock_Calibration_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Tick_Output_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_Channel_Enable
+                0x00000000       0x1a ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_Edge_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_Edge_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Add_One_Hour_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Sub_One_Hour_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Tick_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Reset_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Leap_Year_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Hour_Format_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Config_Mode_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Operation_Off_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Action_State_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Weekday_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Weekday_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Hours_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_AMPM_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Hours_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Minutes_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Minutes_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Seconds_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Seconds_Config
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Weekday_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Weekday_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Hours_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_AMPM_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Hours_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Minutes_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Minutes_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Seconds_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Seconds_Config
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Weekday_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_AMPM_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Hours_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Minutes_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Seconds_Config
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Year_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Month_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Day_Config
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Weekday_Backup_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_AMPM_Backup_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Hours_Backup_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Minutes_Backup_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Seconds_Backup_Config
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Year_Backup_Config
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Month_Backup_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Day_Backup_Config
+                0x00000000       0x2c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Timer1_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Timer0_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Timer1_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Timer0_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Timer1_Source_Config
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Timer0_Source_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_Overflow_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Timer1_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Timer0_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Time_Tick_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Days_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Hours_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Minutes_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Seconds_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Time_Stamp_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Time_Stamp_Overflow_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Timer1_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Timer0_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Time_Tick_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Alarm_B_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Alarm_A_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Days_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Hours_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Minutes_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Get_Seconds_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Time_Stamp_INT_Flag
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Time_Stamp_Overflow_INT_Flag
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Timer1_INT_Flag
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Timer0_INT_Flag
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Time_Tick_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Alarm_B_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Alarm_A_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Days_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Hours_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Minutes_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Seconds_INT_Flag
+                0x00000000       0x1c ./Peripherals/src/kf32f_basic_rtc.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_rtc.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_sysctl.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_sysctl.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Get_V_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Get_C_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Get_Z_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Get_N_Flag
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Set_V_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Set_C_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Set_Z_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Set_N_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Sleep_On_Exit_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Deep_Sleep_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Interrupt_Awake_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Stack_Align_State
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Super_User_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Stack_Pointer_State
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Stack_Pointer_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Exception_Reset_Enable
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_System_Reset_Enable
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Vector_Offset_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Ram_Space_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Flash_Start_Remap_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_sysctl.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_sysctl.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_systick.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_systick.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Configuration
+                0x00000000       0x20 ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Cmd
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Clock_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Systick_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Get_Count_Zero_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Reload_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Counter_Updata
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Get_Reload
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_systick.o
+ .text$SYSTICK_Get_Counter
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_systick.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_systick.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_usart.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_usart.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_U7816R_Configuration
+                0x00000000       0x30 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_U7816R_Struct_Init
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_BaudRate_Clock_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_HalfDuplex_ClockPolarity_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Transmit_Order_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Receive_Order_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Infrare_Detector_Voltage_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_WeakUP_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clock_Source_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Address_Detection_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Auto_BaudRate_Detection_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Auto_BaudRate_Detection_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Send_Blank_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_SYN_Choice_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Transmit_Data_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Receive_Data_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_STOP_Word_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Transmit_9Word_Select_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Parity_Select_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_9Data_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_CTS_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_RTS_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Infrare_Detector_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Singlet_Line_Mode_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_BaudRate_Integer_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_BaudRate_Decimal1_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_BaudRate_Decimal2_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_SendData
+                0x00000000        0x6 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_TransmitData
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_ReceiveData
+                0x00000000        0x4 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Address_Match_Config
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Send_Idle_Frame_Enable
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Receive_Idle_Frame_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_7816_Cmd
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_7816_CLKOUT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_7816_Error_Signal_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_BGT_Config
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Transmit_Repeat_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Receive_Repeat_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Transmit_Repeat_Times_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Receive_Repeat_Times_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_7816_CLKDIV_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_7816_EGT_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_7816_Resend_Mode_Select
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Receive_Overflow_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Parity_ERROR_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Frame_ERROE_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Blank_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Auto_BaudRate_TimeOver_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_WeakUP_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Transmit_ERROR_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Receive_ERROR_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_CTS_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_RDR_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_TFE_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_TXE_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Receive_DMA_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Transmit_DMA_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_IDLE_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_UADM_INT_Enable
+                0x00000000        0xe ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Receive_Overflow_Flag
+                0x00000000        0x8 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Parity_ERROR_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Frame_ERROR_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Blank_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Auto_Baudrate_TimeOver_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_WeakUP_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_7816Transmit_ERROR_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_7816Receive_ERROR_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_CTS_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Receive_BUFR_Ready_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_WUEN_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Transmit_BUFR_Empty_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Transmitter_Empty_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Get_Receive_Frame_Idel_Flag
+                0x00000000        0xa ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_Receive_Overflow_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_Parity_ERROR_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_Frame_ERROR_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_Blank_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_Auto_BaudRate_TimeOver_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_WeakUP_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_Transmit_ERROR_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_Receive_ERROR_INT_Flag
+                0x00000000       0x12 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_CTS_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_UADM_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_IDLE_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_usart.o
+ .text$USART_Clear_Receive_BUFR_INT_Flag
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_usart.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_usart.o
+ .text          0x00000000        0x0 ./Peripherals/src/kf32f_basic_wwdt.o
+ .data          0x00000000        0x0 ./Peripherals/src/kf32f_basic_wwdt.o
+ .bss           0x00000000        0x0 ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_Reset
+                0x00000000       0x1e ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_Threshold_Config
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_Prescaler_Config
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_Counter_Config
+                0x00000000        0xc ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_Get_Counter
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_INT_Enable
+                0x00000000       0x14 ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_Get_INT_Flag
+                0x00000000       0x10 ./Peripherals/src/kf32f_basic_wwdt.o
+ .text$WWDT_Clear_INT_Flag
+                0x00000000       0x18 ./Peripherals/src/kf32f_basic_wwdt.o
+ .comment       0x00000000       0x27 ./Peripherals/src/kf32f_basic_wwdt.o
+ .text          0x00000000        0x0 ./config/chip_mode_protect_config.o
+ .data          0x00000000        0x0 ./config/chip_mode_protect_config.o
+ .bss           0x00000000        0x0 ./config/chip_mode_protect_config.o
+ .comment       0x00000000       0x27 ./config/chip_mode_protect_config.o
+ .text          0x00000000        0x0 ./config/startup.o
+ .data          0x00000000        0x0 ./config/startup.o
+ .bss           0x00000000        0x0 ./config/startup.o
+ .comment       0x00000000       0x27 ./config/startup.o
+ .data          0x00000000        0x0 ./config/vector.o
+ .bss           0x00000000        0x0 ./config/vector.o
+ .comment       0x00000000       0x27 ./config/vector.o
+ .text          0x00000000        0x0 ./kf_it.o
+ .data          0x00000000        0x0 ./kf_it.o
+ .bss           0x00000000        0x0 ./kf_it.o
+ .comment       0x00000000       0x27 ./kf_it.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .comment       0x00000000       0x27 ./main.o
+ .text          0x00000000        0x0 ./system_init.o
+ .data          0x00000000        0x0 ./system_init.o
+ .bss           0x00000000        0x0 ./system_init.o
+ .text$systick_delay_init
+                0x00000000       0x48 ./system_init.o
+ .text$systick_delay_us
+                0x00000000       0x3c ./system_init.o
+ .text$systick_delay_ms
+                0x00000000       0x3c ./system_init.o
+ .text$SystemCoreClockUpdate
+                0x00000000       0xcc ./system_init.o
+ .data$init$SystemCoreClock
+                0x00000000        0x4 ./system_init.o
+ .bss$static$fac_us
+                0x00000000        0x1 ./system_init.o
+ .bss$static$fac_ms
+                0x00000000        0x2 ./system_init.o
+ .comment       0x00000000       0x27 ./system_init.o
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(strlen.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(strlen.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(strlen.o)
+ .text$strlen   0x00000000        0xe D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(strlen.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .text$memcpy   0x00000000      0x110 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .text$memset   0x00000000       0x68 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .text$itoa     0x00000000        0xc D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libctype.a(ctype_tab.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libctype.a(ctype_tab.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libctype.a(ctype_tab.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(truncdfsf2.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(truncdfsf2.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(truncdfsf2.o)
+ .text          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .data          0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .bss           0x00000000        0x0 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__getChipUniqueSerialNumber
+                0x00000000       0x4c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__getChipUniqueSerialNumber__RAM__
+                0x00000000       0x4c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__getChipMessage
+                0x00000000       0x6c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__getChipMessage__RAM__
+                0x00000000       0x6c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__getChipMessages
+                0x00000000       0x58 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__getChipMessages__RAM__
+                0x00000000       0x58 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__getChipMessage2
+                0x00000000       0x48 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__getChipMessage2__RAM__
+                0x00000000       0x48 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__getChipMessages2
+                0x00000000       0x34 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__getChipMessages2__RAM__
+                0x00000000       0x34 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__FLASH_Erase__
+                0x00000000       0x68 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASH_Erase__RAM__
+                0x00000000       0x68 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__FLASH_Program__
+                0x00000000       0x38 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASH_Program__RAM__
+                0x00000000       0x38 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__FLASH_Check__
+                0x00000000       0x28 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASH_Check__RAM__
+                0x00000000       0x28 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__FLASHCFGUSER_Program__
+                0x00000000       0x58 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASHCFGUSER_Program__RAM__
+                0x00000000       0x58 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__FLASHCFGUSER_Read__
+                0x00000000       0x40 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASHCFGUSER_Read__RAM__
+                0x00000000       0x40 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$Re_Security_Start
+                0x00000000        0x2 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$Write_Security_Start_Config
+                0x00000000        0x2 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASH_Program_NBytes__RAM__
+                0x00000000       0xb4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASH_CheckSum_With_128bits__
+                0x00000000       0x74 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__FLASH_Read_One__
+                0x00000000        0x4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASH_Read_One__RAM__
+                0x00000000        0x4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$__FLASH_Read__
+                0x00000000       0x14 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .indata$__FLASH_Read__RAM__
+                0x00000000       0x14 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$putchar  0x00000000       0x30 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$getchar  0x00000000       0x2c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+ .text$fgetchar
+                0x00000000       0x20 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+
+@@@@@Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x00000000         0x00040000
+ram              0x10000000         0x00018000
+da_mem           0x0c001c00         0x00000400
+mode_mem         0x0c001800         0x00000004
+pro_mem          0x0c001000         0x00000004
+*default*        0x00000000         0xffffffff
+
+@@@@@Linker script and memory map
+
+LOAD ./BSP/bsp.o
+LOAD ./BSP/bsp_flash.o
+LOAD ./BSP/bsp_usart.o
+LOAD ./Driver/iap.o
+LOAD ./Middle/boot.o
+LOAD ./Middle/delay.o
+LOAD ./Middle/md5.o
+LOAD ./Middle/ymodem.o
+LOAD ./Peripherals/src/kf32f_basic_adc.o
+LOAD ./Peripherals/src/kf32f_basic_atim.o
+LOAD ./Peripherals/src/kf32f_basic_bkp.o
+LOAD ./Peripherals/src/kf32f_basic_btim.o
+LOAD ./Peripherals/src/kf32f_basic_cfgl.o
+LOAD ./Peripherals/src/kf32f_basic_cmp.o
+LOAD ./Peripherals/src/kf32f_basic_crc.o
+LOAD ./Peripherals/src/kf32f_basic_dac.o
+LOAD ./Peripherals/src/kf32f_basic_dma.o
+LOAD ./Peripherals/src/kf32f_basic_flash.o
+LOAD ./Peripherals/src/kf32f_basic_gpio.o
+LOAD ./Peripherals/src/kf32f_basic_gptim.o
+LOAD ./Peripherals/src/kf32f_basic_i2c.o
+LOAD ./Peripherals/src/kf32f_basic_int.o
+LOAD ./Peripherals/src/kf32f_basic_iwdt.o
+LOAD ./Peripherals/src/kf32f_basic_op.o
+LOAD ./Peripherals/src/kf32f_basic_osc.o
+LOAD ./Peripherals/src/kf32f_basic_pclk.o
+LOAD ./Peripherals/src/kf32f_basic_pm.o
+LOAD ./Peripherals/src/kf32f_basic_rst.o
+LOAD ./Peripherals/src/kf32f_basic_rtc.o
+LOAD ./Peripherals/src/kf32f_basic_sysctl.o
+LOAD ./Peripherals/src/kf32f_basic_systick.o
+LOAD ./Peripherals/src/kf32f_basic_usart.o
+LOAD ./Peripherals/src/kf32f_basic_wwdt.o
+LOAD ./config/chip_mode_protect_config.o
+LOAD ./config/startup.o
+LOAD ./config/vector.o
+LOAD ./kf_it.o
+LOAD ./main.o
+LOAD ./system_init.o
+LOAD D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libIQmath-R1.a
+LOAD D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libSeriesDIServices.a
+LOAD D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libmath.a
+LOAD D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a
+LOAD D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a
+LOAD D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a
+LOAD D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libctype.a
+LOAD D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a
+
+.text           0x00000000     0x1328
+                0x00000000                . = 0x0
+ *vector.o(.text*)
+ .text          0x00000000      0x200 ./config/vector.o
+                0x00000000                _start
+ *vector.obj(.text*)
+ *vector.c.obj(.text*)
+                0x00000200                . = ALIGN (0x4)
+                0x00000200                __vec_end__ = .
+ *(.text*)
+ .text$bsp_init
+                0x00000200        0xc ./BSP/bsp.o
+                0x00000200                bsp_init
+ .text$bsp_usart_init
+                0x0000020c      0x124 ./BSP/bsp_usart.o
+                0x0000020c                bsp_usart_init
+ .text$iap_is_app_valid
+                0x00000330       0x2a ./Middle/boot.o
+                0x00000330                iap_is_app_valid
+ *fill*         0x0000035a        0x2 
+ .text$iap_jump_to_app
+                0x0000035c       0x14 ./Middle/boot.o
+                0x0000035c                iap_jump_to_app
+ .text$delay_ms
+                0x00000370       0x34 ./Middle/delay.o
+                0x00000370                delay_ms
+ .text$GPIO_Pin_Lock_Config
+                0x000003a4       0x1e ./Peripherals/src/kf32f_basic_gpio.o
+                0x000003a4                GPIO_Pin_Lock_Config
+ .text$GPIO_Write_Mode_Bits
+                0x000003c2       0x2c ./Peripherals/src/kf32f_basic_gpio.o
+                0x000003c2                GPIO_Write_Mode_Bits
+ .text$GPIO_Toggle_Output_Data_Config
+                0x000003ee        0xa ./Peripherals/src/kf32f_basic_gpio.o
+                0x000003ee                GPIO_Toggle_Output_Data_Config
+ .text$GPIO_Pin_RMP_Config
+                0x000003f8       0x24 ./Peripherals/src/kf32f_basic_gpio.o
+                0x000003f8                GPIO_Pin_RMP_Config
+ .text$OSC_LFCK_Division_Config
+                0x0000041c       0x18 ./Peripherals/src/kf32f_basic_osc.o
+                0x0000041c                OSC_LFCK_Division_Config
+ .text$OSC_HFCK_Division_Config
+                0x00000434       0x18 ./Peripherals/src/kf32f_basic_osc.o
+                0x00000434                OSC_HFCK_Division_Config
+ .text$OSC_SCK_Division_Config
+                0x0000044c       0x18 ./Peripherals/src/kf32f_basic_osc.o
+                0x0000044c                OSC_SCK_Division_Config
+ .text$OSC_PLL_Input_Source_Config
+                0x00000464       0x10 ./Peripherals/src/kf32f_basic_osc.o
+                0x00000464                OSC_PLL_Input_Source_Config
+ .text$OSC_HFCK_Source_Config
+                0x00000474       0x18 ./Peripherals/src/kf32f_basic_osc.o
+                0x00000474                OSC_HFCK_Source_Config
+ .text$OSC_HFCK_Enable
+                0x0000048c       0x10 ./Peripherals/src/kf32f_basic_osc.o
+                0x0000048c                OSC_HFCK_Enable
+ .text$OSC_LFCK_Source_Config
+                0x0000049c       0x10 ./Peripherals/src/kf32f_basic_osc.o
+                0x0000049c                OSC_LFCK_Source_Config
+ .text$OSC_LFCK_Enable
+                0x000004ac       0x10 ./Peripherals/src/kf32f_basic_osc.o
+                0x000004ac                OSC_LFCK_Enable
+ .text$OSC_SCK_Source_Config
+                0x000004bc       0x14 ./Peripherals/src/kf32f_basic_osc.o
+                0x000004bc                OSC_SCK_Source_Config
+ .text$OSC_PLL_Multiple_Value_Select
+                0x000004d0       0x94 ./Peripherals/src/kf32f_basic_osc.o
+                0x000004d0                OSC_PLL_Multiple_Value_Select
+ .text$OSC_PLL_RST
+                0x00000564        0xc ./Peripherals/src/kf32f_basic_osc.o
+                0x00000564                OSC_PLL_RST
+ .text$OSC_PLL_Start_Delay_Config
+                0x00000570       0x18 ./Peripherals/src/kf32f_basic_osc.o
+                0x00000570                OSC_PLL_Start_Delay_Config
+ .text$OSC_PLL_Software_Enable
+                0x00000588       0x14 ./Peripherals/src/kf32f_basic_osc.o
+                0x00000588                OSC_PLL_Software_Enable
+ .text$OSC_INTHF_Software_Enable
+                0x0000059c       0x14 ./Peripherals/src/kf32f_basic_osc.o
+                0x0000059c                OSC_INTHF_Software_Enable
+ .text$OSC_INTLF_Software_Enable
+                0x000005b0       0x14 ./Peripherals/src/kf32f_basic_osc.o
+                0x000005b0                OSC_INTLF_Software_Enable
+ .text$OSC_Get_PLL_INT_Flag
+                0x000005c4        0xe ./Peripherals/src/kf32f_basic_osc.o
+                0x000005c4                OSC_Get_PLL_INT_Flag
+ .text$OSC_Get_INTHF_INT_Flag
+                0x000005d2        0xe ./Peripherals/src/kf32f_basic_osc.o
+                0x000005d2                OSC_Get_INTHF_INT_Flag
+ .text$PCLK_CTL1_Peripheral_Clock_Enable
+                0x000005e0       0x1a ./Peripherals/src/kf32f_basic_pclk.o
+                0x000005e0                PCLK_CTL1_Peripheral_Clock_Enable
+ *fill*         0x000005fa        0x2 
+ .text$PCLK_CTL2_Peripheral_Clock_Enable
+                0x000005fc       0x1a ./Peripherals/src/kf32f_basic_pclk.o
+                0x000005fc                PCLK_CTL2_Peripheral_Clock_Enable
+ *fill*         0x00000616        0x2 
+ .text$RST_CTL1_Peripheral_Reset_Enable
+                0x00000618       0x1a ./Peripherals/src/kf32f_basic_rst.o
+                0x00000618                RST_CTL1_Peripheral_Reset_Enable
+ *fill*         0x00000632        0x2 
+ .text$RST_CTL2_Peripheral_Reset_Enable
+                0x00000634       0x1a ./Peripherals/src/kf32f_basic_rst.o
+                0x00000634                RST_CTL2_Peripheral_Reset_Enable
+ *fill*         0x0000064e        0x2 
+ .text$USART_Reset
+                0x00000650      0x160 ./Peripherals/src/kf32f_basic_usart.o
+                0x00000650                USART_Reset
+ .text$USART_Configuration
+                0x000007b0       0x5c ./Peripherals/src/kf32f_basic_usart.o
+                0x000007b0                USART_Configuration
+ .text$USART_Struct_Init
+                0x0000080c       0x28 ./Peripherals/src/kf32f_basic_usart.o
+                0x0000080c                USART_Struct_Init
+ .text$USART_Cmd
+                0x00000834        0xc ./Peripherals/src/kf32f_basic_usart.o
+                0x00000834                USART_Cmd
+ .text$USART_RESHD_Enable
+                0x00000840        0xc ./Peripherals/src/kf32f_basic_usart.o
+                0x00000840                USART_RESHD_Enable
+ .text$USART_Passageway_Select_Config
+                0x0000084c        0xe ./Peripherals/src/kf32f_basic_usart.o
+                0x0000084c                USART_Passageway_Select_Config
+ .text$USART_Clear_Transmit_BUFR_INT_Flag
+                0x0000085a       0x14 ./Peripherals/src/kf32f_basic_usart.o
+                0x0000085a                USART_Clear_Transmit_BUFR_INT_Flag
+ *fill*         0x0000086e        0x2 
+ .text$startup  0x00000870       0x68 ./config/startup.o
+                0x00000870                startup
+ .text$_NMI_exception
+                0x000008d8        0x2 ./kf_it.o
+                0x000008d8                _NMI_exception
+ .text$_HardFault_exception
+                0x000008da        0x2 ./kf_it.o
+                0x000008da                _HardFault_exception
+ .text$_StackFault_exception
+                0x000008dc        0x2 ./kf_it.o
+                0x000008dc                _StackFault_exception
+ .text$_SVC_exception
+                0x000008de        0x2 ./kf_it.o
+                0x000008de                _SVC_exception
+ .text$_SoftSV_exception
+                0x000008e0        0x2 ./kf_it.o
+                0x000008e0                _SoftSV_exception
+ .text$_SysTick_exception
+                0x000008e2        0x2 ./kf_it.o
+                0x000008e2                _SysTick_exception
+ .text$_USART0_exception
+                0x000008e4        0x2 ./kf_it.o
+                0x000008e4                _USART0_exception
+ .text$_USART1_exception
+                0x000008e6        0x2 ./kf_it.o
+                0x000008e6                _USART1_exception
+ .text$_USART2_exception
+                0x000008e8        0x2 ./kf_it.o
+                0x000008e8                _USART2_exception
+ .text$_USART3_exception
+                0x000008ea        0x2 ./kf_it.o
+                0x000008ea                _USART3_exception
+ .text$_USART4_exception
+                0x000008ec        0x2 ./kf_it.o
+                0x000008ec                _USART4_exception
+ .text$_USART5_exception
+                0x000008ee        0x2 ./kf_it.o
+                0x000008ee                _USART5_exception
+ .text.startup.main
+                0x000008f0       0xa4 ./main.o
+                0x000008f0                main
+ .text$SystemInit
+                0x00000994       0xa8 ./system_init.o
+                0x00000994                SystemInit
+ .text$printf   0x00000a3c       0x24 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+                0x00000a3c                printf
+ .text$vfprintf
+                0x00000a60      0x2ac D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+                0x00000a60                vfprintf
+ .text$_ftoa_put_char
+                0x00000d0c       0x10 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .text$_ftoa_put_digit
+                0x00000d1c       0x2c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .text$_ftoa_round
+                0x00000d48       0x44 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .text$ftoa     0x00000d8c      0x258 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+                0x00000d8c                ftoa
+ .text$uitoa    0x00000fe4        0xc D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+                0x00000fe4                uitoa
+ .text$ultoa    0x00000ff0       0x46 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+                0x00000ff0                ultoa
+ .text$ltoa     0x00001036       0x1c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+                0x00001036                ltoa
+ *fill*         0x00001052        0x2 
+ .text$__truncdfsf2
+                0x00001054      0x12c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(truncdfsf2.o)
+                0x00001054                __truncdfsf2
+ .text$fputchar
+                0x00001180       0x20 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libcrtv1.a(ChipMessageApi2.o)
+                0x00001180                fputchar
+ *(.ctors*)
+ *(.dtors*)
+                0x000011a0                . = ALIGN (0x4)
+                0x000011a0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x000011a0                PROVIDE (__preinit_array_end, .)
+                0x000011a0                . = ALIGN (0x4)
+                0x000011a0                . = ALIGN (0x4)
+                0x000011a0                __init_class_start = ALIGN (0x4)
+                0x000011a0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x000011a0                PROVIDE (__init_array_end, .)
+                0x000011a0                __init_class_end = .
+                0x000011a0                . = ALIGN (0x4)
+                0x000011a0                . = ALIGN (0x4)
+                0x000011a0                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x000011a0                PROVIDE (__fini_array_end, .)
+                0x000011a0                . = ALIGN (0x4)
+                0x000011a0                . = ALIGN (0x4)
+ *(.gcc_except_table*)
+                0x000011a0                . = ALIGN (0x4)
+ *(.init*)
+ *(.fini*)
+                0x000011a0                . = ALIGN (0x4)
+ *(.rdata*)
+ .rdata$COM_GPIO_PORT
+                0x000011a0       0x10 ./BSP/bsp_usart.o
+ .rdata$COM_TX_PIN
+                0x000011b0        0x8 ./BSP/bsp_usart.o
+ .rdata$COM_TX_PIN_NUM
+                0x000011b8        0x8 ./BSP/bsp_usart.o
+ .rdata$COM_TX_PIN_RMP
+                0x000011c0        0x4 ./BSP/bsp_usart.o
+ .rdata$COM_RX_PIN
+                0x000011c4        0x8 ./BSP/bsp_usart.o
+ .rdata$COM_RX_PIN_NUM
+                0x000011cc        0x8 ./BSP/bsp_usart.o
+ .rdata$COM_RX_PIN_RMP
+                0x000011d4        0x4 ./BSP/bsp_usart.o
+ .rdata$COM_BAUD
+                0x000011d8       0x10 ./BSP/bsp_usart.o
+ .rdata$COM_USART
+                0x000011e8       0x10 ./BSP/bsp_usart.o
+ .rdata$ctype_tab
+                0x000011f8      0x101 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libctype.a(ctype_tab.o)
+ *(.rodata*)
+ *fill*         0x000012f9        0x3 
+ .rodata.str1.4
+                0x000012fc       0x2b ./main.o
+                0x00001328                . = ALIGN (0x4)
+ *fill*         0x00001327        0x1 
+                0x00001328                __text_end__ = .
+
+.data           0x10000000      0x414
+                0x10000000                __data_start__ = .
+ *(.ramvector*)
+                0x10000000                __lpdata_start__ = ALIGN (0x4)
+ *(.lpdata*)
+                0x10000000                __lpdata_end__ = ALIGN (0x4)
+                0x10000000                . = ALIGN (0x4)
+ *(.indata*)
+ *(.inrdata*)
+ *(.inrodata*)
+                0x10000000                . = ALIGN (0x4)
+ *(.data*)
+ .data$_Ctype   0x10000000        0x4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libctype.a(ctype_tab.o)
+                0x10000000                _Ctype
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                __data_end__ = .
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                __bss_start__ = .
+ *(COMMON*)
+ *(.bss*)
+ .bss$comm$e10  0x10000004        0x4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+                0x10000004                e10
+ .bss$comm$e2   0x10000008        0x4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+                0x10000008                e2
+ .bss$comm$lf   0x1000000c        0x4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+                0x1000000c                lf
+ .bss$static$S  0x10000010        0x4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+                0x10000014                . = ALIGN (0x4)
+                0x10000014                __bss_end__ = .
+                0x10000014                . = ALIGN (0x4)
+                0x10000014                __allot_end__ = .
+                0x10000014                __Heap_Start__ = __allot_end__
+                0x10000014                PROVIDE (__heap_start, .)
+ *(.heap_mem*)
+                0x10000014                . = ALIGN (0x4)
+                0x10000014                __Logic_Heap_End__ = .
+                0x00000414                . = DEFINED (Heap_Mem)?ALIGN (0x4):(__Logic_Heap_End__ + __Heap_length__)
+ *fill*         0x10000014      0x400 
+                0x10000414                . = ALIGN (0x4)
+                0x10000414                PROVIDE (__heap_end, .)
+                0x10000414                __Heap_End__ = .
+                0x10000414                __MAX_Stack_LIMITS__ = ALIGN (0x4)
+                0x10000414                . = ALIGN (0x4)
+                0x10000414                __LMA_STACK_LIMITS__ = DEFINED (Stack_Mem)?(__initial_sp - (__Logic_Stack_Start__ - __Logic_Stack_End__)):.
+                0x10000414                . = __LMA_STACK_LIMITS__
+                0x10000414                __Logic_Stack_End__ = .
+ *(.stack_mem*)
+                0x10000414                __Logic_Stack_Start__ = .
+                0x00018000                __initial_sp = 0x18000
+                0x00000400                PROVIDE (__Heap_length__, 0x400)
+
+.flashdata      0x0c001c00      0x400
+ *(.flashdata*)
+                0x00000400                . = 0x400
+ *fill*         0x0c001c00      0x400 
+
+.debugormode    0x0c001800        0x4
+ *(.modeconfig*)
+ .modeconfig$_config_Mode_Set
+                0x0c001800        0x4 ./config/chip_mode_protect_config.o
+                0x0c001800                _config_Mode_Set
+
+.protectmode    0x0c001000        0x4
+ *(.protectconfig*)
+ .protectconfig$_config_Protect_Set
+                0x0c001000        0x4 ./config/chip_mode_protect_config.o
+                0x0c001000                _config_Protect_Set
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000     0x2310
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 ./BSP/bsp.o
+ .debug_aranges
+                0x00000020       0x90 ./BSP/bsp_flash.o
+ .debug_aranges
+                0x000000b0       0x20 ./BSP/bsp_usart.o
+ .debug_aranges
+                0x000000d0       0x18 ./Driver/iap.o
+ .debug_aranges
+                0x000000e8       0x28 ./Middle/boot.o
+ .debug_aranges
+                0x00000110       0x20 ./Middle/delay.o
+ .debug_aranges
+                0x00000130       0x48 ./Middle/md5.o
+ .debug_aranges
+                0x00000178       0x48 ./Middle/ymodem.o
+ .debug_aranges
+                0x000001c0      0x188 ./Peripherals/src/kf32f_basic_adc.o
+ .debug_aranges
+                0x00000348      0x3c0 ./Peripherals/src/kf32f_basic_atim.o
+ .debug_aranges
+                0x00000708       0x88 ./Peripherals/src/kf32f_basic_bkp.o
+ .debug_aranges
+                0x00000790      0x170 ./Peripherals/src/kf32f_basic_btim.o
+ .debug_aranges
+                0x00000900       0xb0 ./Peripherals/src/kf32f_basic_cfgl.o
+ .debug_aranges
+                0x000009b0      0x160 ./Peripherals/src/kf32f_basic_cmp.o
+ .debug_aranges
+                0x00000b10       0x70 ./Peripherals/src/kf32f_basic_crc.o
+ .debug_aranges
+                0x00000b80       0x78 ./Peripherals/src/kf32f_basic_dac.o
+ .debug_aranges
+                0x00000bf8      0x100 ./Peripherals/src/kf32f_basic_dma.o
+ .debug_aranges
+                0x00000cf8      0x1b8 ./Peripherals/src/kf32f_basic_flash.o
+ .debug_aranges
+                0x00000eb0       0xb8 ./Peripherals/src/kf32f_basic_gpio.o
+ .debug_aranges
+                0x00000f68      0x200 ./Peripherals/src/kf32f_basic_gptim.o
+ .debug_aranges
+                0x00001168      0x200 ./Peripherals/src/kf32f_basic_i2c.o
+ .debug_aranges
+                0x00001368       0xf0 ./Peripherals/src/kf32f_basic_int.o
+ .debug_aranges
+                0x00001458       0x38 ./Peripherals/src/kf32f_basic_iwdt.o
+ .debug_aranges
+                0x00001490       0x18 ./Peripherals/src/kf32f_basic_op.o
+ .debug_aranges
+                0x000014a8      0x1f8 ./Peripherals/src/kf32f_basic_osc.o
+ .debug_aranges
+                0x000016a0       0x38 ./Peripherals/src/kf32f_basic_pclk.o
+ .debug_aranges
+                0x000016d8      0x258 ./Peripherals/src/kf32f_basic_pm.o
+ .debug_aranges
+                0x00001930       0x38 ./Peripherals/src/kf32f_basic_rst.o
+ .debug_aranges
+                0x00001968      0x330 ./Peripherals/src/kf32f_basic_rtc.o
+ .debug_aranges
+                0x00001c98       0xb8 ./Peripherals/src/kf32f_basic_sysctl.o
+ .debug_aranges
+                0x00001d50       0x60 ./Peripherals/src/kf32f_basic_systick.o
+ .debug_aranges
+                0x00001db0      0x300 ./Peripherals/src/kf32f_basic_usart.o
+ .debug_aranges
+                0x000020b0       0x60 ./Peripherals/src/kf32f_basic_wwdt.o
+ .debug_aranges
+                0x00002110       0x18 ./config/chip_mode_protect_config.o
+ .debug_aranges
+                0x00002128       0x20 ./config/startup.o
+ .debug_aranges
+                0x00002148       0x78 ./kf_it.o
+ .debug_aranges
+                0x000021c0       0x20 ./main.o
+ .debug_aranges
+                0x000021e0       0x40 ./system_init.o
+ .debug_aranges
+                0x00002220       0x20 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .debug_aranges
+                0x00002240       0x20 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .debug_aranges
+                0x00002260       0x28 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .debug_aranges
+                0x00002288       0x38 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .debug_aranges
+                0x000022c0       0x28 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .debug_aranges
+                0x000022e8       0x28 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x17f85
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xb1 ./BSP/bsp.o
+ .debug_info    0x000000b1      0x783 ./BSP/bsp_flash.o
+ .debug_info    0x00000834      0x810 ./BSP/bsp_usart.o
+ .debug_info    0x00001044       0x64 ./Driver/iap.o
+ .debug_info    0x000010a8      0x1f8 ./Middle/boot.o
+ .debug_info    0x000012a0       0xbc ./Middle/delay.o
+ .debug_info    0x0000135c      0x4cb ./Middle/md5.o
+ .debug_info    0x00001827      0x6e5 ./Middle/ymodem.o
+ .debug_info    0x00001f0c     0x13f4 ./Peripherals/src/kf32f_basic_adc.o
+ .debug_info    0x00003300     0x2877 ./Peripherals/src/kf32f_basic_atim.o
+ .debug_info    0x00005b77      0x611 ./Peripherals/src/kf32f_basic_bkp.o
+ .debug_info    0x00006188      0xfde ./Peripherals/src/kf32f_basic_btim.o
+ .debug_info    0x00007166      0x64c ./Peripherals/src/kf32f_basic_cfgl.o
+ .debug_info    0x000077b2      0xb44 ./Peripherals/src/kf32f_basic_cmp.o
+ .debug_info    0x000082f6      0x3e4 ./Peripherals/src/kf32f_basic_crc.o
+ .debug_info    0x000086da      0x5f3 ./Peripherals/src/kf32f_basic_dac.o
+ .debug_info    0x00008ccd      0xfe6 ./Peripherals/src/kf32f_basic_dma.o
+ .debug_info    0x00009cb3     0x1dd3 ./Peripherals/src/kf32f_basic_flash.o
+ .debug_info    0x0000ba86      0xb35 ./Peripherals/src/kf32f_basic_gpio.o
+ .debug_info    0x0000c5bb     0x15d3 ./Peripherals/src/kf32f_basic_gptim.o
+ .debug_info    0x0000db8e     0x102e ./Peripherals/src/kf32f_basic_i2c.o
+ .debug_info    0x0000ebbc      0xdde ./Peripherals/src/kf32f_basic_int.o
+ .debug_info    0x0000f99a      0x1f3 ./Peripherals/src/kf32f_basic_iwdt.o
+ .debug_info    0x0000fb8d       0x64 ./Peripherals/src/kf32f_basic_op.o
+ .debug_info    0x0000fbf1     0x1219 ./Peripherals/src/kf32f_basic_osc.o
+ .debug_info    0x00010e0a      0x1be ./Peripherals/src/kf32f_basic_pclk.o
+ .debug_info    0x00010fc8     0x10a7 ./Peripherals/src/kf32f_basic_pm.o
+ .debug_info    0x0001206f      0x1be ./Peripherals/src/kf32f_basic_rst.o
+ .debug_info    0x0001222d     0x213e ./Peripherals/src/kf32f_basic_rtc.o
+ .debug_info    0x0001436b      0x538 ./Peripherals/src/kf32f_basic_sysctl.o
+ .debug_info    0x000148a3      0x2d7 ./Peripherals/src/kf32f_basic_systick.o
+ .debug_info    0x00014b7a     0x1b0e ./Peripherals/src/kf32f_basic_usart.o
+ .debug_info    0x00016688      0x2f9 ./Peripherals/src/kf32f_basic_wwdt.o
+ .debug_info    0x00016981       0x49 ./config/chip_mode_protect_config.o
+ .debug_info    0x000169ca       0xb8 ./config/startup.o
+ .debug_info    0x00016a82      0x11a ./kf_it.o
+ .debug_info    0x00016b9c      0x2eb ./main.o
+ .debug_info    0x00016e87      0x54b ./system_init.o
+ .debug_info    0x000173d2       0xbd D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .debug_info    0x0001748f      0x2ef D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .debug_info    0x0001777e      0x209 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .debug_info    0x00017987      0x3ba D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .debug_info    0x00017d41      0x125 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .debug_info    0x00017e66      0x11f D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+
+.debug_abbrev   0x00000000     0x423e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x6f ./BSP/bsp.o
+ .debug_abbrev  0x0000006f      0x186 ./BSP/bsp_flash.o
+ .debug_abbrev  0x000001f5      0x174 ./BSP/bsp_usart.o
+ .debug_abbrev  0x00000369       0x26 ./Driver/iap.o
+ .debug_abbrev  0x0000038f      0x123 ./Middle/boot.o
+ .debug_abbrev  0x000004b2       0x76 ./Middle/delay.o
+ .debug_abbrev  0x00000528      0x1b1 ./Middle/md5.o
+ .debug_abbrev  0x000006d9      0x2a1 ./Middle/ymodem.o
+ .debug_abbrev  0x0000097a      0x28c ./Peripherals/src/kf32f_basic_adc.o
+ .debug_abbrev  0x00000c06      0x221 ./Peripherals/src/kf32f_basic_atim.o
+ .debug_abbrev  0x00000e27      0x1fa ./Peripherals/src/kf32f_basic_bkp.o
+ .debug_abbrev  0x00001021      0x207 ./Peripherals/src/kf32f_basic_btim.o
+ .debug_abbrev  0x00001228      0x1c8 ./Peripherals/src/kf32f_basic_cfgl.o
+ .debug_abbrev  0x000013f0      0x200 ./Peripherals/src/kf32f_basic_cmp.o
+ .debug_abbrev  0x000015f0      0x1ae ./Peripherals/src/kf32f_basic_crc.o
+ .debug_abbrev  0x0000179e      0x211 ./Peripherals/src/kf32f_basic_dac.o
+ .debug_abbrev  0x000019af      0x250 ./Peripherals/src/kf32f_basic_dma.o
+ .debug_abbrev  0x00001bff      0x38f ./Peripherals/src/kf32f_basic_flash.o
+ .debug_abbrev  0x00001f8e      0x204 ./Peripherals/src/kf32f_basic_gpio.o
+ .debug_abbrev  0x00002192      0x232 ./Peripherals/src/kf32f_basic_gptim.o
+ .debug_abbrev  0x000023c4      0x213 ./Peripherals/src/kf32f_basic_i2c.o
+ .debug_abbrev  0x000025d7      0x22d ./Peripherals/src/kf32f_basic_int.o
+ .debug_abbrev  0x00002804      0x12a ./Peripherals/src/kf32f_basic_iwdt.o
+ .debug_abbrev  0x0000292e       0x26 ./Peripherals/src/kf32f_basic_op.o
+ .debug_abbrev  0x00002954      0x233 ./Peripherals/src/kf32f_basic_osc.o
+ .debug_abbrev  0x00002b87       0xd1 ./Peripherals/src/kf32f_basic_pclk.o
+ .debug_abbrev  0x00002c58      0x1da ./Peripherals/src/kf32f_basic_pm.o
+ .debug_abbrev  0x00002e32       0xd1 ./Peripherals/src/kf32f_basic_rst.o
+ .debug_abbrev  0x00002f03      0x2af ./Peripherals/src/kf32f_basic_rtc.o
+ .debug_abbrev  0x000031b2      0x1c6 ./Peripherals/src/kf32f_basic_sysctl.o
+ .debug_abbrev  0x00003378      0x189 ./Peripherals/src/kf32f_basic_systick.o
+ .debug_abbrev  0x00003501      0x255 ./Peripherals/src/kf32f_basic_usart.o
+ .debug_abbrev  0x00003756      0x189 ./Peripherals/src/kf32f_basic_wwdt.o
+ .debug_abbrev  0x000038df       0x2c ./config/chip_mode_protect_config.o
+ .debug_abbrev  0x0000390b       0x7c ./config/startup.o
+ .debug_abbrev  0x00003987       0x2e ./kf_it.o
+ .debug_abbrev  0x000039b5       0xec ./main.o
+ .debug_abbrev  0x00003aa1      0x1b4 ./system_init.o
+ .debug_abbrev  0x00003c55       0xa4 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .debug_abbrev  0x00003cf9      0x121 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .debug_abbrev  0x00003e1a      0x108 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .debug_abbrev  0x00003f22      0x1b8 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .debug_abbrev  0x000040da       0x9a D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .debug_abbrev  0x00004174       0xca D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+
+.debug_line     0x00000000    0x15a49
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x5e ./BSP/bsp.o
+ .debug_line    0x0000005e      0x633 ./BSP/bsp_flash.o
+ .debug_line    0x00000691      0x207 ./BSP/bsp_usart.o
+ .debug_line    0x00000898       0x27 ./Driver/iap.o
+ .debug_line    0x000008bf      0x169 ./Middle/boot.o
+ .debug_line    0x00000a28       0xb4 ./Middle/delay.o
+ .debug_line    0x00000adc      0x429 ./Middle/md5.o
+ .debug_line    0x00000f05      0x57d ./Middle/ymodem.o
+ .debug_line    0x00001482      0xfb6 ./Peripherals/src/kf32f_basic_adc.o
+ .debug_line    0x00002438     0x229f ./Peripherals/src/kf32f_basic_atim.o
+ .debug_line    0x000046d7      0x539 ./Peripherals/src/kf32f_basic_bkp.o
+ .debug_line    0x00004c10      0xc93 ./Peripherals/src/kf32f_basic_btim.o
+ .debug_line    0x000058a3      0x8dc ./Peripherals/src/kf32f_basic_cfgl.o
+ .debug_line    0x0000617f      0xdb4 ./Peripherals/src/kf32f_basic_cmp.o
+ .debug_line    0x00006f33      0x2c6 ./Peripherals/src/kf32f_basic_crc.o
+ .debug_line    0x000071f9      0x4e0 ./Peripherals/src/kf32f_basic_dac.o
+ .debug_line    0x000076d9      0x920 ./Peripherals/src/kf32f_basic_dma.o
+ .debug_line    0x00007ff9     0x1558 ./Peripherals/src/kf32f_basic_flash.o
+ .debug_line    0x00009551      0x84e ./Peripherals/src/kf32f_basic_gpio.o
+ .debug_line    0x00009d9f     0x1436 ./Peripherals/src/kf32f_basic_gptim.o
+ .debug_line    0x0000b1d5      0xee1 ./Peripherals/src/kf32f_basic_i2c.o
+ .debug_line    0x0000c0b6      0xb5b ./Peripherals/src/kf32f_basic_int.o
+ .debug_line    0x0000cc11      0x1c8 ./Peripherals/src/kf32f_basic_iwdt.o
+ .debug_line    0x0000cdd9       0x27 ./Peripherals/src/kf32f_basic_op.o
+ .debug_line    0x0000ce00     0x156e ./Peripherals/src/kf32f_basic_osc.o
+ .debug_line    0x0000e36e      0x1e8 ./Peripherals/src/kf32f_basic_pclk.o
+ .debug_line    0x0000e556     0x14bd ./Peripherals/src/kf32f_basic_pm.o
+ .debug_line    0x0000fa13      0x1e7 ./Peripherals/src/kf32f_basic_rst.o
+ .debug_line    0x0000fbfa     0x22c3 ./Peripherals/src/kf32f_basic_rtc.o
+ .debug_line    0x00011ebd      0x57f ./Peripherals/src/kf32f_basic_sysctl.o
+ .debug_line    0x0001243c      0x2c5 ./Peripherals/src/kf32f_basic_systick.o
+ .debug_line    0x00012701     0x198a ./Peripherals/src/kf32f_basic_usart.o
+ .debug_line    0x0001408b      0x2c4 ./Peripherals/src/kf32f_basic_wwdt.o
+ .debug_line    0x0001434f       0x4f ./config/chip_mode_protect_config.o
+ .debug_line    0x0001439e       0x98 ./config/startup.o
+ .debug_line    0x00014436       0x27 ./config/vector.o
+ .debug_line    0x0001445d      0x163 ./kf_it.o
+ .debug_line    0x000145c0      0x186 ./main.o
+ .debug_line    0x00014746      0x38f ./system_init.o
+ .debug_line    0x00014ad5       0x7c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .debug_line    0x00014b51      0x59b D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .debug_line    0x000150ec      0x38b D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .debug_line    0x00015477      0x464 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .debug_line    0x000158db       0x75 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .debug_line    0x00015950       0xf9 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+
+.debug_frame    0x00000000     0x4418
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x28 ./BSP/bsp.o
+ .debug_frame   0x00000028      0x1bc ./BSP/bsp_flash.o
+ .debug_frame   0x000001e4       0x40 ./BSP/bsp_usart.o
+ .debug_frame   0x00000224       0x38 ./Middle/boot.o
+ .debug_frame   0x0000025c       0x28 ./Middle/delay.o
+ .debug_frame   0x00000284       0xb0 ./Middle/md5.o
+ .debug_frame   0x00000334       0xb8 ./Middle/ymodem.o
+ .debug_frame   0x000003ec      0x300 ./Peripherals/src/kf32f_basic_adc.o
+ .debug_frame   0x000006ec      0x77c ./Peripherals/src/kf32f_basic_atim.o
+ .debug_frame   0x00000e68       0xf0 ./Peripherals/src/kf32f_basic_bkp.o
+ .debug_frame   0x00000f58      0x2d8 ./Peripherals/src/kf32f_basic_btim.o
+ .debug_frame   0x00001230      0x14c ./Peripherals/src/kf32f_basic_cfgl.o
+ .debug_frame   0x0000137c      0x2ac ./Peripherals/src/kf32f_basic_cmp.o
+ .debug_frame   0x00001628       0xcc ./Peripherals/src/kf32f_basic_crc.o
+ .debug_frame   0x000016f4       0xe0 ./Peripherals/src/kf32f_basic_dac.o
+ .debug_frame   0x000017d4      0x1f8 ./Peripherals/src/kf32f_basic_dma.o
+ .debug_frame   0x000019cc      0x388 ./Peripherals/src/kf32f_basic_flash.o
+ .debug_frame   0x00001d54      0x178 ./Peripherals/src/kf32f_basic_gpio.o
+ .debug_frame   0x00001ecc      0x3e0 ./Peripherals/src/kf32f_basic_gptim.o
+ .debug_frame   0x000022ac      0x3f0 ./Peripherals/src/kf32f_basic_i2c.o
+ .debug_frame   0x0000269c      0x1cc ./Peripherals/src/kf32f_basic_int.o
+ .debug_frame   0x00002868       0x50 ./Peripherals/src/kf32f_basic_iwdt.o
+ .debug_frame   0x000028b8      0x40c ./Peripherals/src/kf32f_basic_osc.o
+ .debug_frame   0x00002cc4       0x50 ./Peripherals/src/kf32f_basic_pclk.o
+ .debug_frame   0x00002d14      0x490 ./Peripherals/src/kf32f_basic_pm.o
+ .debug_frame   0x000031a4       0x50 ./Peripherals/src/kf32f_basic_rst.o
+ .debug_frame   0x000031f4      0x66c ./Peripherals/src/kf32f_basic_rtc.o
+ .debug_frame   0x00003860      0x150 ./Peripherals/src/kf32f_basic_sysctl.o
+ .debug_frame   0x000039b0       0xa0 ./Peripherals/src/kf32f_basic_systick.o
+ .debug_frame   0x00003a50      0x5f8 ./Peripherals/src/kf32f_basic_usart.o
+ .debug_frame   0x00004048       0xa8 ./Peripherals/src/kf32f_basic_wwdt.o
+ .debug_frame   0x000040f0       0x28 ./config/startup.o
+ .debug_frame   0x00004118       0xd0 ./kf_it.o
+ .debug_frame   0x000041e8       0x24 ./main.o
+ .debug_frame   0x0000420c       0x78 ./system_init.o
+ .debug_frame   0x00004284       0x38 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .debug_frame   0x000042bc       0x34 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .debug_frame   0x000042f0       0x3c D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .debug_frame   0x0000432c       0x68 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .debug_frame   0x00004394       0x40 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .debug_frame   0x000043d4       0x44 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+
+.debug_str      0x00000000     0xc339
+ *(.debug_str)
+ .debug_str     0x00000000       0xf2 ./BSP/bsp.o
+ .debug_str     0x000000f2      0x2da ./BSP/bsp_flash.o
+ .debug_str     0x000003cc      0x6e6 ./BSP/bsp_usart.o
+ .debug_str     0x00000ab2       0xd8 ./Driver/iap.o
+ .debug_str     0x00000b8a      0x1b4 ./Middle/boot.o
+ .debug_str     0x00000d3e       0xec ./Middle/delay.o
+ .debug_str     0x00000e2a      0x1b8 ./Middle/md5.o
+ .debug_str     0x00000fe2      0x25d ./Middle/ymodem.o
+ .debug_str     0x0000123f      0x950 ./Peripherals/src/kf32f_basic_adc.o
+ .debug_str     0x00001b8f     0x117b ./Peripherals/src/kf32f_basic_atim.o
+ .debug_str     0x00002d0a      0x371 ./Peripherals/src/kf32f_basic_bkp.o
+ .debug_str     0x0000307b      0x6ba ./Peripherals/src/kf32f_basic_btim.o
+ .debug_str     0x00003735      0x655 ./Peripherals/src/kf32f_basic_cfgl.o
+ .debug_str     0x00003d8a      0x5ca ./Peripherals/src/kf32f_basic_cmp.o
+ .debug_str     0x00004354      0x2a2 ./Peripherals/src/kf32f_basic_crc.o
+ .debug_str     0x000045f6      0x361 ./Peripherals/src/kf32f_basic_dac.o
+ .debug_str     0x00004957      0x704 ./Peripherals/src/kf32f_basic_dma.o
+ .debug_str     0x0000505b      0x98f ./Peripherals/src/kf32f_basic_flash.o
+ .debug_str     0x000059ea      0x4e6 ./Peripherals/src/kf32f_basic_gpio.o
+ .debug_str     0x00005ed0      0xa41 ./Peripherals/src/kf32f_basic_gptim.o
+ .debug_str     0x00006911      0x7a8 ./Peripherals/src/kf32f_basic_i2c.o
+ .debug_str     0x000070b9      0x92a ./Peripherals/src/kf32f_basic_int.o
+ .debug_str     0x000079e3      0x1b9 ./Peripherals/src/kf32f_basic_iwdt.o
+ .debug_str     0x00007b9c       0xec ./Peripherals/src/kf32f_basic_op.o
+ .debug_str     0x00007c88      0x870 ./Peripherals/src/kf32f_basic_osc.o
+ .debug_str     0x000084f8      0x207 ./Peripherals/src/kf32f_basic_pclk.o
+ .debug_str     0x000086ff      0xa7f ./Peripherals/src/kf32f_basic_pm.o
+ .debug_str     0x0000917e      0x1fc ./Peripherals/src/kf32f_basic_rst.o
+ .debug_str     0x0000937a      0xda2 ./Peripherals/src/kf32f_basic_rtc.o
+ .debug_str     0x0000a11c      0x39f ./Peripherals/src/kf32f_basic_sysctl.o
+ .debug_str     0x0000a4bb      0x266 ./Peripherals/src/kf32f_basic_systick.o
+ .debug_str     0x0000a721      0xd4f ./Peripherals/src/kf32f_basic_usart.o
+ .debug_str     0x0000b470      0x228 ./Peripherals/src/kf32f_basic_wwdt.o
+ .debug_str     0x0000b698       0x9b ./config/chip_mode_protect_config.o
+ .debug_str     0x0000b733       0xcb ./config/startup.o
+ .debug_str     0x0000b7fe      0x136 ./kf_it.o
+ .debug_str     0x0000b934      0x15c ./main.o
+ .debug_str     0x0000ba90      0x2dc ./system_init.o
+ .debug_str     0x0000bd6c       0x80 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .debug_str     0x0000bdec      0x165 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .debug_str     0x0000bf51      0x15a D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .debug_str     0x0000c0ab      0x119 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .debug_str     0x0000c1c4       0xb7 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .debug_str     0x0000c27b       0xbe D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+
+.debug_loc      0x00000000    0x12a29
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x7ea ./BSP/bsp_flash.o
+ .debug_loc     0x000007ea       0x37 ./BSP/bsp_usart.o
+ .debug_loc     0x00000821       0x76 ./Middle/boot.o
+ .debug_loc     0x00000897       0x4a ./Middle/delay.o
+ .debug_loc     0x000008e1      0x496 ./Middle/md5.o
+ .debug_loc     0x00000d77      0x562 ./Middle/ymodem.o
+ .debug_loc     0x000012d9     0x1078 ./Peripherals/src/kf32f_basic_adc.o
+ .debug_loc     0x00002351     0x290a ./Peripherals/src/kf32f_basic_atim.o
+ .debug_loc     0x00004c5b      0x38f ./Peripherals/src/kf32f_basic_bkp.o
+ .debug_loc     0x00004fea      0x63d ./Peripherals/src/kf32f_basic_btim.o
+ .debug_loc     0x00005627      0x16c ./Peripherals/src/kf32f_basic_cfgl.o
+ .debug_loc     0x00005793      0x9a3 ./Peripherals/src/kf32f_basic_cmp.o
+ .debug_loc     0x00006136       0x8e ./Peripherals/src/kf32f_basic_crc.o
+ .debug_loc     0x000061c4      0x1f6 ./Peripherals/src/kf32f_basic_dac.o
+ .debug_loc     0x000063ba      0xc0c ./Peripherals/src/kf32f_basic_dma.o
+ .debug_loc     0x00006fc6     0x14fb ./Peripherals/src/kf32f_basic_flash.o
+ .debug_loc     0x000084c1      0x971 ./Peripherals/src/kf32f_basic_gpio.o
+ .debug_loc     0x00008e32     0x131d ./Peripherals/src/kf32f_basic_gptim.o
+ .debug_loc     0x0000a14f      0x8bf ./Peripherals/src/kf32f_basic_i2c.o
+ .debug_loc     0x0000aa0e     0x1110 ./Peripherals/src/kf32f_basic_int.o
+ .debug_loc     0x0000bb1e       0xba ./Peripherals/src/kf32f_basic_iwdt.o
+ .debug_loc     0x0000bbd8     0x1300 ./Peripherals/src/kf32f_basic_osc.o
+ .debug_loc     0x0000ced8      0x120 ./Peripherals/src/kf32f_basic_pclk.o
+ .debug_loc     0x0000cff8      0xa23 ./Peripherals/src/kf32f_basic_pm.o
+ .debug_loc     0x0000da1b      0x120 ./Peripherals/src/kf32f_basic_rst.o
+ .debug_loc     0x0000db3b     0x2e45 ./Peripherals/src/kf32f_basic_rtc.o
+ .debug_loc     0x00010980      0x220 ./Peripherals/src/kf32f_basic_sysctl.o
+ .debug_loc     0x00010ba0      0x147 ./Peripherals/src/kf32f_basic_systick.o
+ .debug_loc     0x00010ce7      0xce3 ./Peripherals/src/kf32f_basic_usart.o
+ .debug_loc     0x000119ca       0xe9 ./Peripherals/src/kf32f_basic_wwdt.o
+ .debug_loc     0x00011ab3       0x1e ./config/startup.o
+ .debug_loc     0x00011ad1       0x38 ./main.o
+ .debug_loc     0x00011b09      0x15e ./system_init.o
+ .debug_loc     0x00011c67      0x815 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .debug_loc     0x0001247c      0x31f D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .debug_loc     0x0001279b       0xfc D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .debug_loc     0x00012897       0xc6 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .debug_loc     0x0001295d       0xcc D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000     0x2be8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 ./BSP/bsp.o
+ .debug_ranges  0x00000010       0x98 ./BSP/bsp_flash.o
+ .debug_ranges  0x000000a8       0x10 ./BSP/bsp_usart.o
+ .debug_ranges  0x000000b8       0x18 ./Middle/boot.o
+ .debug_ranges  0x000000d0       0x10 ./Middle/delay.o
+ .debug_ranges  0x000000e0       0x68 ./Middle/md5.o
+ .debug_ranges  0x00000148       0xa8 ./Middle/ymodem.o
+ .debug_ranges  0x000001f0      0x208 ./Peripherals/src/kf32f_basic_adc.o
+ .debug_ranges  0x000003f8      0x5c0 ./Peripherals/src/kf32f_basic_atim.o
+ .debug_ranges  0x000009b8       0x78 ./Peripherals/src/kf32f_basic_bkp.o
+ .debug_ranges  0x00000a30      0x160 ./Peripherals/src/kf32f_basic_btim.o
+ .debug_ranges  0x00000b90       0xa0 ./Peripherals/src/kf32f_basic_cfgl.o
+ .debug_ranges  0x00000c30      0x150 ./Peripherals/src/kf32f_basic_cmp.o
+ .debug_ranges  0x00000d80       0x60 ./Peripherals/src/kf32f_basic_crc.o
+ .debug_ranges  0x00000de0       0x68 ./Peripherals/src/kf32f_basic_dac.o
+ .debug_ranges  0x00000e48      0x138 ./Peripherals/src/kf32f_basic_dma.o
+ .debug_ranges  0x00000f80      0x268 ./Peripherals/src/kf32f_basic_flash.o
+ .debug_ranges  0x000011e8      0x120 ./Peripherals/src/kf32f_basic_gpio.o
+ .debug_ranges  0x00001308      0x2c8 ./Peripherals/src/kf32f_basic_gptim.o
+ .debug_ranges  0x000015d0      0x220 ./Peripherals/src/kf32f_basic_i2c.o
+ .debug_ranges  0x000017f0      0x1b8 ./Peripherals/src/kf32f_basic_int.o
+ .debug_ranges  0x000019a8       0x28 ./Peripherals/src/kf32f_basic_iwdt.o
+ .debug_ranges  0x000019d0      0x300 ./Peripherals/src/kf32f_basic_osc.o
+ .debug_ranges  0x00001cd0       0x28 ./Peripherals/src/kf32f_basic_pclk.o
+ .debug_ranges  0x00001cf8      0x288 ./Peripherals/src/kf32f_basic_pm.o
+ .debug_ranges  0x00001f80       0x28 ./Peripherals/src/kf32f_basic_rst.o
+ .debug_ranges  0x00001fa8      0x618 ./Peripherals/src/kf32f_basic_rtc.o
+ .debug_ranges  0x000025c0       0xd8 ./Peripherals/src/kf32f_basic_sysctl.o
+ .debug_ranges  0x00002698       0x68 ./Peripherals/src/kf32f_basic_systick.o
+ .debug_ranges  0x00002700      0x320 ./Peripherals/src/kf32f_basic_usart.o
+ .debug_ranges  0x00002a20       0x50 ./Peripherals/src/kf32f_basic_wwdt.o
+ .debug_ranges  0x00002a70       0x10 ./config/startup.o
+ .debug_ranges  0x00002a80       0x68 ./kf_it.o
+ .debug_ranges  0x00002ae8       0x10 ./main.o
+ .debug_ranges  0x00002af8       0x30 ./system_init.o
+ .debug_ranges  0x00002b28       0x10 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(printf.o)
+ .debug_ranges  0x00002b38       0x10 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libio.a(vfprintf.o)
+ .debug_ranges  0x00002b48       0x18 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstring.a(mem_set_cpy_Fast.o)
+ .debug_ranges  0x00002b60       0x58 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ftoa.o)
+ .debug_ranges  0x00002bb8       0x18 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(itoa.o)
+ .debug_ranges  0x00002bd0       0x18 D:/ResearchSoftware/KungFu32/ChipONCC32/ccr1_issue/lib\libstdlib.a(ltoa.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+.debug_types
+ *(.debug_types)
+OUTPUT(SmartDriver_Bootloader.elf elf32-kungfu32-little)

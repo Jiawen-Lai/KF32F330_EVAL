@@ -1,0 +1,2703 @@
+Archive member included because of file (symbol)
+
+C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a(memcpy.o)
+                              ./src/kf32f_basic_usb.o (memcpy)
+C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a(memset.o)
+                              ./main.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+flash_write         0x14              ./flash.o
+RamSource           0x4               ./ymodem.o
+JumpAddress         0x4               ./main.o
+Jump_To_Application
+                    0x4               ./main.o
+file_name           0x100             ./ymodem.o
+test                0x400             ./ymodem.o
+read_data           0x4               ./src/kf32f_basic_flash.o
+
+@@@@@Discarded input sections
+
+ .text          0x00000000        0x0 ./src/kf32f_basic_adc.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_adc.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_adc.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_adc.o
+ .text$ADC_Reset
+                0x00000000       0x94 ./src/kf32f_basic_adc.o
+ .text$ADC_Configuration
+                0x00000000       0xd0 ./src/kf32f_basic_adc.o
+ .text$ADC_Struct_Init
+                0x00000000       0x52 ./src/kf32f_basic_adc.o
+ .text$ADC_Delay_Configuration
+                0x00000000       0x44 ./src/kf32f_basic_adc.o
+ .text$ADC_Delay_Struct_Init
+                0x00000000       0x14 ./src/kf32f_basic_adc.o
+ .text$ADC_Cmd  0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Analog_Watchdog_Configuration
+                0x00000000       0x9c ./src/kf32f_basic_adc.o
+ .text$ADC_Analog_Watchdog_Struct_Init
+                0x00000000       0x2c ./src/kf32f_basic_adc.o
+ .text$ADC_Watchdog_Single_Channel_Enable
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Scan_Mode_Enable
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Bosssel_Comparator_Calibration
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Bosssel_Calibration
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Trim_Current_Intensity_Bias
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Analog_Clock_Config
+                0x00000000       0x2c ./src/kf32f_basic_adc.o
+ .text$ADC_Data_Align_Config
+                0x00000000       0x28 ./src/kf32f_basic_adc.o
+ .text$ADC_Clock_Source_Config
+                0x00000000       0x28 ./src/kf32f_basic_adc.o
+ .text$ADC_DMA_Cmd
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Double_Mode_Config
+                0x00000000       0x2c ./src/kf32f_basic_adc.o
+ .text$ADC_Reference_Voltage_Config
+                0x00000000       0x2c ./src/kf32f_basic_adc.o
+ .text$ADC_Analog_Watchdog_Channel_Config
+                0x00000000       0x2c ./src/kf32f_basic_adc.o
+ .text$ADC_Regular_Channel_Watchdog_Enable
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_External_Trig_Conv_Enable
+                0x00000000       0x1e ./src/kf32f_basic_adc.o
+ .text$ADC_External_Trig_Conv_Config
+                0x00000000       0x2c ./src/kf32f_basic_adc.o
+ .text$ADC_Regular_Channel_Config
+                0x00000000      0x104 ./src/kf32f_basic_adc.o
+ .text$ADC_Regular_Sequencer_Length_Config
+                0x00000000       0x38 ./src/kf32f_basic_adc.o
+ .text$ADC_Software_Start_Conv
+                0x00000000        0xe ./src/kf32f_basic_adc.o
+ .text$ADC_Continuous_Mode_Cmd
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Disc_Mode_Channel_Count_Config
+                0x00000000       0x38 ./src/kf32f_basic_adc.o
+ .text$ADC_Disc_Mode_Cmd
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Get_Conversion_Value
+                0x00000000       0x18 ./src/kf32f_basic_adc.o
+ .text$ADC_High_Priority_Watchdog_Enable
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_HPExternal_Trig_Conv_Enable
+                0x00000000       0x1e ./src/kf32f_basic_adc.o
+ .text$ADC_High_Priority_Channel_Config
+                0x00000000       0x50 ./src/kf32f_basic_adc.o
+ .text$ADC_High_Priority_Sequencer_Length_Config
+                0x00000000       0x38 ./src/kf32f_basic_adc.o
+ .text$ADC_Set_HPChannel_Conv_Value_Offset
+                0x00000000       0x22 ./src/kf32f_basic_adc.o
+ .text$ADC_HPExternal_Trig_Conv_Config
+                0x00000000       0x2c ./src/kf32f_basic_adc.o
+ .text$ADC_Software_HPStart_Conv
+                0x00000000        0xe ./src/kf32f_basic_adc.o
+ .text$ADC_HPAuto_Conv_Cmd
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_HPDisc_Mode_Cmd
+                0x00000000       0x1a ./src/kf32f_basic_adc.o
+ .text$ADC_Get_HPConversion_Data
+                0x00000000       0x28 ./src/kf32f_basic_adc.o
+ .text$ADC_Set_INT_Enable
+                0x00000000       0x42 ./src/kf32f_basic_adc.o
+ .text$ADC_Get_INT_Flag
+                0x00000000       0x36 ./src/kf32f_basic_adc.o
+ .text$ADC_Clear_INT_Flag
+                0x00000000       0x64 ./src/kf32f_basic_adc.o
+ .text$ADC_Get_INT_Status
+                0x00000000       0x4a ./src/kf32f_basic_adc.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_aes.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_aes.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_aes.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_aes.o
+ .text$AES_Reset
+                0x00000000       0x2c ./src/kf32f_basic_aes.o
+ .text$AES_Configuration
+                0x00000000       0x54 ./src/kf32f_basic_aes.o
+ .text$AES_Struct_Init
+                0x00000000       0x2c ./src/kf32f_basic_aes.o
+ .text$AES_KEY0_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$AES_KEY1_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$AES_KEY2_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$AES_KEY3_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$AES_INPUT0_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$AES_INPUT1_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$AES_INPUT2_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$AES_INPUT3_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$GET_AES_OUTPUT0_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$GET_AES_OUTPUT1_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$GET_AES_OUTPUT2_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$GET_AES_OUTPUT3_DATA
+                0x00000000       0x14 ./src/kf32f_basic_aes.o
+ .text$AES_Get_Flag_Status
+                0x00000000       0x18 ./src/kf32f_basic_aes.o
+ .text$AES_Start
+                0x00000000       0x10 ./src/kf32f_basic_aes.o
+ .text$AES_CLR_Flag_Status
+                0x00000000       0x30 ./src/kf32f_basic_aes.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_atim.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_atim.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_atim.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Configuration
+                0x00000000       0x6c ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Configuration
+                0x00000000       0x70 ./src/kf32f_basic_atim.o
+ .text$ATIM_Struct_Init
+                0x00000000       0x3c ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Cmd
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Cmd
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Configuration
+                0x00000000       0x54 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Configuration
+                0x00000000       0x54 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Cmd
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Cmd
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_Counter
+                0x00000000       0x12 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_Counter
+                0x00000000       0x12 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_Period
+                0x00000000       0x12 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_Period
+                0x00000000       0x12 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_Prescaler
+                0x00000000       0x12 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_Prescaler
+                0x00000000       0x12 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Counter_Mode_Config
+                0x00000000       0x2c ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Counter_Mode_Config
+                0x00000000       0x2c ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Clock_Config
+                0x00000000       0x2c ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Clock_Config
+                0x00000000       0x2c ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Postscaler_Config
+                0x00000000       0x34 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Postscaler_Config
+                0x00000000       0x34 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_External_Pulse_Sync_Config
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_External_Pulse_Sync_Config
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Work_Mode_Config
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Work_Mode_Config
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Direction
+                0x00000000       0x1c ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Direction
+                0x00000000       0x1c ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Overflow_AD_Enable
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Overflow_AD_Enable
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Underflow_AD_Enable
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Underflow_AD_Enable
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_X_TriggerAD_Config
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_TriggerAD_Config
+                0x00000000       0x1e ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_TriggerAD_Signal
+                0x00000000       0x1c ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_TriggerAD_Signal
+                0x00000000       0x12 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Immediately_Config
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Immediately_Config
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Output_Ctl
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Output_Ctl
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Set_Updata_Counter
+                0x00000000       0x16 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Set_Updata_Counter
+                0x00000000       0x16 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Slave_Mode_Config
+                0x00000000       0x3c ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Slave_Mode_Config
+                0x00000000       0x3c ./src/kf32f_basic_atim.o
+ .text$ATIM_Master_Mode_Config
+                0x00000000       0x30 ./src/kf32f_basic_atim.o
+ .text$ATIM_Master_Slave_Snyc_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Trigger_Select_Config
+                0x00000000       0x34 ./src/kf32f_basic_atim.o
+ .text$ATIM_Timer_Unite_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Counter
+                0x00000000       0x18 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Counter
+                0x00000000       0x18 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Period
+                0x00000000       0x18 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Period
+                0x00000000       0x18 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Prescaler
+                0x00000000       0x18 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Prescaler
+                0x00000000       0x18 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_INT_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_INT_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Overflow_INT_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Overflow_INT_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Trigger_INT_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Updata_DMA_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Updata_DMA_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Trigger_DMA_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Updata_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Updata_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Overflow_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Overflow_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Trigger_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Generate_Trigger_Config
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Updata_DMA_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Get_Updata_DMA_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Get_Trigger_DMA_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Clear_Updata_INT_Flag
+                0x00000000       0x2e ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Clear_Updata_INT_Flag
+                0x00000000       0x2e ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Clear_Overflow_INT_Flag
+                0x00000000       0x2e ./src/kf32f_basic_atim.o
+ .text$ATIM_Z_Clear_Overflow_INT_Flag
+                0x00000000       0x2e ./src/kf32f_basic_atim.o
+ .text$ATIM_X_Clear_Trigger_INT_Flag
+                0x00000000       0x2e ./src/kf32f_basic_atim.o
+ .text$ECCP_Compare_Configuration
+                0x00000000       0x68 ./src/kf32f_basic_atim.o
+ .text$ECCP_Capture_Configuration
+                0x00000000       0x7c ./src/kf32f_basic_atim.o
+ .text$ECCP_Capture_Struct_Init
+                0x00000000       0x20 ./src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Configuration
+                0x00000000      0x1a4 ./src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Struct_Init
+                0x00000000       0x44 ./src/kf32f_basic_atim.o
+ .text$ECCP_Capture_Mode_Config
+                0x00000000       0x48 ./src/kf32f_basic_atim.o
+ .text$ECCP_Compare_Mode_Config
+                0x00000000       0x48 ./src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Mode_Config
+                0x00000000       0x38 ./src/kf32f_basic_atim.o
+ .text$ECCP_Get_Capture_Result
+                0x00000000       0x2a ./src/kf32f_basic_atim.o
+ .text$ECCP_Set_Compare_Result
+                0x00000000       0x2c ./src/kf32f_basic_atim.o
+ .text$ECCP_Generate_Trigger_Config
+                0x00000000       0x46 ./src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Input_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ECCP_Input_XOR_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ECCP_Single_Pulse_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ECCP_Single_Pulse_Shut_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Restart_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ECCP_Dead_Time_Config
+                0x00000000       0x6c ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Output_Control
+                0x00000000       0x54 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Output_Mode
+                0x00000000       0x48 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Work_State_Config
+                0x00000000       0x48 ./src/kf32f_basic_atim.o
+ .text$ECCP_Get_Channel_Work_State
+                0x00000000       0x30 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Shutdown_Signal
+                0x00000000       0x48 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Pin_Ctl
+                0x00000000       0x54 ./src/kf32f_basic_atim.o
+ .text$ECCP_Zero_Clock_Config
+                0x00000000       0x34 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Pin_Tristate_Enable
+                0x00000000       0x58 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_INT_Enable
+                0x00000000       0x46 ./src/kf32f_basic_atim.o
+ .text$ECCP_X_Turn_off_DMA_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_DMA_Enable
+                0x00000000       0x46 ./src/kf32f_basic_atim.o
+ .text$ECCP_Get_Channel_Trigger_INT_Flag
+                0x00000000       0x2e ./src/kf32f_basic_atim.o
+ .text$ECCP_X_Get_Turn_off_DMA_Flag
+                0x00000000       0x20 ./src/kf32f_basic_atim.o
+ .text$ECCP_Get_Trigger_DMA_INT_Flag
+                0x00000000       0x2e ./src/kf32f_basic_atim.o
+ .text$ECCP_Clear_Channel_INT_Flag
+                0x00000000       0x64 ./src/kf32f_basic_atim.o
+ .text$ECCP_PWM_Move_Phase_Enable
+                0x00000000       0x22 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Zero_Detect_Sequential_Ctl
+                0x00000000       0x48 ./src/kf32f_basic_atim.o
+ .text$ECCP_Get_Channel_Zero_Detection_State
+                0x00000000       0x2e ./src/kf32f_basic_atim.o
+ .text$ECCP_Clear_Channel_Zero_Detection_State
+                0x00000000       0x2c ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Zero_Detect_Enable
+                0x00000000       0x48 ./src/kf32f_basic_atim.o
+ .text$ECCP_Channel_Zero_Voltage_Config
+                0x00000000       0x4c ./src/kf32f_basic_atim.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_bkp.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_bkp.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_bkp.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_bkp.o
+ .text$BKP_Reset
+                0x00000000       0x10 ./src/kf32f_basic_bkp.o
+ .text$BKP_Write_And_Read_Enable
+                0x00000000       0xe0 ./src/kf32f_basic_bkp.o
+ .text$BKP_Reset_Enable
+                0x00000000       0x1c ./src/kf32f_basic_bkp.o
+ .text$BKP_Pin_Effective_Level_Config
+                0x00000000       0x40 ./src/kf32f_basic_bkp.o
+ .text$BKP_Pin_Enable
+                0x00000000       0x40 ./src/kf32f_basic_bkp.o
+ .text$BKP_RTC_Clock_Config
+                0x00000000       0x2c ./src/kf32f_basic_bkp.o
+ .text$BKP_External_Clock_Bypass_Enable
+                0x00000000       0x3c ./src/kf32f_basic_bkp.o
+ .text$BKP_Data_Config
+                0x00000000       0x1c ./src/kf32f_basic_bkp.o
+ .text$BKP_Get_Data
+                0x00000000       0x24 ./src/kf32f_basic_bkp.o
+ .text$BKP_Pin_TAMP_INT_Enable
+                0x00000000       0x40 ./src/kf32f_basic_bkp.o
+ .text$BKP_Get_Pin_TAMP_INT_Flag
+                0x00000000       0x30 ./src/kf32f_basic_bkp.o
+ .text$BKP_Clear_Pin_TAMP_INT_Flag
+                0x00000000       0x54 ./src/kf32f_basic_bkp.o
+ .data$pmwrenbkp.1933
+                0x00000000        0x4 ./src/kf32f_basic_bkp.o
+ .data$bkpregclrbkp.1934
+                0x00000000        0x4 ./src/kf32f_basic_bkp.o
+ .data$bkpwrbkp.1935
+                0x00000000        0x4 ./src/kf32f_basic_bkp.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_btim.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_btim.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_btim.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_btim.o
+ .text$TIM_Reset
+                0x00000000      0x308 ./src/kf32f_basic_btim.o
+ .text$BTIM_Configuration
+                0x00000000       0x98 ./src/kf32f_basic_btim.o
+ .text$BTIM_Struct_Init
+                0x00000000       0x48 ./src/kf32f_basic_btim.o
+ .text$BTIM_Cmd
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Set_Counter
+                0x00000000       0x12 ./src/kf32f_basic_btim.o
+ .text$BTIM_Set_Period
+                0x00000000       0x12 ./src/kf32f_basic_btim.o
+ .text$BTIM_Set_Prescaler
+                0x00000000       0x12 ./src/kf32f_basic_btim.o
+ .text$BTIM_Counter_Mode_Config
+                0x00000000       0x2c ./src/kf32f_basic_btim.o
+ .text$BTIM_Clock_Config
+                0x00000000       0x28 ./src/kf32f_basic_btim.o
+ .text$BTIM_External_Pulse_Sync_Config
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Work_Mode_Config
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Generate_Trigger_Config
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Single_Pulse_Enable
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Single_Pulse_Shut_Enable
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Updata_Immediately_Config
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Master_Slave_Snyc_Config
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Trigger_Select_Config
+                0x00000000       0x2c ./src/kf32f_basic_btim.o
+ .text$BTIM_Slave_Mode_Config
+                0x00000000       0x28 ./src/kf32f_basic_btim.o
+ .text$BTIM_Master_Mode_Config
+                0x00000000       0x28 ./src/kf32f_basic_btim.o
+ .text$BTIM_Updata_Rising_Edge_Config
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Updata_Enable
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Direction
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Counter
+                0x00000000       0x10 ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Period
+                0x00000000       0x10 ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Prescaler
+                0x00000000       0x10 ./src/kf32f_basic_btim.o
+ .text$BTIM_Trigger_DMA_Enable
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Updata_DMA_Enable
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Overflow_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Trigger_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Updata_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Trigger_DMA_INT_Status
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Updata_DMA_INT_Status
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Overflow_INT_Status
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Trigger_INT_Status
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Updata_INT_Status
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Trigger_DMA_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Updata_DMA_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Overflow_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Trigger_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Get_Updata_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_btim.o
+ .text$BTIM_Clear_Overflow_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_btim.o
+ .text$BTIM_Clear_Trigger_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_btim.o
+ .text$BTIM_Clear_Updata_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_btim.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_can.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_can.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_can.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_can.o
+ .text$CAN_Reset
+                0x00000000       0x88 ./src/kf32f_basic_can.o
+ .text$CAN_Configuration
+                0x00000000       0x98 ./src/kf32f_basic_can.o
+ .text$CAN_Struct_Init
+                0x00000000       0x44 ./src/kf32f_basic_can.o
+ .text$CAN_Get_Receive_Message_Counter
+                0x00000000       0x28 ./src/kf32f_basic_can.o
+ .text$CAN_Get_Transmit_Status
+                0x00000000       0x26 ./src/kf32f_basic_can.o
+ .text$CAN_Cmd  0x00000000       0x1a ./src/kf32f_basic_can.o
+ .text$CAN_Clock_Source_Config
+                0x00000000       0x28 ./src/kf32f_basic_can.o
+ .text$CAN_Sleep_Mode_Enable
+                0x00000000       0x1a ./src/kf32f_basic_can.o
+ .text$CAN_Reset_Mode_Enable
+                0x00000000       0x1a ./src/kf32f_basic_can.o
+ .text$CAN_Work_Mode_Config
+                0x00000000       0x28 ./src/kf32f_basic_can.o
+ .text$CAN_Bus_Sample_Times_Config
+                0x00000000       0x1e ./src/kf32f_basic_can.o
+ .text$CAN_Time_Segment_Config
+                0x00000000       0x40 ./src/kf32f_basic_can.o
+ .text$CAN_Sync_Jump_Width_Config
+                0x00000000       0x34 ./src/kf32f_basic_can.o
+ .text$CAN_Baud_Rate_Preset_Config
+                0x00000000       0x30 ./src/kf32f_basic_can.o
+ .text$CAN_Get_Error_Code
+                0x00000000       0x74 ./src/kf32f_basic_can.o
+ .text$CAN_Get_Error_Warning_Limit
+                0x00000000       0x18 ./src/kf32f_basic_can.o
+ .text$CAN_Get_Error_Counter
+                0x00000000       0x3c ./src/kf32f_basic_can.o
+ .text$CAN_Error_Warning_Limit_Config
+                0x00000000       0x38 ./src/kf32f_basic_can.o
+ .text$CAN_Error_Counter_Config
+                0x00000000       0x54 ./src/kf32f_basic_can.o
+ .text$CAN_Acceptance_Config
+                0x00000000       0x10 ./src/kf32f_basic_can.o
+ .text$CAN_Get_Acceptance
+                0x00000000       0x16 ./src/kf32f_basic_can.o
+ .text$CAN_Acceptance_Mask_Config
+                0x00000000       0x10 ./src/kf32f_basic_can.o
+ .text$CAN_Get_Acceptance_Mask
+                0x00000000       0x16 ./src/kf32f_basic_can.o
+ .text$CAN_Transmit_Message_Configuration
+                0x00000000      0x138 ./src/kf32f_basic_can.o
+ .text$CAN_Receive_Message_Configuration
+                0x00000000      0x1e8 ./src/kf32f_basic_can.o
+ .text$CAN_Message_Struct_Init
+                0x00000000       0x4a ./src/kf32f_basic_can.o
+ .text$CAN_Clear_Buffer_Overflow_Flag
+                0x00000000       0x3c ./src/kf32f_basic_can.o
+ .text$CAN_Release_Receive_Buffer
+                0x00000000       0x54 ./src/kf32f_basic_can.o
+ .text$CAN_Transmit_Single
+                0x00000000       0x2e ./src/kf32f_basic_can.o
+ .text$CAN_Transmit_Repeat
+                0x00000000       0x2a ./src/kf32f_basic_can.o
+ .text$CAN_Frame_Format_Config
+                0x00000000       0x1e ./src/kf32f_basic_can.o
+ .text$CAN_Remote_Request_Config
+                0x00000000       0x1e ./src/kf32f_basic_can.o
+ .text$CAN_Data_Length_Config
+                0x00000000       0x30 ./src/kf32f_basic_can.o
+ .text$CAN_Identification_Code_Config
+                0x00000000       0x58 ./src/kf32f_basic_can.o
+ .text$CAN_Get_INT_Flag
+                0x00000000       0x26 ./src/kf32f_basic_can.o
+ .text$CAN_Clear_INT_Flag
+                0x00000000       0x3e ./src/kf32f_basic_can.o
+ .text$CAN_Set_INT_Enable
+                0x00000000       0x2e ./src/kf32f_basic_can.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_cfgl.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_cfgl.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_cfgl.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_cfgl.o
+ .text$CFGL_Reset
+                0x00000000       0x2c ./src/kf32f_basic_cfgl.o
+ .text$CFGL_Configuration
+                0x00000000      0x1e4 ./src/kf32f_basic_cfgl.o
+ .text$CFGL_Struct_Init
+                0x00000000      0x174 ./src/kf32f_basic_cfgl.o
+ .text$CFGL2_OUT_SYNCHRO_Enable
+                0x00000000       0x1c ./src/kf32f_basic_cfgl.o
+ .text$CFGL1_OUT_SYNCHRO_Enable
+                0x00000000       0x1c ./src/kf32f_basic_cfgl.o
+ .text$CFGL2_FALLINT_Enable
+                0x00000000       0x28 ./src/kf32f_basic_cfgl.o
+ .text$CFGL2_RISEINT_Enable
+                0x00000000       0x28 ./src/kf32f_basic_cfgl.o
+ .text$CFGL1_FALLINT_Enable
+                0x00000000       0x28 ./src/kf32f_basic_cfgl.o
+ .text$CFGL1_RISEINT_Enable
+                0x00000000       0x28 ./src/kf32f_basic_cfgl.o
+ .text$CFGL1_Get_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_cfgl.o
+ .text$CFGL2_Get_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_cfgl.o
+ .text$CFGL1_Clear_RISEINT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_cfgl.o
+ .text$CFGL1_Clear_FALLINT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_cfgl.o
+ .text$CFGL1_Clear_RISEFALLINT_Flag
+                0x00000000       0x2c ./src/kf32f_basic_cfgl.o
+ .text$CFGL2_Clear_RISEINT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_cfgl.o
+ .text$CFGL2_Clear_FALLINT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_cfgl.o
+ .text$CFGL2_Clear_RISEFALLINT_Flag
+                0x00000000       0x28 ./src/kf32f_basic_cfgl.o
+ .text$CFGL2_OUT_STATE
+                0x00000000       0x1c ./src/kf32f_basic_cfgl.o
+ .text$CFGL1_OUT_STATE
+                0x00000000       0x1c ./src/kf32f_basic_cfgl.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_cmp.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_cmp.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_cmp.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_crc.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_crc.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_crc.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_crc.o
+ .text$CRC_Reset
+                0x00000000       0x2c ./src/kf32f_basic_crc.o
+ .text$CRC_Configuration
+                0x00000000       0x44 ./src/kf32f_basic_crc.o
+ .text$CRC_Struct_Init
+                0x00000000       0x20 ./src/kf32f_basic_crc.o
+ .text$CRC_INPUT_DATA
+                0x00000000       0x14 ./src/kf32f_basic_crc.o
+ .text$CRC_GET_RESULT
+                0x00000000       0x14 ./src/kf32f_basic_crc.o
+ .text$CRC_SET_INITVALUE
+                0x00000000       0x14 ./src/kf32f_basic_crc.o
+ .text$CRC_SET_PLN
+                0x00000000       0x14 ./src/kf32f_basic_crc.o
+ .text$CRC_SET_RXOR
+                0x00000000       0x14 ./src/kf32f_basic_crc.o
+ .text$CRC_SET_IDATA
+                0x00000000       0x14 ./src/kf32f_basic_crc.o
+ .text$CRC_GET_TEMP
+                0x00000000       0x14 ./src/kf32f_basic_crc.o
+ .text$CRC_SET_RSET
+                0x00000000       0x10 ./src/kf32f_basic_crc.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_dac.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_dac.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_dac.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_dac.o
+ .text$DAC_Reset
+                0x00000000       0x68 ./src/kf32f_basic_dac.o
+ .text$DAC_Configuration
+                0x00000000       0xa0 ./src/kf32f_basic_dac.o
+ .text$DAC_Struct_Init
+                0x00000000       0x44 ./src/kf32f_basic_dac.o
+ .text$DAC_Cmd  0x00000000       0x1a ./src/kf32f_basic_dac.o
+ .text$DAC_Software_Trigger_Cmd
+                0x00000000       0x1a ./src/kf32f_basic_dac.o
+ .text$DAC_DMA_Cmd
+                0x00000000       0x1a ./src/kf32f_basic_dac.o
+ .text$DAC_Output_Buffer_Config
+                0x00000000       0x1e ./src/kf32f_basic_dac.o
+ .text$DAC_Output_Port_Config
+                0x00000000       0x1e ./src/kf32f_basic_dac.o
+ .text$DAC_Write_Output_Data
+                0x00000000       0x10 ./src/kf32f_basic_dac.o
+ .text$DAC_Read_Output_Data
+                0x00000000       0x18 ./src/kf32f_basic_dac.o
+ .text$DAC_Calibration_Config
+                0x00000000       0x58 ./src/kf32f_basic_dac.o
+ .text$DAC_Calibration_Struct_Init
+                0x00000000       0x26 ./src/kf32f_basic_dac.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_dma.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_dma.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_dma.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_dma.o
+ .text$DMA_Reset
+                0x00000000       0x68 ./src/kf32f_basic_dma.o
+ .text$DMA_Configuration
+                0x00000000       0xa8 ./src/kf32f_basic_dma.o
+ .text$DMA_Struct_Init
+                0x00000000       0x50 ./src/kf32f_basic_dma.o
+ .text$DMA_Transfer_Number_Config
+                0x00000000       0x44 ./src/kf32f_basic_dma.o
+ .text$DMA_Memory_To_Memory_Enable
+                0x00000000       0x2c ./src/kf32f_basic_dma.o
+ .text$DMA_Channel_Priority_Config
+                0x00000000       0x44 ./src/kf32f_basic_dma.o
+ .text$DMA_Peripheral_Data_Width_Config
+                0x00000000       0x44 ./src/kf32f_basic_dma.o
+ .text$DMA_Memory_Data_Width_Config
+                0x00000000       0x44 ./src/kf32f_basic_dma.o
+ .text$DMA_Peripheral_addr_increase_Enable
+                0x00000000       0x2c ./src/kf32f_basic_dma.o
+ .text$DMA_Memory_addr_increase_Enable
+                0x00000000       0x2c ./src/kf32f_basic_dma.o
+ .text$DMA_Loop_Mode_Enable
+                0x00000000       0x2c ./src/kf32f_basic_dma.o
+ .text$DMA_Transfer_Direction_Config
+                0x00000000       0x2c ./src/kf32f_basic_dma.o
+ .text$DMA_Transfer_Mode_Config
+                0x00000000       0x2c ./src/kf32f_basic_dma.o
+ .text$DMA_Channel_Enable
+                0x00000000       0x2c ./src/kf32f_basic_dma.o
+ .text$DMA_Peripheral_Start_Address_Config
+                0x00000000       0x1a ./src/kf32f_basic_dma.o
+ .text$DMA_Memory_Start_Address_Config
+                0x00000000       0x1a ./src/kf32f_basic_dma.o
+ .text$DMA_Get_Peripheral_Current_Address
+                0x00000000       0x20 ./src/kf32f_basic_dma.o
+ .text$DMA_Get_Memory_Current_Address
+                0x00000000       0x20 ./src/kf32f_basic_dma.o
+ .text$DMA_Get_Transfer_Number_Remain
+                0x00000000       0x30 ./src/kf32f_basic_dma.o
+ .text$DMA_Get_INT_Flag
+                0x00000000       0x34 ./src/kf32f_basic_dma.o
+ .text$DMA_Clear_INT_Flag
+                0x00000000       0x32 ./src/kf32f_basic_dma.o
+ .text$DMA_Set_INT_Enable
+                0x00000000       0x50 ./src/kf32f_basic_dma.o
+ .text$DMA_Get_Error_Transfer_INT_Flag
+                0x00000000       0x32 ./src/kf32f_basic_dma.o
+ .text$DMA_Get_Half_Transfer_INT_Flag
+                0x00000000       0x32 ./src/kf32f_basic_dma.o
+ .text$DMA_Get_Finish_Transfer_INT_Flag
+                0x00000000       0x32 ./src/kf32f_basic_dma.o
+ .text$DMA_Error_Transfer_INT_Enable
+                0x00000000       0x4e ./src/kf32f_basic_dma.o
+ .text$DMA_Half_Transfer_INT_Enable
+                0x00000000       0x4e ./src/kf32f_basic_dma.o
+ .text$DMA_Finish_Transfer_INT_Enable
+                0x00000000       0x4e ./src/kf32f_basic_dma.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_exic.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_exic.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_exic.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_exic.o
+ .text$EXIC_Reset
+                0x00000000       0x2c ./src/kf32f_basic_exic.o
+ .text$EXIC_Configuration
+                0x00000000       0xbc ./src/kf32f_basic_exic.o
+ .text$EXIC_Struct_Init
+                0x00000000       0x66 ./src/kf32f_basic_exic.o
+ .text$EXIC_Get_Write_Finish_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_exic.o
+ .text$EXIC_Clear_Write_Finish_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_exic.o
+ .text$EXIC_Get_Read_Finish_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_exic.o
+ .text$EXIC_Clear_Read_Finish_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_exic.o
+ .text$EXIC_Write_Buff
+                0x00000000       0x14 ./src/kf32f_basic_exic.o
+ .text$EXIC_Read_Buff
+                0x00000000        0xc ./src/kf32f_basic_exic.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_flash.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_flash.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_flash.o
+ .text$FLASH_Unlock_ISP
+                0x00000000       0x1c ./src/kf32f_basic_flash.o
+ .text$FLASH_Unlock_Code
+                0x00000000       0x1c ./src/kf32f_basic_flash.o
+ .text$FLASH_Unlock_User_Config
+                0x00000000       0x1c ./src/kf32f_basic_flash.o
+ .text$FLASH_Zone_Config
+                0x00000000       0x1c ./src/kf32f_basic_flash.o
+ .text$FLASH_Executive_Cmd
+                0x00000000       0x34 ./src/kf32f_basic_flash.o
+ .text$FLASH_Get_Program_Status
+                0x00000000       0x1c ./src/kf32f_basic_flash.o
+ .text$FLASH_Get_Wipe_Status
+                0x00000000       0x1c ./src/kf32f_basic_flash.o
+ .text$FLASH_Wipe_Configuration
+                0x00000000       0xa8 ./src/kf32f_basic_flash.o
+ .text$FLASH_Program_Configuration
+                0x00000000      0x14c ./src/kf32f_basic_flash.o
+ .text$Read_Flash_or_CFR
+                0x00000000       0x78 ./src/kf32f_basic_flash.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_gpio.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_gpio.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_gpio.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Reset
+                0x00000000      0x144 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Configuration
+                0x00000000      0x124 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Struct_Init
+                0x00000000       0x30 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Pull_Up_Enable
+                0x00000000       0x30 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Toggle_Pull_Up_Config
+                0x00000000       0x18 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Pull_Down_Enable
+                0x00000000       0x30 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Toggle_Pull_Down_Config
+                0x00000000       0x18 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Open_Drain_Enable
+                0x00000000       0x30 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Toggle_Open_Drain_Config
+                0x00000000       0x18 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Speed_Config
+                0x00000000       0x5a ./src/kf32f_basic_gpio.o
+ .text$GPIO_Toggle_Speed_Config
+                0x00000000       0x4a ./src/kf32f_basic_gpio.o
+ .text$GPIO_Read_Input_Data
+                0x00000000       0x18 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Read_Output_Data_Bit
+                0x00000000       0x28 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Read_Output_Data
+                0x00000000       0x18 ./src/kf32f_basic_gpio.o
+ .text$GPIO_Set_Output_Data_Bits
+                0x00000000       0x30 ./src/kf32f_basic_gpio.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_gptim.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_gptim.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_gptim.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Configuration
+                0x00000000       0xd0 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Struct_Init
+                0x00000000       0x48 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Cmd
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Set_Counter
+                0x00000000       0x34 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Set_Period
+                0x00000000       0x34 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Set_Prescaler
+                0x00000000       0x34 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Counter_Mode_Config
+                0x00000000       0x2c ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Clock_Config
+                0x00000000       0x28 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_External_Pulse_Sync_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Work_Mode_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_Immediately_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Master_Slave_Snyc_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Trigger_Select_Config
+                0x00000000       0x2c ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Slave_Mode_Config
+                0x00000000       0x28 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Master_Mode_Config
+                0x00000000       0x28 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_Rising_Edge_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_Enable
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Trigger_DMA_Enable
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_DMA_Enable
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Updata_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Trigger_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Generate_Trigger_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Direction
+                0x00000000       0x1c ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Counter
+                0x00000000       0x38 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Period
+                0x00000000       0x38 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Prescaler
+                0x00000000       0x38 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Overflow_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Clear_Overflow_INT_Flag
+                0x00000000       0x26 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Clear_Updata_INT_Flag
+                0x00000000       0x26 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Clear_Trigger_INT_Flag
+                0x00000000       0x26 ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Overflow_INT_Flag
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Updata_INT_Flag
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Trigger_INT_Flag
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Updata_DMA_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_gptim.o
+ .text$GPTIM_Get_Trigger_DMA_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_gptim.o
+ .text$CCP_Compare_Configuration
+                0x00000000       0x84 ./src/kf32f_basic_gptim.o
+ .text$CCP_Compare_Struct_Init
+                0x00000000       0x1a ./src/kf32f_basic_gptim.o
+ .text$CCP_Capture_Configuration
+                0x00000000       0x8c ./src/kf32f_basic_gptim.o
+ .text$CCP_Capture_Struct_Init
+                0x00000000       0x26 ./src/kf32f_basic_gptim.o
+ .text$CCP_PWM_Configuration
+                0x00000000       0xd8 ./src/kf32f_basic_gptim.o
+ .text$CCP_PWM_Struct_Init
+                0x00000000       0x2c ./src/kf32f_basic_gptim.o
+ .text$CCP_Capture_Mode_Config
+                0x00000000       0x40 ./src/kf32f_basic_gptim.o
+ .text$CCP_Compare_Mode_Config
+                0x00000000       0x40 ./src/kf32f_basic_gptim.o
+ .text$CCP_PWM_Mode_Config
+                0x00000000       0x40 ./src/kf32f_basic_gptim.o
+ .text$CCP_Get_Capture_Result
+                0x00000000       0x48 ./src/kf32f_basic_gptim.o
+ .text$CCP_Set_Compare_Result
+                0x00000000       0x4c ./src/kf32f_basic_gptim.o
+ .text$CCP_Get_Compare_Result
+                0x00000000       0x48 ./src/kf32f_basic_gptim.o
+ .text$CCP_Compare_PWM_Signal_Clear
+                0x00000000       0x3c ./src/kf32f_basic_gptim.o
+ .text$CCP_Compare_Check_Config
+                0x00000000       0x2c ./src/kf32f_basic_gptim.o
+ .text$CCP_Channel_Output_Control
+                0x00000000       0x40 ./src/kf32f_basic_gptim.o
+ .text$CCP_Single_Pulse_Shut_Enable
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$CCP_Single_Pulse_Enable
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$CCP_PWM_Input_Measurement_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$CCP_Input_XOR_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$CCP_Channel_DMA_Config
+                0x00000000       0x36 ./src/kf32f_basic_gptim.o
+ .text$CCP_Generate_Trigger_Config
+                0x00000000       0x36 ./src/kf32f_basic_gptim.o
+ .text$CCP_USART_Receive_Config
+                0x00000000       0x1e ./src/kf32f_basic_gptim.o
+ .text$CCP_Get_Channel_Trigger_INT_Flag
+                0x00000000       0x2a ./src/kf32f_basic_gptim.o
+ .text$CCP_Get_Trigger_DMA_INT_Flag
+                0x00000000       0x2a ./src/kf32f_basic_gptim.o
+ .text$CCP_Channel_INT_Config
+                0x00000000       0x36 ./src/kf32f_basic_gptim.o
+ .text$CCP_Clear_Channel_INT_Flag
+                0x00000000       0x4c ./src/kf32f_basic_gptim.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_i2c.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_i2c.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_i2c.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_i2c.o
+ .text$I2C_Reset
+                0x00000000       0xc0 ./src/kf32f_basic_i2c.o
+ .text$I2C_Configuration
+                0x00000000       0x78 ./src/kf32f_basic_i2c.o
+ .text$I2C_Struct_Init
+                0x00000000       0x38 ./src/kf32f_basic_i2c.o
+ .text$I2C_Cmd  0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_Bufr_Address_Config
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_Generate_START
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_Generate_STOP
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_Ack_Config
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_Ack_DATA_Config
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_Call_Cmd
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_Clock_Config
+                0x00000000       0x2c ./src/kf32f_basic_i2c.o
+ .text$I2C_MATCH_ADDRESS_Config
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_SCL_Enable
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_NMENA_Enable
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_SMBUS_Enable
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_SMBT_Config
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_SMBus_ALERT_Config
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_SendData
+                0x00000000       0x10 ./src/kf32f_basic_i2c.o
+ .text$I2C_SendData8
+                0x00000000       0x12 ./src/kf32f_basic_i2c.o
+ .text$I2C_ReceiveData
+                0x00000000       0x24 ./src/kf32f_basic_i2c.o
+ .text$I2C_ARP_Enable
+                0x00000000       0x1a ./src/kf32f_basic_i2c.o
+ .text$I2C_ADDR_Config
+                0x00000000       0x54 ./src/kf32f_basic_i2c.o
+ .text$I2C_MSK_Config
+                0x00000000       0x54 ./src/kf32f_basic_i2c.o
+ .text$I2C_BRGH_Config
+                0x00000000       0x34 ./src/kf32f_basic_i2c.o
+ .text$I2C_BRGL_Config
+                0x00000000       0x38 ./src/kf32f_basic_i2c.o
+ .text$I2C_Start_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Stop_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Ack_Fail_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Arbitration_Lost_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_SMBus_Alert_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_SMBus_HostHead_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_SMBus_Device_Defaultaddress_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_ISIE_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Receive_DMA_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Transmit_DMA_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Start_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Clear_Start_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Stop_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Clear_Stop_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Address_Match_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_HighAddress_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Data_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Ack_Fail_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Clear_Ack_Fail_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Arbitration_Lost_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Clear_Arbitration_Lost_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Write_Read_Flag
+                0x00000000       0x1c ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_SMBus_Alert_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Clear_SMBus_Alert_Flag
+                0x00000000       0x20 ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_SMBus_Host_Header_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Clear_SMBus_Host_Header_Flag
+                0x00000000       0x20 ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_SMBus_Device_Default_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Clear_SMBus_Device_Default_Flag
+                0x00000000       0x20 ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_INTERRUPT_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Clear_INTERRUPT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Receive_Buff_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Transmit_Buff_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Receive_DMA_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text$I2C_Get_Transmit_DMA_Flag
+                0x00000000       0x1e ./src/kf32f_basic_i2c.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_int.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_int.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_int.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_int.o
+ .text$INT_Get_Interrupt_Action
+                0x00000000       0x2c ./src/kf32f_basic_int.o
+ .text$INT_Get_Priority_Pending_Action
+                0x00000000       0x2c ./src/kf32f_basic_int.o
+ .text$INT_Priority_Base
+                0x00000000       0x38 ./src/kf32f_basic_int.o
+ .text$INT_Get_Priority_Base
+                0x00000000       0x2c ./src/kf32f_basic_int.o
+ .text$INT_Stack_Align_Config
+                0x00000000       0x1c ./src/kf32f_basic_int.o
+ .text$INT_Fault_Masking_Config
+                0x00000000       0x1c ./src/kf32f_basic_int.o
+ .text$INT_Get_Pre_Empty
+                0x00000000       0x28 ./src/kf32f_basic_int.o
+ .text$INT_Get_Pending_Flag
+                0x00000000       0x28 ./src/kf32f_basic_int.o
+ .text$INT_Priority_Group_Config
+                0x00000000       0x28 ./src/kf32f_basic_int.o
+ .text$INT_Get_Priority_Group
+                0x00000000       0x20 ./src/kf32f_basic_int.o
+ .text$INT_All_Enable
+                0x00000000       0x1c ./src/kf32f_basic_int.o
+ .text$INT_Interrupt_Enable
+                0x00000000       0xb8 ./src/kf32f_basic_int.o
+ .text$INT_Set_Systick_Flag
+                0x00000000        0xc ./src/kf32f_basic_int.o
+ .text$INT_Set_PendSV_Flag
+                0x00000000        0xc ./src/kf32f_basic_int.o
+ .text$INT_Get_Interrupt_Flag
+                0x00000000       0x94 ./src/kf32f_basic_int.o
+ .text$INT_Clear_Interrupt_Flag
+                0x00000000       0x68 ./src/kf32f_basic_int.o
+ .text$INT_Interrupt_Priority_Config
+                0x00000000       0xe0 ./src/kf32f_basic_int.o
+ .text$INT_Stack_Delay_Enable
+                0x00000000       0x34 ./src/kf32f_basic_int.o
+ .text$INT_External_Configuration
+                0x00000000      0x11c ./src/kf32f_basic_int.o
+ .text$INT_External_Struct_Init
+                0x00000000       0x26 ./src/kf32f_basic_int.o
+ .text$INT_External_Mask_Enable
+                0x00000000       0x40 ./src/kf32f_basic_int.o
+ .text$INT_External_Rise_Enable
+                0x00000000       0x40 ./src/kf32f_basic_int.o
+ .text$INT_External_Fall_Enable
+                0x00000000       0x40 ./src/kf32f_basic_int.o
+ .text$INT_Get_External_Flag
+                0x00000000       0x30 ./src/kf32f_basic_int.o
+ .text$INT_External_Clear_Flag
+                0x00000000       0x44 ./src/kf32f_basic_int.o
+ .text$INT_External_Source_Enable
+                0x00000000       0x84 ./src/kf32f_basic_int.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_iwdt.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_iwdt.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_iwdt.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_iwdt.o
+ .text$IWDT_Prescaler_Config
+                0x00000000       0x28 ./src/kf32f_basic_iwdt.o
+ .text$IWDT_Overflow_Config
+                0x00000000       0x34 ./src/kf32f_basic_iwdt.o
+ .text$IWDT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_iwdt.o
+ .text$IWDT_Feed_The_Dog
+                0x00000000       0x10 ./src/kf32f_basic_iwdt.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_led.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_led.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_led.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_op.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_op.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_op.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_osc.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_osc.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_osc.o
+ .text$OSC_SCLK_Configuration
+                0x00000000      0x110 ./src/kf32f_basic_osc.o
+ .text$OSC_HFCK_Configuration
+                0x00000000      0x100 ./src/kf32f_basic_osc.o
+ .text$OSC_LFCK_Configuration
+                0x00000000       0x6c ./src/kf32f_basic_osc.o
+ .text$OSC_CK48M_Configuration
+                0x00000000      0x108 ./src/kf32f_basic_osc.o
+ .text$OSC_Struct_Init
+                0x00000000       0x20 ./src/kf32f_basic_osc.o
+ .text$OSC_LFCK_Division_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_LFCK_Source_Config
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_LFCK_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_Backup_Write_Read_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_SCLK_Output_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_SCLK_Output_Select
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_SCLK_Output_Division_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_Clock_Failure_Check_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_CK48M_Division_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_CK48M_Source_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_CK48M_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_EXTHF_Start_Delay_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_EXTLF_Start_Delay_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_EXTHF_Software_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_EXTLF_Software_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_INTLF_Software_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_Zero_Drift_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_Positive_Drift_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_Negative_Drift_Config
+                0x00000000       0x30 ./src/kf32f_basic_osc.o
+ .text$OSC_Current_Gain_Config
+                0x00000000       0x34 ./src/kf32f_basic_osc.o
+ .text$OSC_High_Speed_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_External_Input_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_Feedback_Resistance_Config
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_Zero_Source_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_Vref2_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_Vref0p5_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_Vref1p2_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_Low_Power_20nA_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_Vref1p14_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_Low_Power_100nA_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_LDO_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_PLL_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_EXTHF_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_EXTLF_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_INTHF_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_INTLF_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_osc.o
+ .text$OSC_Get_Clock_Failure_INT_Flag
+                0x00000000       0x18 ./src/kf32f_basic_osc.o
+ .text$OSC_Get_EXTHF_INT_Flag
+                0x00000000       0x18 ./src/kf32f_basic_osc.o
+ .text$OSC_Get_EXTLF_INT_Flag
+                0x00000000       0x18 ./src/kf32f_basic_osc.o
+ .text$OSC_Get_INTLF_INT_Flag
+                0x00000000       0x18 ./src/kf32f_basic_osc.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_pclk.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_pclk.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_pclk.o
+ .text$PCLK_CTL0_Peripheral_Clock_Enable
+                0x00000000       0x30 ./src/kf32f_basic_pclk.o
+ .text$PCLK_CTL3_Peripheral_Clock_Enable
+                0x00000000       0x30 ./src/kf32f_basic_pclk.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_pm.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_pm.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_pm.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_pm.o
+ .text$PM_IO_Latch_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Get_IO_Latch_Status
+                0x00000000       0x18 ./src/kf32f_basic_pm.o
+ .text$PM_Internal_Low_Frequency_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_External_Low_Frequency_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_External_Low_Frequency_Clock_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Main_Bandgap_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_LDO18_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Backup_Registers_Reset_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Independent_Watchdog_Reset_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Backup_POR_Delay_Time_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Main_POR_Delay_Time_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Peripheral_IO_Port_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Flash_Power_Off_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_CCP0CLKLPEN_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Backup_Write_And_Read_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_VREF_Software_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_VREF_SELECT
+                0x00000000       0x28 ./src/kf32f_basic_pm.o
+ .text$PM_LPR_Software_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Low_Power_Mode_Config
+                0x00000000       0x28 ./src/kf32f_basic_pm.o
+ .text$PM_BOR_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Low_Power_BOR_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Temperature_Sensor_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Temperature_Sensor_Buffer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Reference_Voltage_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Internal_Test_Buffer_Clock_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Internal_Test_Buffer_Clock_Scaler_Config
+                0x00000000       0x2c ./src/kf32f_basic_pm.o
+ .text$PM_PLL0_Output_Buffer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_PLL1_Output_Buffer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_PLL2_Output_Buffer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_PLL0LDO_Output_Buffer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_PLL1LDO_Output_Buffer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_PLL2LDO_Output_Buffer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Battery_BOR_Config
+                0x00000000       0x2c ./src/kf32f_basic_pm.o
+ .text$PM_Battery_BOR_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Peripheral_Voltage_Monitoring_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Voltage_Detection_Config
+                0x00000000       0x28 ./src/kf32f_basic_pm.o
+ .text$PM_Voltage_Detection_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_External_Wakeup_Pin_Enable
+                0x00000000       0x40 ./src/kf32f_basic_pm.o
+ .text$PM_External_Wakeup_Edge_Config
+                0x00000000       0x40 ./src/kf32f_basic_pm.o
+ .text$PM_Stop_Mode_Peripheral_INLF_Enable
+                0x00000000       0x3c ./src/kf32f_basic_pm.o
+ .text$PM_Peripheral_Reset_Config
+                0x00000000       0x3c ./src/kf32f_basic_pm.o
+ .text$PM_Vdd_Por_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Low_Power_Bandgap_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Power_Dissipation_Mode_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Power_Dissipation_Mode_Delay_Config
+                0x00000000       0x2c ./src/kf32f_basic_pm.o
+ .text$PM_Internal_Test_Buffer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Clear_Reset_And_Wakeup_Flag
+                0x00000000       0x38 ./src/kf32f_basic_pm.o
+ .text$PM_Get_IWDT_Reset_Flag
+                0x00000000       0x4c ./src/kf32f_basic_pm.o
+ .text$PM_Clear_External_Wakeup_Pin_Flag
+                0x00000000       0x48 ./src/kf32f_basic_pm.o
+ .text$PM_Get_Low_Power_Running_State
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Get_LPR_Status
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Get_Peripheral_Voltage_Detection_Status
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Zero_Drift_Current_Config
+                0x00000000       0x2c ./src/kf32f_basic_pm.o
+ .text$PM_BOR_Voltage_Config
+                0x00000000       0x2c ./src/kf32f_basic_pm.o
+ .text$PM_Main_Regulator_Voltage_Config
+                0x00000000       0x44 ./src/kf32f_basic_pm.o
+ .text$PM_Main_Regulator_HV_Enable
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Reference_Calibration_Config
+                0x00000000       0x6c ./src/kf32f_basic_pm.o
+ .text$PM_INTLF_Bias_Current_Config
+                0x00000000       0x2c ./src/kf32f_basic_pm.o
+ .text$PM_EXTLF_Bias_Current_Config
+                0x00000000       0x28 ./src/kf32f_basic_pm.o
+ .text$PM_INTLF_Capacitance_Calibration_Config
+                0x00000000       0x34 ./src/kf32f_basic_pm.o
+ .text$PM_LP_Bias_Calibration_Config
+                0x00000000       0x34 ./src/kf32f_basic_pm.o
+ .text$PM_LPBG_Pump_Calibration_Config
+                0x00000000       0x34 ./src/kf32f_basic_pm.o
+ .text$PM_EXTLF_N_Bias_Current_Config
+                0x00000000       0x28 ./src/kf32f_basic_pm.o
+ .text$PM_EXTLF_PIN_Selection_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_EXTHF_PIN_Selection_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_LDO18_Module_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_Main_Regulator_Bandgap_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text$PM_LPR_Module_Config
+                0x00000000       0x1c ./src/kf32f_basic_pm.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_qei.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_qei.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_qei.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_qei.o
+ .text$QEI_Reset
+                0x00000000       0x64 ./src/kf32f_basic_qei.o
+ .text$QEI_Configuration
+                0x00000000       0x8c ./src/kf32f_basic_qei.o
+ .text$QEI_Timer_Configuration
+                0x00000000       0x58 ./src/kf32f_basic_qei.o
+ .text$QEI_Struct_Init
+                0x00000000       0x3e ./src/kf32f_basic_qei.o
+ .text$QEI_Timer_Struct_Init
+                0x00000000       0x26 ./src/kf32f_basic_qei.o
+ .text$QEI_Encoder_Mode_Config
+                0x00000000       0x34 ./src/kf32f_basic_qei.o
+ .text$QEI_Location_Counter_Reset_Enable
+                0x00000000       0x1a ./src/kf32f_basic_qei.o
+ .text$QEI_Timer_Source_Clock_Config
+                0x00000000       0x1a ./src/kf32f_basic_qei.o
+ .text$QEI_Get_Index_Pin_State
+                0x00000000       0x1c ./src/kf32f_basic_qei.o
+ .text$QEI_Location_Counter_Output_Enable
+                0x00000000       0x1a ./src/kf32f_basic_qei.o
+ .text$QEI_Location_Counter_Direction_Config
+                0x00000000       0x1a ./src/kf32f_basic_qei.o
+ .text$QEI_Get_Location_Counter_Direction
+                0x00000000       0x1c ./src/kf32f_basic_qei.o
+ .text$QEI_Source_Clock_Config
+                0x00000000       0x28 ./src/kf32f_basic_qei.o
+ .text$QEI_Digital_Filter_Output_Enable
+                0x00000000       0x1e ./src/kf32f_basic_qei.o
+ .text$QEI_Digital_Filter_Clock_Config
+                0x00000000       0x28 ./src/kf32f_basic_qei.o
+ .text$QEI_Swap_Phase_AB_Enable
+                0x00000000       0x1e ./src/kf32f_basic_qei.o
+ .text$QEI_Timer_Counter_Config
+                0x00000000       0x34 ./src/kf32f_basic_qei.o
+ .text$QEI_Get_Timer_Counter
+                0x00000000       0x18 ./src/kf32f_basic_qei.o
+ .text$QEI_Timer_Period_Config
+                0x00000000       0x34 ./src/kf32f_basic_qei.o
+ .text$QEI_Get_Timer_Period
+                0x00000000       0x18 ./src/kf32f_basic_qei.o
+ .text$QEI_Timer_Prescaler_Config
+                0x00000000       0x34 ./src/kf32f_basic_qei.o
+ .text$QEI_Get_INT_Flag
+                0x00000000       0x28 ./src/kf32f_basic_qei.o
+ .text$QEI_Clear_INT_Flag
+                0x00000000       0x46 ./src/kf32f_basic_qei.o
+ .text$QEI_Set_INT_Enable
+                0x00000000       0x36 ./src/kf32f_basic_qei.o
+ .text$QEI_Get_Counter_Overflow_INT_Flag
+                0x00000000       0x1e ./src/kf32f_basic_qei.o
+ .text$QEI_Get_Phase_Error_INT_Flag
+                0x00000000       0x1e ./src/kf32f_basic_qei.o
+ .text$QEI_Get_Count_Error_INT_Flag
+                0x00000000       0x1e ./src/kf32f_basic_qei.o
+ .text$QEI_Clear_Timer_Overflow_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_qei.o
+ .text$QEI_Clear_Phase_Error_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_qei.o
+ .text$QEI_Clear_Counter_Error_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_qei.o
+ .text$QEI_Timer_Overflow_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_qei.o
+ .text$QEI_Phase_Error_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_qei.o
+ .text$QEI_Counter_Error_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_qei.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_rst.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_rst.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_rst.o
+ .text$RST_CTL0_Peripheral_Reset_Enable
+                0x00000000       0x30 ./src/kf32f_basic_rst.o
+ .text$RST_CTL3_Peripheral_Reset_Enable
+                0x00000000       0x30 ./src/kf32f_basic_rst.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_rtc.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_rtc.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_rtc.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_rtc.o
+ .text$RTC_Reset
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Configuration
+                0x00000000      0x17c ./src/kf32f_basic_rtc.o
+ .text$RTC_Time_Struct_Init
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Date_Struct_Init
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Struct_Init
+                0x00000000       0x44 ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Time_Configuration
+                0x00000000       0x98 ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Date_Configuration
+                0x00000000       0xa0 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_Configuration
+                0x00000000      0x130 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_Struct_Init
+                0x00000000       0x3e ./src/kf32f_basic_rtc.o
+ .text$RTC_Clock_Calibration_Config
+                0x00000000       0x38 ./src/kf32f_basic_rtc.o
+ .text$RTC_Time_Tick_Output_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_Edge_Config
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_Edge_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Add_One_Hour_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Sub_One_Hour_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Time_Tick_Config
+                0x00000000       0x2c ./src/kf32f_basic_rtc.o
+ .text$RTC_Start_Config
+                0x00000000       0x34 ./src/kf32f_basic_rtc.o
+ .text$RTC_Reset_Config
+                0x00000000       0x10 ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Leap_Year_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Hour_Format_Config
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Config_Mode_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Operation_Off_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Action_State_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Weekday_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Weekday_Config
+                0x00000000       0x38 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Hours_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_AMPM_Config
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Hours_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Minutes_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Minutes_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Seconds_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_Seconds_Config
+                0x00000000       0x40 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Weekday_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Weekday_Config
+                0x00000000       0x38 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Hours_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_AMPM_Config
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Hours_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Minutes_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Minutes_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Seconds_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_Seconds_Config
+                0x00000000       0x40 ./src/kf32f_basic_rtc.o
+ .text$RTC_Weekday_Config
+                0x00000000       0x38 ./src/kf32f_basic_rtc.o
+ .text$RTC_AMPM_Config
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Hours_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Minutes_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Seconds_Config
+                0x00000000       0x40 ./src/kf32f_basic_rtc.o
+ .text$RTC_Year_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Month_Config
+                0x00000000       0x34 ./src/kf32f_basic_rtc.o
+ .text$RTC_Day_Config
+                0x00000000       0x40 ./src/kf32f_basic_rtc.o
+ .text$RTC_Weekday_Backup_Config
+                0x00000000       0x38 ./src/kf32f_basic_rtc.o
+ .text$RTC_AMPM_Backup_Config
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Hours_Backup_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Minutes_Backup_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Seconds_Backup_Config
+                0x00000000       0x40 ./src/kf32f_basic_rtc.o
+ .text$RTC_Year_Backup_Config
+                0x00000000       0x48 ./src/kf32f_basic_rtc.o
+ .text$RTC_Month_Backup_Config
+                0x00000000       0x34 ./src/kf32f_basic_rtc.o
+ .text$RTC_Day_Backup_Config
+                0x00000000       0x40 ./src/kf32f_basic_rtc.o
+ .text$RTC_Timer1_Config
+                0x00000000       0x38 ./src/kf32f_basic_rtc.o
+ .text$RTC_Timer0_Config
+                0x00000000       0x34 ./src/kf32f_basic_rtc.o
+ .text$RTC_Timer1_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Timer0_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Timer1_Source_Config
+                0x00000000       0x34 ./src/kf32f_basic_rtc.o
+ .text$RTC_Timer0_Source_Config
+                0x00000000       0x34 ./src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Time_Stamp_Overflow_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Timer1_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Timer0_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Time_Tick_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_B_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Alarm_A_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Days_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Hours_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Minutes_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Seconds_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Time_Stamp_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Time_Stamp_Overflow_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Timer1_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Timer0_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Time_Tick_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Alarm_B_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Alarm_A_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Days_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Hours_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Minutes_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Get_Seconds_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Time_Stamp_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Time_Stamp_Overflow_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Timer1_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Timer0_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Time_Tick_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Alarm_B_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Alarm_A_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Days_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Hours_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Minutes_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Clear_Seconds_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_rtc.o
+ .text$RTC_Byte_To_Bcd
+                0x00000000       0x3e ./src/kf32f_basic_rtc.o
+ .text$RTC_Bcd_To_Byte
+                0x00000000       0x2a ./src/kf32f_basic_rtc.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_spi.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_spi.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_spi.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_spi.o
+ .text$SPI_Reset
+                0x00000000       0xb8 ./src/kf32f_basic_spi.o
+ .text$SPI_Configuration
+                0x00000000       0x70 ./src/kf32f_basic_spi.o
+ .text$I2S_Configuration
+                0x00000000       0x6c ./src/kf32f_basic_spi.o
+ .text$SPI_Struct_Init
+                0x00000000       0x32 ./src/kf32f_basic_spi.o
+ .text$I2S_Struct_Init
+                0x00000000       0x2e ./src/kf32f_basic_spi.o
+ .text$SPI_Cmd  0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$I2S_Mode_Select
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_I2S_ReceiveData
+                0x00000000       0x16 ./src/kf32f_basic_spi.o
+ .text$SPI_I2S_SendData32
+                0x00000000       0x10 ./src/kf32f_basic_spi.o
+ .text$SPI_I2S_SendData8
+                0x00000000       0x12 ./src/kf32f_basic_spi.o
+ .text$SPI_BaudRate_Config
+                0x00000000       0x34 ./src/kf32f_basic_spi.o
+ .text$I2S_DIV_Config
+                0x00000000       0x38 ./src/kf32f_basic_spi.o
+ .text$SPI_MODE_Config
+                0x00000000       0x28 ./src/kf32f_basic_spi.o
+ .text$SPI_CLK_Config
+                0x00000000       0x28 ./src/kf32f_basic_spi.o
+ .text$SPI_Data_Direction_Config
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_Clock_Polarity_Config
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_Clock_Edge_Config
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_BIT_SELECT_Config
+                0x00000000       0x2c ./src/kf32f_basic_spi.o
+ .text$SPI_I2S_MODE_Config
+                0x00000000       0x2c ./src/kf32f_basic_spi.o
+ .text$SPI_I2S_STANDARD_Config
+                0x00000000       0x2c ./src/kf32f_basic_spi.o
+ .text$SPI_PCM_Config
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_CHLEN_Config
+                0x00000000       0x48 ./src/kf32f_basic_spi.o
+ .text$SPI_PCM_CLOCK_Polarity_Config
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_MAIN_CLOCK_OUT_Enable
+                0x00000000       0x1a ./src/kf32f_basic_spi.o
+ .text$SPI_Receive_Overflow_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_Transmit_Overflow_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_RNEIE_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_TNEIE_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_Receive_DMA_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_Transmit_DMA_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_Transmit_CHSIDE_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_spi.o
+ .text$SPI_Get_BUSY_Flag
+                0x00000000       0x1c ./src/kf32f_basic_spi.o
+ .text$SPI_Get_Receive_Overflow_Flag
+                0x00000000       0x1c ./src/kf32f_basic_spi.o
+ .text$SPI_Get_Transmit_Overflow_Flag
+                0x00000000       0x1c ./src/kf32f_basic_spi.o
+ .text$SPI_Get_Receive_Buf_Flag
+                0x00000000       0x1c ./src/kf32f_basic_spi.o
+ .text$SPI_Get_Transmit_Buf_Flag
+                0x00000000       0x1c ./src/kf32f_basic_spi.o
+ .text$SPI_Clear_Receive_Overflow_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_spi.o
+ .text$SPI_Clear_Transmit_Overflow_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_spi.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_sysctl.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_sysctl.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_sysctl.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Get_V_Flag
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Get_C_Flag
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Get_Z_Flag
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Get_N_Flag
+                0x00000000       0x18 ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Set_V_Flag
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Set_C_Flag
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Set_Z_Flag
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Set_N_Flag
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Sleep_On_Exit_Enable
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Deep_Sleep_Enable
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Interrupt_Awake_Enable
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Stack_Align_State
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Super_User_Config
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Stack_Pointer_State
+                0x00000000       0x1c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Stack_Pointer_Config
+                0x00000000       0x2c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Exception_Reset_Enable
+                0x00000000       0x3c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_System_Reset_Enable
+                0x00000000       0x3c ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Vector_Offset_Config
+                0x00000000       0x30 ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Ram_Space_Config
+                0x00000000       0x34 ./src/kf32f_basic_sysctl.o
+ .text$SYSCTL_Flash_Start_Remap_Config
+                0x00000000       0x28 ./src/kf32f_basic_sysctl.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_systick.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_systick.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_systick.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Configuration
+                0x00000000       0x4c ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Cmd
+                0x00000000       0x1c ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Clock_Config
+                0x00000000       0x1c ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Systick_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Get_Count_Zero_Flag
+                0x00000000       0x24 ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Reload_Config
+                0x00000000       0x14 ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Counter_Updata
+                0x00000000        0xc ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Get_Reload
+                0x00000000       0x20 ./src/kf32f_basic_systick.o
+ .text$SYSTICK_Get_Counter
+                0x00000000       0x20 ./src/kf32f_basic_systick.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_usart.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_usart.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_usart.o
+ .text$USART_U7816R_Configuration
+                0x00000000       0x60 ./src/kf32f_basic_usart.o
+ .text$USART_U7816R_Struct_Init
+                0x00000000       0x32 ./src/kf32f_basic_usart.o
+ .text$USART_BaudRate_Clock_Config
+                0x00000000       0x28 ./src/kf32f_basic_usart.o
+ .text$USART_HalfDuplex_ClockPolarity_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Transmit_Order_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Receive_Order_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Infrare_Detector_Voltage_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_WeakUP_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Clock_Source_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Address_Detection_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Auto_BaudRate_Detection_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Get_Auto_BaudRate_Detection_Flag
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Send_Blank_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_SYN_Choice_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Transmit_Data_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Receive_Data_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_STOP_Word_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Transmit_9Word_Select_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Parity_Select_Config
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_9Data_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_CTS_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_RTS_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Infrare_Detector_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_RESHD_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_Singlet_Line_Mode_Enable
+                0x00000000       0x1a ./src/kf32f_basic_usart.o
+ .text$USART_BaudRate_Integer_Config
+                0x00000000       0x34 ./src/kf32f_basic_usart.o
+ .text$USART_BaudRate_Decimal1_Config
+                0x00000000       0x34 ./src/kf32f_basic_usart.o
+ .text$USART_BaudRate_Decimal2_Config
+                0x00000000       0x34 ./src/kf32f_basic_usart.o
+ .text$USART_ReceiveData
+                0x00000000        0xe ./src/kf32f_basic_usart.o
+ .text$USART_Address_Match_Config
+                0x00000000       0x34 ./src/kf32f_basic_usart.o
+ .text$USART_7816_Cmd
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_7816_CLKOUT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_7816_Error_Signal_Config
+                0x00000000       0x28 ./src/kf32f_basic_usart.o
+ .text$USART_Passageway_Select_Config
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_BGT_Config
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Transmit_Repeat_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Receive_Repeat_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Transmit_Repeat_Times_Config
+                0x00000000       0x2c ./src/kf32f_basic_usart.o
+ .text$USART_Receive_Repeat_Times_Config
+                0x00000000       0x2c ./src/kf32f_basic_usart.o
+ .text$USART_7816_CLKDIV_Config
+                0x00000000       0x38 ./src/kf32f_basic_usart.o
+ .text$USART_7816_EGT_Config
+                0x00000000       0x38 ./src/kf32f_basic_usart.o
+ .text$USART_Receive_Overflow_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Parity_ERROR_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Frame_ERROE_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Blank_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Auto_BaudRate_TimeOver_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_WeakUP_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Transmit_ERROR_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Receive_ERROR_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_CTS_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_RDR_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_TFE_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_TXE_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Receive_DMA_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Transmit_DMA_INT_Enable
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Get_Receive_Overflow_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_Parity_ERROR_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_Frame_ERROR_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_Blank_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_Auto_Baudrate_TimeOver_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_WeakUP_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_7816Transmit_ERROR_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_7816Receive_ERROR_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_CTS_Flag
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Get_Receive_BUFR_Ready_Flag
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Get_WUEN_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usart.o
+ .text$USART_Get_Transmit_BUFR_Empty_Flag
+                0x00000000       0x1e ./src/kf32f_basic_usart.o
+ .text$USART_Clear_Receive_Overflow_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_Parity_ERROR_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_Frame_ERROR_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_Blank_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_Auto_BaudRate_TimeOver_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_WeakUP_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_Transmit_ERROR_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_Receive_ERROR_INT_Flag
+                0x00000000       0x22 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_CTS_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_usart.o
+ .text$USART_Clear_Receive_BUFR_INT_Flag
+                0x00000000       0x24 ./src/kf32f_basic_usart.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_usb.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_usb.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_usb.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_usb.o
+ .text$USB_Reset
+                0x00000000       0x2c ./src/kf32f_basic_usb.o
+ .text$USB_Configuration
+                0x00000000       0xcc ./src/kf32f_basic_usb.o
+ .text$USB_Buffer_Configuration
+                0x00000000       0xa4 ./src/kf32f_basic_usb.o
+ .text$USB_Struct_Init
+                0x00000000       0x38 ./src/kf32f_basic_usb.o
+ .text$USB_Buffer_Struct_Init
+                0x00000000       0x3e ./src/kf32f_basic_usb.o
+ .text$USB_Double_Buffer_Pointer_Enable
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Get_Single_Ended_0_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Clear_Single_Ended_0_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Get_Package_Transmit_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Clear_Package_Transmit_Flag
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Suspend_Enable
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Resume_Signal_Transmit_Enable
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Cmd  0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Eye_Test_Enable
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Speed_Config
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_On_Chip_Pull_Up_Enable
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Double_Buffer_Config
+                0x00000000       0x28 ./src/kf32f_basic_usb.o
+ .text$USB_Get_Arrangement_State
+                0x00000000       0x5c ./src/kf32f_basic_usb.o
+ .text$USB_Address_Config
+                0x00000000       0x30 ./src/kf32f_basic_usb.o
+ .text$USB_Get_Address
+                0x00000000       0x20 ./src/kf32f_basic_usb.o
+ .text$USB_Get_Frame_Num
+                0x00000000       0x24 ./src/kf32f_basic_usb.o
+ .text$USB_Endpoint_Handshake_Enable
+                0x00000000       0x2c ./src/kf32f_basic_usb.o
+ .text$USB_Bidirectional_Endpoint_Enable
+                0x00000000       0x2c ./src/kf32f_basic_usb.o
+ .text$USB_Endpoint_Output_Enable
+                0x00000000       0x2c ./src/kf32f_basic_usb.o
+ .text$USB_Endpoint_Input_Enable
+                0x00000000       0x2c ./src/kf32f_basic_usb.o
+ .text$USB_Get_Endpoint_STALL_Flag
+                0x00000000       0x28 ./src/kf32f_basic_usb.o
+ .text$USB_Clear_Endpoint_STALL_Flag
+                0x00000000       0x30 ./src/kf32f_basic_usb.o
+ .text$USB_Debug_Signal_Output_Enable
+                0x00000000       0x1c ./src/kf32f_basic_usb.o
+ .text$USB_Debug_Output_Config
+                0x00000000       0x28 ./src/kf32f_basic_usb.o
+ .text$USB_Get_Endpoint_Double_Buffer_Addr
+                0x00000000      0x130 ./src/kf32f_basic_usb.o
+ .text$USB_Buffer_Address_Config
+                0x00000000       0x3c ./src/kf32f_basic_usb.o
+ .text$USB_Get_Buffer_Address
+                0x00000000       0x28 ./src/kf32f_basic_usb.o
+ .text$USB_Buffer_Data_Length_Config
+                0x00000000       0x54 ./src/kf32f_basic_usb.o
+ .text$USB_Get_Buffer_Data_Length
+                0x00000000       0x4c ./src/kf32f_basic_usb.o
+ .text$USB_Own_Config
+                0x00000000       0x22 ./src/kf32f_basic_usb.o
+ .text$USB_Get_Own_Status
+                0x00000000       0x24 ./src/kf32f_basic_usb.o
+ .text$USB_Data_Toggle_Sync_Config
+                0x00000000       0x22 ./src/kf32f_basic_usb.o
+ .text$USB_Get_Data_Toggle_Sync_Status
+                0x00000000       0x24 ./src/kf32f_basic_usb.o
+ .text$USB_Data_Toggle_Sync_Enable
+                0x00000000       0x22 ./src/kf32f_basic_usb.o
+ .text$USB_Buffer_Stall_Enable
+                0x00000000       0x22 ./src/kf32f_basic_usb.o
+ .text$USB_Get_Last_Receive_PID
+                0x00000000       0x2c ./src/kf32f_basic_usb.o
+ .text$USB_Write_Buffer_Data
+                0x00000000       0x24 ./src/kf32f_basic_usb.o
+ .text$USB_Get_INT_Flag
+                0x00000000       0x20 ./src/kf32f_basic_usb.o
+ .text$USB_Clear_INT_Flag
+                0x00000000       0x28 ./src/kf32f_basic_usb.o
+ .text$USB_Set_INT_Enable
+                0x00000000       0x30 ./src/kf32f_basic_usb.o
+ .text$USB_Get_INT_Enable
+                0x00000000       0x20 ./src/kf32f_basic_usb.o
+ .text          0x00000000        0x0 ./src/kf32f_basic_wwdt.o
+ .data          0x00000000        0x0 ./src/kf32f_basic_wwdt.o
+ .bss           0x00000000        0x0 ./src/kf32f_basic_wwdt.o
+ .text$SFR_Config
+                0x00000000       0x18 ./src/kf32f_basic_wwdt.o
+ .text$WWDT_Reset
+                0x00000000       0x28 ./src/kf32f_basic_wwdt.o
+ .text$WWDT_Threshold_Config
+                0x00000000       0x34 ./src/kf32f_basic_wwdt.o
+ .text$WWDT_Prescaler_Config
+                0x00000000       0x28 ./src/kf32f_basic_wwdt.o
+ .text$WWDT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_wwdt.o
+ .text$WWDT_Counter_Config
+                0x00000000       0x14 ./src/kf32f_basic_wwdt.o
+ .text$WWDT_Get_Counter
+                0x00000000       0x1c ./src/kf32f_basic_wwdt.o
+ .text$WWDT_INT_Enable
+                0x00000000       0x1c ./src/kf32f_basic_wwdt.o
+ .text$WWDT_Get_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_wwdt.o
+ .text$WWDT_Clear_INT_Flag
+                0x00000000       0x1c ./src/kf32f_basic_wwdt.o
+ .text          0x00000000        0x0 ./config/startup.o
+ .data          0x00000000        0x0 ./config/startup.o
+ .bss           0x00000000        0x0 ./config/startup.o
+ .data          0x00000000        0x0 ./config/vector.o
+ .bss           0x00000000        0x0 ./config/vector.o
+ .text          0x00000000        0x0 ./USART_user.o
+ .data          0x00000000        0x0 ./USART_user.o
+ .bss           0x00000000        0x0 ./USART_user.o
+ .text$USART_Sync_config
+                0x00000000       0x70 ./USART_user.o
+ .text$USART_ReceiveInt_config
+                0x00000000       0x30 ./USART_user.o
+ .text          0x00000000        0x0 ./flash.o
+ .data          0x00000000        0x0 ./flash.o
+ .bss           0x00000000        0x0 ./flash.o
+ .text$FLASH_WriteCODE_ONE
+                0x00000000       0x48 ./flash.o
+ .text$FLASH_HALFPAGE_WRITECODE_fun
+                0x00000000       0x48 ./flash.o
+ .text$FLASH_READCODE_fun
+                0x00000000       0x44 ./flash.o
+ .text$FLASH_WriteCFG_ONE
+                0x00000000       0x48 ./flash.o
+ .text$FLASH_HALFPAGE_WRITECFG_fun
+                0x00000000       0x48 ./flash.o
+ .text$FLASH_PageWrite_CFG_fun
+                0x00000000       0xe0 ./flash.o
+ .text$FLASH_WriteByte
+                0x00000000       0x54 ./flash.o
+ .text$FLASH_WriteHalfWord
+                0x00000000       0x54 ./flash.o
+ .text$FLASH_WriteWord
+                0x00000000       0x50 ./flash.o
+ .text$FLASH_WriteNByte
+                0x00000000       0x40 ./flash.o
+ .text$FLASH_ReadByte
+                0x00000000       0x28 ./flash.o
+ .text$FLASH_ReadHalWord
+                0x00000000       0x28 ./flash.o
+ .text$FLASH_ReadWord
+                0x00000000       0x28 ./flash.o
+ .text$FLASH_ReadNByte
+                0x00000000       0x4c ./flash.o
+ .data$Flash_Buff1.5174
+                0x00000000      0x200 ./flash.o
+ .data$Flash_Buff2.5175
+                0x00000000      0x200 ./flash.o
+ .text          0x00000000        0x0 ./kf_it.o
+ .data          0x00000000        0x0 ./kf_it.o
+ .bss           0x00000000        0x0 ./kf_it.o
+ .data$jk       0x00000000        0x1 ./kf_it.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text$check_failed
+                0x00000000        0x8 ./main.o
+ .text          0x00000000        0x0 ./system_init.o
+ .data          0x00000000        0x0 ./system_init.o
+ .bss           0x00000000        0x0 ./system_init.o
+ .text          0x00000000        0x0 ./ymodem.o
+ .data          0x00000000        0x0 ./ymodem.o
+ .bss           0x00000000        0x0 ./ymodem.o
+ .data$EraseCounter
+                0x00000000        0x4 ./ymodem.o
+ .data$NbrOfPage
+                0x00000000        0x4 ./ymodem.o
+ .text$Str2Int  0x00000000      0x1f0 ./ymodem.o
+ .text$Ymodem_CheckResponse
+                0x00000000        0xe ./ymodem.o
+ .text$Ymodem_PreparePacket
+                0x00000000       0xb4 ./ymodem.o
+ .text$UpdateCRC16
+                0x00000000       0x60 ./ymodem.o
+ .text$Cal_CRC16
+                0x00000000       0x6c ./ymodem.o
+ .text$CalChecksum
+                0x00000000       0x36 ./ymodem.o
+ .text$Ymodem_SendPacket
+                0x00000000       0x38 ./ymodem.o
+ .data          0x00000000        0x0 C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a(memcpy.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a(memcpy.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a(memset.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a(memset.o)
+
+@@@@@Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x00000000         0x00080000
+ram              0x10000000         0x00020000
+da_mem           0x0c001c00         0x00000400
+ee_mem           0x7f000000         0x00001000
+config_mem1      0x31000000         0x00000010
+config_mem2      0x31000010         0x00000010
+*default*        0x00000000         0xffffffff
+
+@@@@@Linker script and memory map
+
+LOAD ./src/kf32f_basic_adc.o
+LOAD ./src/kf32f_basic_aes.o
+LOAD ./src/kf32f_basic_atim.o
+LOAD ./src/kf32f_basic_bkp.o
+LOAD ./src/kf32f_basic_btim.o
+LOAD ./src/kf32f_basic_can.o
+LOAD ./src/kf32f_basic_cfgl.o
+LOAD ./src/kf32f_basic_cmp.o
+LOAD ./src/kf32f_basic_crc.o
+LOAD ./src/kf32f_basic_dac.o
+LOAD ./src/kf32f_basic_dma.o
+LOAD ./src/kf32f_basic_exic.o
+LOAD ./src/kf32f_basic_flash.o
+LOAD ./src/kf32f_basic_gpio.o
+LOAD ./src/kf32f_basic_gptim.o
+LOAD ./src/kf32f_basic_i2c.o
+LOAD ./src/kf32f_basic_int.o
+LOAD ./src/kf32f_basic_iwdt.o
+LOAD ./src/kf32f_basic_led.o
+LOAD ./src/kf32f_basic_op.o
+LOAD ./src/kf32f_basic_osc.o
+LOAD ./src/kf32f_basic_pclk.o
+LOAD ./src/kf32f_basic_pm.o
+LOAD ./src/kf32f_basic_qei.o
+LOAD ./src/kf32f_basic_rst.o
+LOAD ./src/kf32f_basic_rtc.o
+LOAD ./src/kf32f_basic_spi.o
+LOAD ./src/kf32f_basic_sysctl.o
+LOAD ./src/kf32f_basic_systick.o
+LOAD ./src/kf32f_basic_usart.o
+LOAD ./src/kf32f_basic_usb.o
+LOAD ./src/kf32f_basic_wwdt.o
+LOAD ./config/startup.o
+LOAD ./config/vector.o
+LOAD ./USART_user.o
+LOAD ./flash.o
+LOAD ./kf_it.o
+LOAD ./main.o
+LOAD ./system_init.o
+LOAD ./ymodem.o
+LOAD C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libmath.a
+LOAD C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libio.a
+LOAD C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a
+LOAD C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstdlib.a
+LOAD C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libctype.a
+LOAD C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libcrtv1.a
+
+.text           0x00000000     0x1304
+                0x00000000                . = 0x0
+ *vector.o(.text)
+ .text          0x00000000      0x200 ./config/vector.o
+                0x00000000                _start
+                0x00000200                . = ((. + 0x3) & 0xfffffffc)
+                0x00000200                __vec_end__ = .
+ *(.text*)
+ .text$SFR_Config
+                0x00000200       0x18 ./src/kf32f_basic_flash.o
+ .text$FLASH_Clear_NonVolatile_Memory_Unlock_Status
+                0x00000218       0x34 ./src/kf32f_basic_flash.o
+                0x00000218                FLASH_Clear_NonVolatile_Memory_Unlock_Status
+ .text$FLASH_Clear_Flash_Unlock_Status
+                0x0000024c       0x34 ./src/kf32f_basic_flash.o
+                0x0000024c                FLASH_Clear_Flash_Unlock_Status
+ .text$FLASH_Clear_Config_Unlock_Status
+                0x00000280       0x34 ./src/kf32f_basic_flash.o
+                0x00000280                FLASH_Clear_Config_Unlock_Status
+ .text$FLASH_Data_Write_Enable_RAM
+                0x000002b4       0x3c ./src/kf32f_basic_flash.o
+                0x000002b4                FLASH_Data_Write_Enable_RAM
+ .text$GPIO_Pin_Lock_Config
+                0x000002f0       0x40 ./src/kf32f_basic_gpio.o
+                0x000002f0                GPIO_Pin_Lock_Config
+ .text$GPIO_Write_Mode_Bits
+                0x00000330       0x5a ./src/kf32f_basic_gpio.o
+                0x00000330                GPIO_Write_Mode_Bits
+ .text$GPIO_Read_Input_Data_Bit
+                0x0000038a       0x28 ./src/kf32f_basic_gpio.o
+                0x0000038a                GPIO_Read_Input_Data_Bit
+ .text$GPIO_Toggle_Output_Data_Config
+                0x000003b2       0x18 ./src/kf32f_basic_gpio.o
+                0x000003b2                GPIO_Toggle_Output_Data_Config
+ .text$GPIO_Pin_RMP_Config
+                0x000003ca       0x66 ./src/kf32f_basic_gpio.o
+                0x000003ca                GPIO_Pin_RMP_Config
+ .text$SFR_Config
+                0x00000430       0x18 ./src/kf32f_basic_osc.o
+ .text$OSC_HFCK_Division_Config
+                0x00000448       0x34 ./src/kf32f_basic_osc.o
+                0x00000448                OSC_HFCK_Division_Config
+ .text$OSC_SCK_Division_Config
+                0x0000047c       0x34 ./src/kf32f_basic_osc.o
+                0x0000047c                OSC_SCK_Division_Config
+ .text$OSC_PLL_Input_Source_Config
+                0x000004b0       0x1c ./src/kf32f_basic_osc.o
+                0x000004b0                OSC_PLL_Input_Source_Config
+ .text$OSC_HFCK_Source_Config
+                0x000004cc       0x34 ./src/kf32f_basic_osc.o
+                0x000004cc                OSC_HFCK_Source_Config
+ .text$OSC_HFCK_Enable
+                0x00000500       0x1c ./src/kf32f_basic_osc.o
+                0x00000500                OSC_HFCK_Enable
+ .text$OSC_SCK_Source_Config
+                0x0000051c       0x34 ./src/kf32f_basic_osc.o
+                0x0000051c                OSC_SCK_Source_Config
+ .text$OSC_PLL_Multiple_Value_Select
+                0x00000550       0xa4 ./src/kf32f_basic_osc.o
+                0x00000550                OSC_PLL_Multiple_Value_Select
+ .text$OSC_PLL_RST
+                0x000005f4        0xc ./src/kf32f_basic_osc.o
+                0x000005f4                OSC_PLL_RST
+ .text$OSC_PLL_Start_Delay_Config
+                0x00000600       0x34 ./src/kf32f_basic_osc.o
+                0x00000600                OSC_PLL_Start_Delay_Config
+ .text$OSC_PLL_Software_Enable
+                0x00000634       0x1c ./src/kf32f_basic_osc.o
+                0x00000634                OSC_PLL_Software_Enable
+ .text$OSC_INTHF_Software_Enable
+                0x00000650       0x1c ./src/kf32f_basic_osc.o
+                0x00000650                OSC_INTHF_Software_Enable
+ .text$OSC_Get_PLL_INT_Flag
+                0x0000066c       0x18 ./src/kf32f_basic_osc.o
+                0x0000066c                OSC_Get_PLL_INT_Flag
+ .text$OSC_Get_INTHF_INT_Flag
+                0x00000684       0x18 ./src/kf32f_basic_osc.o
+                0x00000684                OSC_Get_INTHF_INT_Flag
+ .text$PCLK_CTL1_Peripheral_Clock_Enable
+                0x0000069c       0x30 ./src/kf32f_basic_pclk.o
+                0x0000069c                PCLK_CTL1_Peripheral_Clock_Enable
+ .text$PCLK_CTL2_Peripheral_Clock_Enable
+                0x000006cc       0x30 ./src/kf32f_basic_pclk.o
+                0x000006cc                PCLK_CTL2_Peripheral_Clock_Enable
+ .text$RST_CTL1_Peripheral_Reset_Enable
+                0x000006fc       0x30 ./src/kf32f_basic_rst.o
+                0x000006fc                RST_CTL1_Peripheral_Reset_Enable
+ .text$RST_CTL2_Peripheral_Reset_Enable
+                0x0000072c       0x30 ./src/kf32f_basic_rst.o
+                0x0000072c                RST_CTL2_Peripheral_Reset_Enable
+ .text$SFR_Config
+                0x0000075c       0x18 ./src/kf32f_basic_usart.o
+ .text$USART_Reset
+                0x00000774      0x16c ./src/kf32f_basic_usart.o
+                0x00000774                USART_Reset
+ .text$USART_Configuration
+                0x000008e0       0xa8 ./src/kf32f_basic_usart.o
+                0x000008e0                USART_Configuration
+ .text$USART_Struct_Init
+                0x00000988       0x64 ./src/kf32f_basic_usart.o
+                0x00000988                USART_Struct_Init
+ .text$USART_Cmd
+                0x000009ec       0x1a ./src/kf32f_basic_usart.o
+                0x000009ec                USART_Cmd
+ .text$USART_SendData
+                0x00000a06       0x12 ./src/kf32f_basic_usart.o
+                0x00000a06                USART_SendData
+ .text$USART_Get_Transmitter_Empty_Flag
+                0x00000a18       0x1e ./src/kf32f_basic_usart.o
+                0x00000a18                USART_Get_Transmitter_Empty_Flag
+ .text$USART_Clear_Transmit_BUFR_INT_Flag
+                0x00000a36       0x26 ./src/kf32f_basic_usart.o
+                0x00000a36                USART_Clear_Transmit_BUFR_INT_Flag
+ .text$startup  0x00000a5c       0x6c ./config/startup.o
+                0x00000a5c                startup
+ .text$GPIO_USART
+                0x00000ac8       0x5c ./USART_user.o
+                0x00000ac8                GPIO_USART
+ .text$USART_Send
+                0x00000b24       0x4c ./USART_user.o
+                0x00000b24                USART_Send
+ .text$USART_Async_config
+                0x00000b70       0x68 ./USART_user.o
+                0x00000b70                USART_Async_config
+ .text$FLASH_PageWrite_fun
+                0x00000bd8       0xe0 ./flash.o
+                0x00000bd8                FLASH_PageWrite_fun
+ .text$_NMI_exception
+                0x00000cb8        0x4 ./kf_it.o
+                0x00000cb8                _NMI_exception
+ .text$_HardFault_exception
+                0x00000cbc        0x4 ./kf_it.o
+                0x00000cbc                _HardFault_exception
+ .text$_StackFault_exception
+                0x00000cc0        0x4 ./kf_it.o
+                0x00000cc0                _StackFault_exception
+ .text$_SVC_exception
+                0x00000cc4        0x4 ./kf_it.o
+                0x00000cc4                _SVC_exception
+ .text$_SoftSV_exception
+                0x00000cc8        0x4 ./kf_it.o
+                0x00000cc8                _SoftSV_exception
+ .text$_SysTick_exception
+                0x00000ccc        0x4 ./kf_it.o
+                0x00000ccc                _SysTick_exception
+ .text$delay    0x00000cd0       0x28 ./main.o
+                0x00000cd0                delay
+ .text$main$sdata
+                0x00000cf8       0x19 ./main.o
+ *fill*         0x00000d11        0x3 
+ .text$main     0x00000d14      0x18c ./main.o
+                0x00000d14                main
+ .text$SetSysClock
+                0x00000ea0       0x98 ./system_init.o
+ .text$SystemInit
+                0x00000f38       0x18 ./system_init.o
+                0x00000f38                SystemInit
+ .text$Receive_Byte
+                0x00000f50       0x7c ./ymodem.o
+ .text$Send_Byte
+                0x00000fcc       0x38 ./ymodem.o
+ .text$Receive_Packet
+                0x00001004       0xfc ./ymodem.o
+ .text$Ymodem_Receive
+                0x00001100      0x1e0 ./ymodem.o
+                0x00001100                Ymodem_Receive
+ .text          0x000012e0       0x12 C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a(memcpy.o)
+                0x000012e0                memcpy
+ .text          0x000012f2       0x10 C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/lib/ccr1_issue/libstring.a(memset.o)
+                0x000012f2                memset
+ *(.rdata*)
+ *(.rodata*)
+                0x00001304                . = ((. + 0x3) & 0xfffffffc)
+ *fill*         0x00001302        0x2 
+ *(.usertext*)
+ *(.userrdata*)
+ *(.userrodata*)
+                0x00001304                . = ((. + 0x3) & 0xfffffffc)
+                0x00001304                __text_end__ = .
+
+.data           0x10000000     0x1340
+                0x10000000                . = ((. + 0x3) & 0xfffffffc)
+                0x10000000                __data_start__ = .
+ *(.ramvector*)
+                0x10000000                . = ((. + 0x3) & 0xfffffffc)
+ *(.lpdata*)
+                0x10000000                . = ((. + 0x3) & 0xfffffffc)
+ *(.indata*)
+ .indata        0x10000000      0x97c ./src/kf32f_basic_flash.o
+                0x10000000                CHECK_RESTRICTION_RAM
+                0x10000026                FLASH_Get_NonVolatile_Memory_Unlock_Status_RAM
+                0x10000040                FLASH_Clear_NonVolatile_Memory_Unlock_Status_RAM
+                0x10000074                FLASH_Unlock_ISP_RAM
+                0x10000090                FLASH_Get_Flash_Unlock_Status_RAM
+                0x100000ac                FLASH_Clear_Flash_Unlock_Status_RAM
+                0x100000e0                FLASH_Unlock_Code_RAM
+                0x100000fc                FLASH_Get_Config_Unlock_Status_RAM
+                0x10000118                FLASH_Clear_Config_Unlock_Status_RAM
+                0x1000014c                FLASH_Unlock_User_Config_RAM
+                0x10000168                FLASH_Zone_Config_RAM
+                0x100001a4                FLASH_Standby_Mode_Config_RAM
+                0x10000208                FLASH_Read_Mode_Config_RAM
+                0x10000244                FLASH_Calibration_Updata_Enable_RAM
+                0x1000029c                FLASH_Information_Zone_Wipe_Unlock_Config_RAM
+                0x100002f4                FLASH_Half_Page_Write_Size_Config_RAM
+                0x10000344                FLASH_Program_Cmd_Config_RAM
+                0x10000394                FLASH_Executive_Cmd_RAM
+                0x100003c8                FLASH_NonVolatile_Memory_ECC_Enable_RAM
+                0x10000404                FLASH_Linear_Prefetch_Enable_RAM
+                0x10000440                FLASH_Period_Number_Config_RAM
+                0x1000048c                FLASH_Program_Addr_Config_RAM
+                0x100004d8                FLASH_Get_Program_Status_RAM
+                0x100004f4                FLASH_Get_Wipe_Status_RAM
+                0x10000510                FLASH_Get_Compute_Complete_Status_RAM
+                0x1000052c                FLASH_Clear_Compute_Complete_Status_RAM
+                0x1000054c                FLASH_Get_CFG_Error_Flag_RAM
+                0x10000568                FLASH_Clear_CFG_Error_Flag_RAM
+                0x10000584                FLASH_CheckSum_Addr_Config_RAM
+                0x100005d4                FLASH_Start_SIG_Compute_Enable_RAM
+                0x10000610                FLASH_Get_CheckSum_Result_RAM
+                0x10000650                FLASH_Wipe_Configuration_RAM
+                0x10000730                FLASH_Program_Configuration_RAM
+                0x100008e8                Read_Flash_or_CFR_RAM
+ *(.inrdata*)
+ *(.inrodata*)
+                0x1000097c                . = ((. + 0x3) & 0xfffffffc)
+ *(.data*)
+ .data$Flash_Buff1.5142
+                0x1000097c      0x200 ./flash.o
+ .data$Flash_Buff2.5143
+                0x10000b7c      0x200 ./flash.o
+ .data$tab_133  0x10000d7c       0x85 ./main.o
+                0x10000d7c                tab_133
+ *fill*         0x10000e01        0x3 
+ .data$FlashDestination
+                0x10000e04        0x4 ./ymodem.o
+                0x10000e04                FlashDestination
+                0x10000e08                . = ((. + 0x3) & 0xfffffffc)
+                0x10000e08                __data_end__ = .
+                0x10000e08                . = ((. + 0x3) & 0xfffffffc)
+                0x10000e08                __bss_start__ = .
+ *(COMMON)
+ COMMON         0x10000e08        0x4 ./src/kf32f_basic_flash.o
+                0x10000e08                read_data
+ *fill*         0x10000e0c        0x4 
+ COMMON         0x10000e10       0x14 ./flash.o
+                0x10000e10                flash_write
+ COMMON         0x10000e24        0x8 ./main.o
+                0x10000e24                JumpAddress
+                0x10000e28                Jump_To_Application
+ *fill*         0x10000e2c        0x4 
+ COMMON         0x10000e30      0x510 ./ymodem.o
+                0x10000e30                RamSource
+                0x10000e40                file_name
+                0x10000f40                test
+ *(.bss)
+                0x10001340                . = ((. + 0x3) & 0xfffffffc)
+                0x10001340                __bss_end__ = .
+ *(.userdata*)
+                0x10001340                __allot_end__ = .
+                0x00020000                __initial_sp = 0x20000
+
+.flashdata      0x0c001c00      0x400
+ *(.flashdata)
+                0x00000400                . = 0x400
+ *fill*         0x0c001c00      0x400 
+
+.eeprom         0x7f000000     0x1000
+ *(.eeprom)
+                0x00001000                . = 0x1000
+ *fill*         0x7f000000     0x1000 
+
+.config1
+ *(.config1)
+
+.config2
+ *(.config2)
+
+.stab           0x00000000    0x1668c
+ *(.stab)
+ .stab          0x00000000     0x11c4 ./src/kf32f_basic_adc.o
+                               0x2538 (size before relaxing)
+ .stab          0x000011c4      0x4b0 ./src/kf32f_basic_aes.o
+                               0x1008 (size before relaxing)
+ .stab          0x00001674     0x1ee4 ./src/kf32f_basic_atim.o
+                               0x51e4 (size before relaxing)
+ .stab          0x00003558      0x468 ./src/kf32f_basic_bkp.o
+                               0x1020 (size before relaxing)
+ .stab          0x000039c0      0xa98 ./src/kf32f_basic_btim.o
+                               0x2220 (size before relaxing)
+ .stab          0x00004458      0xb64 ./src/kf32f_basic_can.o
+                               0x2634 (size before relaxing)
+ .stab          0x00004fbc      0x498 ./src/kf32f_basic_cfgl.o
+                               0x1764 (size before relaxing)
+ .stab          0x00005454      0x12c ./src/kf32f_basic_cmp.o
+                                0x654 (size before relaxing)
+ .stab          0x00005580      0x378 ./src/kf32f_basic_crc.o
+                                0xc6c (size before relaxing)
+ .stab          0x000058f8      0x438 ./src/kf32f_basic_dac.o
+                                0xf54 (size before relaxing)
+ .stab          0x00005d30      0x9b4 ./src/kf32f_basic_dma.o
+                               0x1bc0 (size before relaxing)
+ .stab          0x000066e4      0x2e8 ./src/kf32f_basic_exic.o
+                                0xd38 (size before relaxing)
+ .stab          0x000069cc     0x1de8 ./src/kf32f_basic_flash.o
+                               0x29a0 (size before relaxing)
+ .stab          0x000087b4      0xa5c ./src/kf32f_basic_gpio.o
+                               0x1890 (size before relaxing)
+ .stab          0x00009210     0x1038 ./src/kf32f_basic_gptim.o
+                               0x3030 (size before relaxing)
+ .stab          0x0000a248      0xe7c ./src/kf32f_basic_i2c.o
+                               0x2970 (size before relaxing)
+ .stab          0x0000b0c4      0x750 ./src/kf32f_basic_int.o
+                               0x1b9c (size before relaxing)
+ .stab          0x0000b814      0x228 ./src/kf32f_basic_iwdt.o
+                                0x8c4 (size before relaxing)
+ .stab          0x0000ba3c      0x12c ./src/kf32f_basic_led.o
+                                0x654 (size before relaxing)
+ .stab          0x0000bb68      0x120 ./src/kf32f_basic_op.o
+                                0x648 (size before relaxing)
+ .stab          0x0000bc88     0x12fc ./src/kf32f_basic_osc.o
+                               0x2c88 (size before relaxing)
+ .stab          0x0000cf84      0x2b8 ./src/kf32f_basic_pclk.o
+                                0x888 (size before relaxing)
+ .stab          0x0000d23c      0xf18 ./src/kf32f_basic_pm.o
+                               0x2c94 (size before relaxing)
+ .stab          0x0000e154      0x93c ./src/kf32f_basic_qei.o
+                               0x1c08 (size before relaxing)
+ .stab          0x0000ea90      0x2b8 ./src/kf32f_basic_rst.o
+                                0x888 (size before relaxing)
+ .stab          0x0000ed48     0x1530 ./src/kf32f_basic_rtc.o
+                               0x4518 (size before relaxing)
+ .stab          0x00010278      0xa20 ./src/kf32f_basic_spi.o
+                               0x1dac (size before relaxing)
+ .stab          0x00010c98      0x510 ./src/kf32f_basic_sysctl.o
+                               0x114c (size before relaxing)
+ .stab          0x000111a8      0x33c ./src/kf32f_basic_systick.o
+                                0xbd0 (size before relaxing)
+ .stab          0x000114e4     0x1974 ./src/kf32f_basic_usart.o
+                               0x3894 (size before relaxing)
+ .stab          0x00012e58      0xbe8 ./src/kf32f_basic_usb.o
+                               0x27d8 (size before relaxing)
+ .stab          0x00013a40      0x300 ./src/kf32f_basic_wwdt.o
+                                0xb58 (size before relaxing)
+ .stab          0x00013d40      0x204 ./config/startup.o
+                                0x210 (size before relaxing)
+ .stab          0x00013f44       0xe4 ./config/vector.o
+                                 0xf0 (size before relaxing)
+ .stab          0x00014028      0x570 ./USART_user.o
+                                0xf84 (size before relaxing)
+ .stab          0x00014598      0x84c ./flash.o
+                               0x19bc (size before relaxing)
+ .stab          0x00014de4      0x42c ./kf_it.o
+                                0xd44 (size before relaxing)
+ .stab          0x00015210      0x570 ./main.o
+                                0xeb8 (size before relaxing)
+ .stab          0x00015780      0x384 ./system_init.o
+                                0xc9c (size before relaxing)
+ .stab          0x00015b04      0xb88 ./ymodem.o
+                               0x1aa0 (size before relaxing)
+
+.stabstr        0x00000000    0x11171
+ *(.stabstr)
+ .stabstr       0x00000000    0x11171 ./src/kf32f_basic_adc.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(KF32Fxxx_StdPeriph_Lib_V2.3.elf elf32-kungfu32-little)
