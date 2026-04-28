@@ -2,8 +2,8 @@
  * @Author        Knox.Lai Knox.Lai@WACLighting.COM.CN
  * @Date          2026-04-17 13:43:32
  * @LastEditors   Knox.Lai
- * @LastEditTime  2026-04-23 13:50:42
- * @FilePath      \\SmartDriver_Bootloader\\BSP\\bsp_usart.c
+ * @LastEditTime  2026-04-24 16:25:14
+ * @FilePath      \\KF32F330_EVAL\\BSP\\bsp_usart.c
  * @Description   
  */
 #include "bsp.h"
@@ -85,7 +85,7 @@ void bsp_usart_init(usart_typedef_t com_id)
     USART_RESHD_Enable(COM_USART[com_id], TRUE);
     USART_Cmd(COM_USART[com_id], TRUE);
 
-//    USART_ReceiveInt_config(COM_USART[com_id], COM_INT[com_id]);
+    USART_ReceiveInt_config(COM_USART[com_id], COM_INT[com_id]);
 }
 
 /**

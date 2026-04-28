@@ -1,7 +1,7 @@
 #ifndef __BOOT_H
 #define __BOOT_H
 
-#include "bsp.h"
+#include <stdio.h>
 
 
 uint8_t iap_is_app_valid(uint32_t app_addr);

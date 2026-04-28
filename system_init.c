@@ -246,6 +246,8 @@ void SystemInit(void)
 	SetSysClock();
 }
 
+
+
 /**
  *  @brief : Initialize the systick timer for delay function without interrupt.
  * 			 Must be Initialized before use "systick_delay_us" and "systick_delay_ms".

@@ -1,4 +1,5 @@
 #include "MD5.h"
+#include "bsp_flash.h"
 
 /*
  * Constants defined by the MD5 algorithm
@@ -79,6 +80,11 @@ uint32_t rotateLeft(uint32_t x, uint32_t n){
 /*
  * Initialize a context
  */
+/**
+ * @brief : 初始化MD5上下文，清零数据长度，并设置MD5初始寄存器值A/B/C/D
+ * @param : 无
+ * @return : 无
+ */
 void md5Init(void){
     ctx.size = (uint64_t)0;
 
@@ -93,6 +99,12 @@ void md5Init(void){
  *
  * If the input fills out a block of 512 bits, apply the algorithm (md5Step)
  * and save the result in the buffer. Also updates the overall size.
+ */
+/**
+ * @brief : 向MD5算法输入一段数据，可被多次调用，用于分块计算MD5
+ * @param *input_buffer: 输入数据缓冲区指针
+ * @param input_len: 输入数据长度，单位为字节
+ * @return : 无
  */
 void md5Update(uint8_t *input_buffer, size_t input_len){
     uint32_t input[16];
@@ -128,6 +140,11 @@ void md5Update(uint8_t *input_buffer, size_t input_len){
 /*
  * Pad the current input to get to 448 bytes, append the size in bits to the very end,
  * and save the result of the final iteration into digest.
+ */
+/**
+ * @brief : 完成MD5计算，进行数据填充、追加长度，并输出最终16字节MD5结果
+ * @param *ret_md5_data: 输出MD5结果的缓冲区，长度至少为16字节
+ * @return : 无
  */
 void md5Finalize(uint8_t *ret_md5_data){
     uint32_t input[16];
@@ -166,6 +183,12 @@ void md5Finalize(uint8_t *ret_md5_data){
 
 /*
  * Step on 512 bits of input with the main MD5 algorithm.
+ */
+/**
+ * @brief : 对一个512bit数据块执行一次MD5核心压缩运算
+ * @param *buffer: MD5当前状态缓冲区，包含A/B/C/D四个32位变量
+ * @param *input: 当前512bit数据块，按16个32位小端数据传入
+ * @return : 无
  */
 void md5Step(uint32_t *buffer, uint32_t *input){
     uint32_t AA = buffer[0];
@@ -215,28 +238,73 @@ void md5Step(uint32_t *buffer, uint32_t *input){
  * Functions that run the algorithm on the provided input and put the digest into result.
  * result should be able to store 16 bytes.
  */
+/**
+ * @brief : 计算字符串的MD5值
+ * @param *input: 输入字符串，以'\0'结尾
+ * @param *result: 输出MD5结果的缓冲区，长度至少为16字节
+ * @return : 无
+ */
 void md5String(char *input, uint8_t *result){
     md5Init();
     md5Update((uint8_t *)input, strlen(input));
-    // md5Finalize();
+    md5Finalize(result);
 
-    memcpy(result, ctx.digest, 16);
+    // memcpy(result, ctx.digest, 16);
 }
 
-// void md5File(FILE *file, uint8_t *result){
-//     char *input_buffer = malloc(1024);
-//     size_t input_size = 0;
+///**
+// * @brief : 计算文件内容的MD5值，按1024字节分块读取文件并更新MD5
+// * @param *file: 已打开的文件指针，文件读取位置应在需要计算MD5的起始位置
+// * @param *result: 输出MD5结果的缓冲区，长度至少为16字节
+// * @return : 无
+// */
+//void md5File(FILE *file, uint8_t *result){
+//    uint8_t *input_buffer = malloc(1024);
+//    size_t input_size = 0;
+//
+//    if(input_buffer == NULL){
+//        return;
+//    }
+//
+//    md5Init();
+//
+//    while((input_size = fread(input_buffer, 1, 1024, file)) > 0){
+//        md5Update(input_buffer, input_size);
+//    }
+//
+//    md5Finalize(result);
+//
+//    free(input_buffer);
+//}
 
-//     MD5Context ctx;
-//     md5Init(&ctx);
+/**
+ * @brief : 计算Flash指定区域的MD5值，按固定大小128字节分块读取Flash并更新MD5
+ * @param start_addr: 需要计算MD5的Flash起始地址
+ * @param size: 需要计算MD5的数据长度，单位为字节
+ * @param *result: 输出MD5结果的缓冲区，长度至少为16字节
+ * @return : 无
+ */
+void md5Flash(uint32_t start_addr, uint32_t size, uint8_t* result)
+{
+    uint8_t input_buffer[128];
+    uint32_t offset = 0;
+    uint32_t read_len = 0;
 
-//     while((input_size = fread(input_buffer, 1, 1024, file)) > 0){
-//         md5Update(&ctx, (uint8_t *)input_buffer, input_size);
-//     }
+    md5Init();
 
-//     md5Finalize(&ctx);
+    while (offset < size)
+    {
+        read_len = size - offset;
+        if (read_len > sizeof(input_buffer))
+        {
+            read_len = sizeof(input_buffer);
+        }
 
-//     free(input_buffer);
+        flash_read_nbyte(start_addr + offset, input_buffer, read_len);
+        md5Update(input_buffer, read_len);
 
-//     memcpy(result, ctx.digest, 16);
-// }
+        offset += read_len;
+    }
+
+    md5Finalize(result);
+}

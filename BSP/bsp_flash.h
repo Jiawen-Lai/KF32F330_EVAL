@@ -60,26 +60,29 @@ flash 划分：
 #define IAP_FLG 						    0x56AB56AB
 
 #define MAX_PACKET_NUM                      384     //384*128 = 48K
+#define FLASH_BLOCK_SIZE                    128
 
-void FLASH_HALFPAGE_WRITECODE_fun(uint32_t address,uint32_t *p_FlashBuffer,uint32_t length);
-void FLASH_PageWrite_fun(uint32_t address,uint32_t *p_FlashBuffer,uint8_t length);
-void FLASH_WriteCODE_ONE(uint32_t address,uint32_t *p_FlashBuffer);
-void FLASH_READCODE_fun(uint32_t address,uint32_t *p_FlashBuffer,uint32_t length);
+void flash_erase_page(uint32_t address);
+void flash_erase_range(uint32_t start_addr, uint32_t end_addr);
+
+//地址必须为被8整除
+uint32_t flash_read_byte(uint32_t address,uint8_t *p_FlashBuffer);//读byte
+uint32_t flash_read_halfword(uint32_t address,uint16_t *p_FlashBuffer);//读HalfWord
+uint32_t flash_read_word(uint32_t address,uint32_t *p_FlashBuffer);//读Word
+void flash_read_nbyte(uint32_t Address, uint8_t *Buffers, uint32_t Length);//读多byte
+void flash_read_multiple_word(uint32_t address,uint32_t *p_FlashBuffer,uint32_t length);//读多个Word
+
+void flash_write_byte(uint32_t address,uint8_t p_FlashBuffer);//写byte
+void flash_write_nbyte(uint32_t address,uint8_t *p_FlashBuffer,uint32_t length);//写多byte
+void flash_write_halfword(uint32_t address,uint16_t p_FlashBuffer);//写HalfWord
+void flash_write_word(uint32_t address,uint32_t p_FlashBuffer);//写Word
+void flash_write_doubleword(uint32_t address,uint32_t *p_FlashBuffer);//写DoubleWord
+void flash_write_half_page(uint32_t address,uint32_t *p_FlashBuffer,uint32_t length);//写半页
+void flash_write_page(uint32_t address,uint32_t *p_FlashBuffer,uint8_t length);//写页
 
 
 void FLASH_WriteCFG_ONE(uint32_t address,uint32_t *p_FlashBuffer);
 void FLASH_HALFPAGE_WRITECFG_fun(uint32_t address,uint32_t *p_FlashBuffer,uint32_t length);
 void FLASH_PageWrite_CFG_fun(uint32_t address,uint32_t *p_FlashBuffer,uint8_t length);
-
-//地址必须为被8整除
-void FLASH_WriteByte(uint32_t address,uint8_t p_FlashBuffer);     //写byte
-void FLASH_WriteHalfWord(uint32_t address,uint16_t p_FlashBuffer);//写HalWord
-void FLASH_WriteWord(uint32_t address,uint32_t p_FlashBuffer);    //写word
-void FLASH_WriteNByte(uint32_t address,uint8_t *p_FlashBuffer,uint32_t leng);//写多Byte
-
-uint32_t FLASH_ReadByte(uint32_t address,uint8_t *p_FlashBuffer);  //读byte
-uint32_t FLASH_ReadHalWord(uint32_t address,uint16_t *p_FlashBuffer);//读HalWord
-uint32_t FLASH_ReadWord(uint32_t address,uint32_t *p_FlashBuffer);//读Word
-void FlashReadNByte(unsigned int Address, unsigned int Length, unsigned char *Buffers);//读多Byte
 
 #endif /* FLASH_H_ */

@@ -2,117 +2,83 @@
  * @Author        Knox.Lai Knox.Lai@WACLighting.COM.CN
  * @Date          2026-04-09 15:54:31
  * @LastEditors   Knox.Lai
- * @LastEditTime  2026-04-23 16:29:19
- * @FilePath      \\TEST_Prj\\main.c
- * @Description   
+ * @LastEditTime  2026-04-28 17:01:06
+ * @FilePath      \\KF32F330_EVAL\\main.c
+ * @Description
  */
 #include "system_init.h"
 #include "delay.h"
 #include "KF32_EVAL.h"
 #include "bsp_flash.h"
+#include "boot.h"
+#include "iap.h"
+#include "md5.h"
+
+#define MAIN_DEBUG_EN             1
+
+#if (MAIN_DEBUG_EN)
+    #define MAIN_PRINTF(fmt, ...)  fprintf(USART0_STREAM, fmt, ##__VA_ARGS__)
+	// printf(fmt, ##__VA_ARGS__)
+	// fprintf(USART0_STREAM, fmt, ##__VA_ARGS__)
+#else
+    #define MAIN_PRINTF(fmt, ...)
+#endif
+
+#define TEST_FLASH_MD5_START_ADDR 0x00004000
+#define TEST_FLASH_MD5_SIZE       (FLASH_1K_SIZE * 1U)
+
+void print_callback(void)
+{
+    MAIN_PRINTF("print_callback\r\n");
+}
+
+void md5_flash_test(void)
+{
+    uint8_t md5_result[16];
+    uint8_t i;
+
+    md5Flash(TEST_FLASH_MD5_START_ADDR, TEST_FLASH_MD5_SIZE, md5_result);
+
+    MAIN_PRINTF("Flash MD5 test\r\n");
+    MAIN_PRINTF("addr=0x%08lX, size=%lu bytes\r\n",
+                (unsigned long)TEST_FLASH_MD5_START_ADDR,
+                (unsigned long)TEST_FLASH_MD5_SIZE);
+    MAIN_PRINTF("md5=");
+    for(i = 0; i < 16; i++)
+    {
+        MAIN_PRINTF("%02X", md5_result[i]);
+    }
+    MAIN_PRINTF("\r\n");
+}
 
 void main()
 {
-	uint8_t INTstate=0;
-	uint32_t i=0;
-    uint32_t temp=0;
-    uint32_t temp1=0;
-    uint32_t temp2=0;
+    SystemInit();
+    systick_timer_init();
 
-	SystemInit();
+    kf_eval_usart_init(COM3);
 
-	kf_eval_usart_init(COM3);
+    kf_eval_led_init(LED3);
+    kf_eval_led_off(LED3);
+    kf_eval_led_init(LED4);
+    kf_eval_led_off(LED4);
+    kf_eval_led_init(LED5);
+    kf_eval_led_off(LED5);
 
-	kf_eval_led_init(LED3);
-	kf_eval_led_off(LED3);
-	kf_eval_led_init(LED4);
-	kf_eval_led_off(LED4);
-	kf_eval_led_init(LED5);
-	kf_eval_led_off(LED5);
+    MAIN_PRINTF("Bootloader Init!\r\n");
+	flash_erase_range(0x00004C00, 0x00004C00 + FLASH_1K_SIZE);
 
+    md5_flash_test();
 
-	//读写字节Byte
-	uint32_t addrtest=0x00032000;
-
-    if(INT_CTL0 & 0xfffe)			//如果可屏蔽中断使能，关闭中断使能，
+    while(1)
     {
-    	INTstate=1;
-    	INT_All_Enable(FALSE);   	//禁止中断
+        delay_ms_timer(500);
+        kf_eval_led_toggle(LED3);
+
+		// if(iap_is_app_valid(APP1_FLASH_START_ADDR))
+		// {
+		//     MAIN_PRINTF("jump to app\r\n");
+		//     iap_jump_to_app(APP1_FLASH_START_ADDR);
+		// }
     }
-	FLASH_Wipe_Configuration_RAM(FLASH_WIPE_CODE_PAGE,addrtest);//程序区页擦划分1K 空间  page200=200*1024=0x0003 2000;
-	if(INTstate==1)
-	{
-		INTstate=0;
-		INT_All_Enable(TRUE);    //打开中断
-	}
-
-	uint8_t num8=0;
-	uint8_t read_byte=0;
-
-    if(INT_CTL0 & 0xfffe)			//如果可屏蔽中断使能，关闭中断使能，
-    {
-    	INTstate=1;
-    	INT_All_Enable(FALSE);   	//禁止中断
-    }
-	FLASH_WriteByte(addrtest,0xAA);
-	if(INTstate==1)
-	{
-		INTstate=0;
-		INT_All_Enable(TRUE);    //打开中断
-	}
-
-	// delay_ms(10);
-	// addrtest=0x00032000;
-	FLASH_ReadByte(addrtest,&read_byte);
-
-	while(1)
-	{
-		/*读程序区地址为0x32000的数据并比较*/
-		if(Read_Flash_or_CFR_RAM(0x32000,FLASH_PROGRAM_CODE)==0xAA)
-		{
-			kf_eval_led_toggle(LED3);
-			printf("read_byte=0x%02X\r\n",read_byte);
-			delay_ms(500);
-		}
-
-	}
-
-
 }
-
-/**
-  * 描述   主函数
-  * 输入   无
-  * 返回   无
-  */
-// void main()
-// {
-// 	//系统时钟,外设高频时钟配置
-// 	SystemInit();
-
-// 	kf_eval_usart_init(COM3);
-
-// 	kf_eval_led_init(LED3);
-// 	kf_eval_led_init(LED4);
-// 	kf_eval_led_init(LED5);
-
-
-// 	for (uint32_t i = 0; i < 3; i++)
-//     {
-//         delay_ms(500);
-// 		printf("TEST Initing\r\n");
-// 		kf_eval_led_toggle(LED3);
-//     }
-
-// 	while(1)
-// 	{
-		
-// 		printf("it is TEST\r\n");
-// 		kf_eval_led_toggle(LED4);
-// 		delay_ms(500);
-// 		kf_eval_led_toggle(LED5);
-// 		delay_ms(500);
-// 		kf_eval_led_toggle(LED3);
-// 		delay_ms(500);
-// 	}		
-// }

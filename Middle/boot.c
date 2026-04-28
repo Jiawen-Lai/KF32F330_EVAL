@@ -2,11 +2,11 @@
  * @Author        Knox.Lai Knox.Lai@WACLighting.COM.CN
  * @Date          2026-04-13 15:35:05
  * @LastEditors   Knox.Lai
- * @LastEditTime  2026-04-23 14:19:17
- * @FilePath      \\SmartDriver_Bootloader\\Middle\\boot.c
+ * @LastEditTime  2026-04-28 16:57:36
+ * @FilePath      \\KF32F330_EVAL\\Middle\\boot.c
  * @Description   
  */
-#include "bsp.h"
+#include "bsp_flash.h"
 
 typedef  void (*pFunction)(void); //定义void函数指针类型
 

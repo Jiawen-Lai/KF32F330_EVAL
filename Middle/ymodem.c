@@ -151,7 +151,7 @@ int32_t Ymodem_Receive (uint8_t *buf)
                   	if( k ==7) //ÿ1K���ֽ�
                   	{
                           //��������ҳд������
-                          FLASH_PageWrite_fun( FlashDestination, test, 128);     //��һҳ������д��0x8000 ���ڳ�������flash PAGE
+                          flash_write_page( FlashDestination, test, 128);     //��һҳ������д��0x8000 ���ڳ�������flash PAGE
                           FlashDestination +=0x400; //ÿд1K����ַ�ۼ�1K
                   	}
                     Send_Byte(ACK); //������Ӧ

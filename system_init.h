@@ -92,7 +92,9 @@
 
 
 /* System clock Controller functions ************************************************/
+extern uint32_t SystemCoreClock;
 void SystemInit(void);
+void systick_timer_init(void);
 void systick_delay_init(void);
 void systick_delay_us(unsigned int nus);
 void systick_delay_ms(unsigned int nms);
