@@ -60,7 +60,7 @@ flash 划分：
 #define IAP_FLG 						    0x56AB56AB
 
 #define MAX_PACKET_NUM                      384     //384*128 = 48K
-#define FLASH_BLOCK_SIZE                    128
+#define FLASH_BLOCK_SIZE                    128     //128个双字=1024字节
 
 void flash_erase_page(uint32_t address);
 void flash_erase_range(uint32_t start_addr, uint32_t end_addr);

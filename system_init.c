@@ -117,7 +117,7 @@ static void SetSysClock(void)
  */
 	OSC_INTLF_Software_Enable(TRUE);
 	OSC_INTHF_Software_Enable(TRUE);
-	FLASH_CFG = 0xC2;//FLASH读取周期8个系统周期
+	FLASH_CFG = 0xC4;//FLASH读取周期8个系统周期
 	/* Set the INTHF as the SCLK DIV<1:1> */
 	OSC_SCK_Division_Config(SCLK_DIVISION_1); //主时钟分频选择
 	OSC_SCK_Source_Config(SCLK_SOURCE_INTHF); //选择内部高频作为系统时钟

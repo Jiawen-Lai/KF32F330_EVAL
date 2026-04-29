@@ -2,7 +2,7 @@
  * @Author        Knox.Lai Knox.Lai@WACLighting.COM.CN
  * @Date          2026-04-09 15:54:31
  * @LastEditors   Knox.Lai
- * @LastEditTime  2026-04-28 17:01:06
+ * @LastEditTime  2026-04-29 17:05:44
  * @FilePath      \\KF32F330_EVAL\\main.c
  * @Description
  */
@@ -66,9 +66,31 @@ void main()
     kf_eval_led_off(LED5);
 
     MAIN_PRINTF("Bootloader Init!\r\n");
-	flash_erase_range(0x00004C00, 0x00004C00 + FLASH_1K_SIZE);
+	flash_erase_range(0x00004400, 0x000047FF);
+
+	uint32_t buf[256];
+	uint8_t iap_flg[4] = {0x56,0xAA,0xAA,0x56};
+	uint32_t word_test[2];
+	uint32_t temp=0;
+	uint8_t INTstate=0;
+
+	flash_read_nbyte(0x00004000, (uint8_t *)word_test, 8);
+	INT_All_Enable(FALSE); 
+	flash_write_doubleword(0x00004400,word_test);
+	INT_All_Enable(TRUE); 
+
 
     md5_flash_test();
+
+	if(iap_appAA_verify())
+	{
+		MAIN_PRINTF("app verify ok\r\n");
+		MAIN_PRINTF("update fw start\r\n");
+		iap_app_update();
+		MAIN_PRINTF("update fw done\r\n");
+		iap_info_clear();
+		MAIN_PRINTF("clear flg\r\n");
+	}
 
     while(1)
     {
